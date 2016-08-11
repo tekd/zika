@@ -3,7 +3,7 @@
 {% block content %}
 
 {% set topic = $global.topics[topic_id]%}
-
+ <h3>Conference Info</h3>
 {% if topic.conference.is_active %}
   <p>TOPIC TITLE: {{ topic.title }}</p>
   <p>DATE: {{ topic.conference.date }}</p>
@@ -17,7 +17,7 @@
 
   <h3>Conference Resources</h3>
     {% for resource in topic.conference.resources %}
-      <a href="{{resource.url}}"> {{resource.name}} </a>
+      <p><a href="{{resource.url}}"> {{resource.name}} </a></p>
     {% endfor %}
 {% endif%}
 
