@@ -1,7 +1,7 @@
 ---
 # Topics
 - title: Assessing Public Awareness
-  id: 0
+  id: 00
   is_active: true
   short_description: >
     What are the most effective ways to capture the public’s understanding of mosquito borne diseases? How to use these findings to inform the design of campaigns to improve public awareness?
@@ -35,7 +35,7 @@
         url: www.example.com
 
 - title: Communication and Behavior Change
-  id: 1
+  id: 01
   is_active: true
   short_description: >
     What are the most effective ways for getting the public to change behavior to prevent mosquito breeding and mosquito bites and get proper access to healthcare? 
