@@ -1,1 +1,37 @@
+$main-color: $purple;
+$accent-color: $orange;
 
+.page-top-section--main-color {
+  background-color: $main-color;
+}
+
+.page-section--main-color {
+  background-color: $main-color;
+}
+
+.button--accent-color {
+  background-color: $accent-color;
+  color: white;
+  font-weight: 600;
+}
+
+.topic {
+  color: rgba(white, .5);
+  h1 { font-size: 30px; }
+  padding: 80px;
+}
+
+.imagine-banner {
+    h2 {
+      margin: 0;
+      text-align: center;
+      padding: 80px 0;
+      color: white;
+
+      &:after { content: 'Imagine This' }
+    }
+}
+
+.main-buttons {
+  text-align: center;
+}

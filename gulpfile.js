@@ -36,7 +36,7 @@ gulp.task('sass', function () {
 });
 
 gulp.task('vendor', function () {
-  return gulp.src('source/static/vendor/**/*')
+  return gulp.src('source/vendor/**/*')
     .pipe(gulp.dest('public/vendor'));
 });
 
