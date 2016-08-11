@@ -1,0 +1,25 @@
+{% extends "_base.html" %}
+
+{% set topic = topics[0] %}
+
+{% block content %}
+<section class="top-section top-section--main-color">
+  <div class="row expanded">
+    <h1>{{topic.title}}</h1>
+    <h3>{{topic.short_description}}</h3>
+  </div>
+   
+</section>
+
+<section class="page-section">
+  <div class="row expanded">
+    <div class="column large-12">
+      <p>Focus: {{topic.focus}}</p>      
+    </div>
+  </div>
+</section>
+
+<p>Problem Description Link: {{ topic.problem_description_link }}</p>
+<p>Link to Participant form</p>
+
+{% endblock %}
