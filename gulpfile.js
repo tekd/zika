@@ -34,7 +34,7 @@ gulp.task('browserSync', function () {
   });
 });
 
-// MARK
+// AUTO GENERATED PAGES
 // set up nunjucks environment
 function nunjucksEnv(env) {
   env.addFilter('slug', slugify);
@@ -232,7 +232,7 @@ function compileData(dataPath, ext) {
 }
 
 
-// ENDMARK
+// END AUTO GEN PAGES
 
 // Sass
 gulp.task('sass', function () {
