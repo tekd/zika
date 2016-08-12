@@ -16,8 +16,6 @@ $theme-color: #04ccb7;
   }
 }
 
-
-
 .top-section--main-color { background-color: $main-color; }
 .top-section--white { background-color: white; }
 
@@ -78,6 +76,7 @@ $theme-color: #04ccb7;
   &--disabled {
     color: rgba(white, .3);
     opacity: .6;
+    pointer-events: none;
   }
 
   h1 {
