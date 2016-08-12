@@ -80,7 +80,7 @@ $theme-color: #04ccb7;
     opacity: .6;
   }
 
-  h1 { 
+  h1 {
     font-size: 22px;
     font-weight: 600;
     text-transform: uppercase;
@@ -92,16 +92,16 @@ $theme-color: #04ccb7;
     font-size: 20px;
   }
 
-  &--relevant-learning { background-image: url("/images/topics/relevant-learning.jpg"); }
-  &--governance-and-coordination { background-image: url("/images/topics/governance-and-coordination.jpg"); }
-  &--predictive-analytics { background-image: url("/images/topics/predictive-analytics.jpg"); }
-  &--trash-and-standing-water { background-image: url("/images/topics/trash-and-standing-water.jpg"); }
-  &--economics-of-testing { background-image: url("/images/topics/economics-of-testing.jpg"); }
-  &--information-collection { background-image: url("/images/topics/information-collection.jpg"); }
+  &--relevant-learning { background-image: url("images/topics/relevant-learning.jpg"); }
+  &--governance-and-coordination { background-image: url("images/topics/governance-and-coordination.jpg"); }
+  &--predictive-analytics { background-image: url("images/topics/predictive-analytics.jpg"); }
+  &--trash-and-standing-water { background-image: url("images/topics/trash-and-standing-water.jpg"); }
+  &--economics-of-testing { background-image: url("images/topics/economics-of-testing.jpg"); }
+  &--information-collection { background-image: url("images/topics/information-collection.jpg"); }
 }
 
 .imagine-banner {
-    h2 {  
+    h2 {
       font-size: 24px;
       text-transform: none;
       margin: 0;
@@ -109,9 +109,9 @@ $theme-color: #04ccb7;
       padding: 80px;
       font-weight: 400;
       color: $main-color;
-      
-      &:after { 
-        color: white; 
+
+      &:after {
+        color: white;
         animation: imagine 10s linear infinite;
       }
     }

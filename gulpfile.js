@@ -78,82 +78,29 @@ var options = {
   ]
 };
 
-gulp.task('yaml', function () {
-  return gulp.src('source/data/**/*.+(yaml|yml)')
-  .pipe(yaml())
-  .pipe(gulp.dest('source/data'));
-});
+// compile all the datasets into a composite set
+// for injection into nunjucks using gulp-data
+var generatedData = {};
 
-gulp.task('json', ['yaml'], function() {
-  return gulp.src('source/data/**/*.json')
-    .pipe(intercept(function(file) {
-      var o = JSON.parse(file.contents.toString()),
-        b = {},
-        p;
-      // wrap json in a top level property 'data'
-      if (!o.hasOwnProperty('data')) {
-        b.data = o;
-      } else {
-        b = o;
-      }
-      // do some processing on the json
-      for (var j in b.data) {
-        if (!b.data[j].hasOwnProperty('id')) { // assign a unique id to each entry in data
-          if (b.data[j].hasOwnProperty('title')) { // use title to create hash if exists,
-            b.data[j].id = md5(b.data[j].title); // otherwise use first prop
-          } else {
-            b.data[j].id = md5(b.data[j][Object.keys(b.data[j])[0]]);
-          }
-        }
-        if (!b.data[j].hasOwnProperty('path')) {
-          p = '';
-          if (options.useId.indexOf(file.path.replace(/^.*\//g, '')) > -1) {
-            if (b.data[j].hasOwnProperty('id')) {
-              p += slugify(b.data[j].id).substring(0, options.hashLength) + '-';
-            }
-          }
-          if (b.data[j].hasOwnProperty('title')) { // name file if title exists
-            p += slugify(b.data[j].title).substring(0, options.slugLength) + options.ext;
-          }
-          b.data[j].path = p;
-        }
-      }
-      if (cliOptions.verbose) {
-        util.log(util.colors.magenta('Proccessing json, ' + file.path));
-      }
-      file.contents = new Buffer(JSON.stringify(b));
-      return file;
-    }))
-    .pipe(gulp.dest('source/data'));
-});
+function compileData(dataPath, ext) {
+  ext = ext === undefined ? options.dataExt : ext;
+  var dataDir = fs.readdirSync(dataPath),
+  baseName, r, _data;
 
-gulp.task('nunjucksGenerated', ['json'], function() {
-  return generateVinyl(options.path, options.dataPath)
-  .pipe(plumber())
-  .pipe(data(function(file) {
-    if (cliOptions.verbose) {
-      util.log(util.colors.green(' Generated Template ' + file.path), ': using', JSON.stringify(file.data));
+  // look for a data file matching the naming convention
+  r = new RegExp('\\' + ext + '$');
+  for (var dataset in dataDir) {
+    if (r.test(dataDir[dataset])) {
+
+      // trim basename
+      baseName = dataDir[dataset].replace(new RegExp('\\' + ext + '$'), '');
+
+      // add JSON to object
+      _data = require(dataPath + dataDir[dataset]).data;
+      generatedData[baseName] = _data;
     }
-    var d = file.data;
-    // add all datasets as special prop $global
-    d.$global = generatedData;
-    return d;
-  }))
-  .pipe(nunjucksRender(options))
-  .pipe(flatten())
-  .pipe(gulp.dest('public'));
-});
-
-gulp.task('nunjucksData', ['json'], function() {
-  return gulp.src('source/templates/**/*.html')
-  .pipe(plumber())
-  .pipe(data(function(file) {
-    return generatedData;
-  }))
-  .pipe(nunjucksRender(options))
-  .pipe(flatten())
-  .pipe(gulp.dest('public'));
-});
+  }
+}
 
 // generate a stream of one or more vinyl files from a json data source
 // containing the parent template specified by templatePath
@@ -207,30 +154,83 @@ function generateVinyl(basePath, dataPath, fSuffix, dSuffix) {
   return require('stream').Readable({ objectMode: true }).wrap(es.readArray(files));
 }
 
-// compile all the datasets into a composite set
-// for injection into nunjucks using gulp-data
-var generatedData = {};
+gulp.task('yaml', function () {
+  return gulp.src('source/data/**/*.+(yaml|yml)')
+  .pipe(yaml())
+  .pipe(gulp.dest('source/data'));
+});
 
-function compileData(dataPath, ext) {
-  ext = ext === undefined ? options.dataExt : ext;
-  var dataDir = fs.readdirSync(dataPath),
-  baseName, r, _data;
+gulp.task('json', ['yaml'], function() {
+  return gulp.src('source/data/**/*.json')
+    .pipe(intercept(function(file) {
+      var o = JSON.parse(file.contents.toString()),
+        b = {},
+        p;
+      // wrap json in a top level property 'data'
+      if (!o.hasOwnProperty('data')) {
+        b.data = o;
+      } else {
+        b = o;
+      }
+      // do some processing on the json
+      for (var j in b.data) {
+        if (!b.data[j].hasOwnProperty('id')) { // assign a unique id to each entry in data
+          if (b.data[j].hasOwnProperty('title')) { // use title to create hash if exists,
+            b.data[j].id = md5(b.data[j].title); // otherwise use first prop
+          } else {
+            b.data[j].id = md5(b.data[j][Object.keys(b.data[j])[0]]);
+          }
+        }
+        // build paths / urls for files
+        if (!b.data[j].hasOwnProperty('path')) {
+          p = '';
+          if (options.useId.indexOf(file.path.replace(/^.*\//g, '')) > -1) {
+            if (b.data[j].hasOwnProperty('id')) {
+              p += slugify(b.data[j].id).substring(0, options.hashLength) + '-';
+            }
+          }
+          if (b.data[j].hasOwnProperty('title')) { // name file if title exists
+            p += slugify(b.data[j].title).substring(0, options.slugLength) + options.ext;
+          }
+          b.data[j].path = p;
+        }
+      }
+      if (cliOptions.verbose) {
+        util.log(util.colors.magenta('Proccessing json, ' + file.path));
+      }
+      file.contents = new Buffer(JSON.stringify(b));
+      return file;
+    }))
+    .pipe(gulp.dest('source/data'));
+});
 
-  // look for a data file matching the naming convention
-  r = new RegExp('\\' + ext + '$');
-  for (var dataset in dataDir) {
-    if (r.test(dataDir[dataset])) {
-
-      // trim basename
-      baseName = dataDir[dataset].replace(new RegExp('\\' + ext + '$'), '');
-
-      // add JSON to object
-      _data = require(dataPath + dataDir[dataset]).data;
-      generatedData[baseName] = _data;
+gulp.task('nunjucksGenerated', ['json'], function() {
+  return generateVinyl(options.path, options.dataPath)
+  .pipe(plumber())
+  .pipe(data(function(file) {
+    if (cliOptions.verbose) {
+      util.log(util.colors.green(' Generated Template ' + file.path), ': using', JSON.stringify(file.data));
     }
-  }
-}
+    var d = file.data;
+    // add all datasets as special prop $global
+    d.$global = generatedData;
+    return d;
+  }))
+  .pipe(nunjucksRender(options))
+  .pipe(flatten())
+  .pipe(gulp.dest('public'));
+});
 
+gulp.task('nunjucksData', ['json'], function() {
+  return gulp.src('source/templates/**/*.html')
+  .pipe(plumber())
+  .pipe(data(function(file) {
+    return generatedData;
+  }))
+  .pipe(nunjucksRender(options))
+  .pipe(flatten())
+  .pipe(gulp.dest('public'));
+});
 
 // END AUTO GEN PAGES
 
@@ -288,17 +288,21 @@ gulp.task('push-gh-pages', function () {
 gulp.task('deploy', function (callback) {
   runSequence(
     'clean',
-    ['sass', 'js', 'image', 'nunjucks', 'vendor'],
+    ['sass', 'js', 'image', 'nunjucksGenerated', 'nunjucksData', 'vendor'],
     'push-gh-master',
     'push-gh-pages',
     callback
   );
 });
 
+gulp.task('html-watch', ['nunjucksData', 'nunjucksGenerated'], function() {
+  browserSync.reload();
+});
+
 gulp.task('watch', function () {
   gulp.watch('source/static/**/*.js', ['js']);
   gulp.watch('source/sass/**/*.scss', ['sass']);
-  gulp.watch('source/templates/**/*.html', ['nunjucks']);
+  gulp.watch('source/templates/**/*.html', ['html-watch']);
   gulp.watch('source/static/vendor/**/*.js', ['vendor']);
   gulp.watch('source/static/vendorimages/**/*', ['images']);
 });
@@ -306,7 +310,7 @@ gulp.task('watch', function () {
 gulp.task('default', function (callback) {
   runSequence(
     'clean',
-    ['sass', 'js', 'image', 'nunjucks', 'nunjucksGenerated', 'nunjucksData','vendor'],
+    ['sass', 'js', 'image', 'nunjucksGenerated', 'nunjucksData', 'vendor'],
     ['browserSync', 'watch'],
     callback
   );

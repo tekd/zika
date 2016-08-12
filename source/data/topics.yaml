@@ -25,9 +25,9 @@
   post_conference:
     is_active: true
     takeaways: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non erat in lectus eleifend aliquet eget malesuada sem. Suspendisse viverra sem ac quam volutpat, id elementum felis blandit. Morbi posuere erat ut sollicitudin consectetur. 
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non erat in lectus eleifend aliquet eget malesuada sem. Suspendisse viverra sem ac quam volutpat, id elementum felis blandit. Morbi posuere erat ut sollicitudin consectetur.
     action_items: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non erat in lectus eleifend aliquet eget malesuada sem. Suspendisse viverra sem ac quam volutpat, id elementum felis blandit. Morbi posuere erat ut sollicitudin consectetur. 
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non erat in lectus eleifend aliquet eget malesuada sem. Suspendisse viverra sem ac quam volutpat, id elementum felis blandit. Morbi posuere erat ut sollicitudin consectetur.
     resources:
       - name: Example Post Conference Resource
         url: www.example.com
@@ -38,7 +38,7 @@
   id: 01
   is_active: true
   short_description: >
-    What are the most effective ways for getting the public to change behavior to prevent mosquito breeding and mosquito bites and get proper access to healthcare? 
+    What are the most effective ways for getting the public to change behavior to prevent mosquito breeding and mosquito bites and get proper access to healthcare?
   focus: There are new opportunities, including innovative approaches and new communications media, to improve how governments communicate with the public so as to create greater incentives for that behavior change needed to mitigate the risk of Zika and mosquito borne illnesses. The goal of this session is to identify innovative approaches to communication that overcomes built-in inertia, preconceived beliefs and misinformation and  induces sustained behavior change.
   problem_description_link: www.example.com
   conference:
@@ -59,9 +59,9 @@
   post_conference:
     is_active: true
     takeaways: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non erat in lectus eleifend aliquet eget malesuada sem. Suspendisse viverra sem ac quam volutpat, id elementum felis blandit. Morbi posuere erat ut sollicitudin consectetur. 
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non erat in lectus eleifend aliquet eget malesuada sem. Suspendisse viverra sem ac quam volutpat, id elementum felis blandit. Morbi posuere erat ut sollicitudin consectetur.
     action_items: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non erat in lectus eleifend aliquet eget malesuada sem. Suspendisse viverra sem ac quam volutpat, id elementum felis blandit. Morbi posuere erat ut sollicitudin consectetur. 
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non erat in lectus eleifend aliquet eget malesuada sem. Suspendisse viverra sem ac quam volutpat, id elementum felis blandit. Morbi posuere erat ut sollicitudin consectetur.
     resources:
       - name: Example Post Conference Resource
         url: www.example.com
