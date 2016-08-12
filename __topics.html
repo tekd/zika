@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Mosquito Busters</title>
+
+        <link rel="stylesheet" href="vendor/foundation.min.css"/>
+        <link rel="stylesheet" href="vendor/slick.css"/>
+        <link rel="stylesheet" href="vendor/prism.css"/>
+        <link rel="stylesheet" href="styles/styleguide.css"/>
+        <link rel="stylesheet" href="styles/styles.css"/>
+        <script src="https://use.typekit.net/mvc3cdb.js"></script>
+        <script>try{Typekit.load({ async: true });}catch(e){}</script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="top-bar top-bar--main-color">
+        <span class="top-bar__button js-trigger-menu">menu</span>
+        <nav class="main-menu js-target-menu main-menu--left">
+          <a href="./index.html">Home</a>
+          <a href="./about.html">About</a>
+          <a href="./participants.html">Participants</a>
+          <a href="./schedule.html">Schedule</a>
+        </nav>
+        
+        
+      </header>
+
+        
+<section class="top-section top-section--white">
+  <div class="row expanded">
+    <h1></h1>
+    <h2></h2>
+  </div>
+
+</section>
+
+<section class="page-top-section">
+  <div class="row expanded">
+    <div class="column large-12">
+
+    </div>
+  </div>
+</section>
+<p>Short Description: </p>
+<p>Focus: </p>
+<p>Problem Description Link: </p>
+<p>Link to Participant form</p>
+
+
+
+        <footer class='footer'>
+            <div class="row">
+                <div class="large-10 large-centered columns">
+                    <div class="row">
+                        <div class="footer__content footer--sections medium-4 column">
+                            <h2>Sections</h2>
+                            <!-- Add generated sections here -->
+                        </div>
+                        <div class="footer__content medium-4 column">
+                            <h2>Partners</h2>
+                            <a class="footer__partner-logo" href="https://www.macfound.org/" tagret="_blank"><img src="images/partners/macarthur-logo-white.png" alt="MacArthur Foundation"></a>
+                            
+                        </div>
+                        <div class="footer__content medium-4 column">
+                            <h2>&nbsp;</h2>
+                            <a class="footer__partner-logo" href="" tagret="_blank"><img src="images/partners/nyu.png" alt="NYU Tandon School of Engineering - New York University"></a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="copyright">
+            <div class="row">
+                <div class="large-10 large-centered columns">
+                    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img class="copyright__cc-badge" alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+                    This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> <br> <a href="#">Copyright Infringement Information</a>.
+                </div>
+            </div>
+        </div>
+
+        <div id="overlay" class="js-overlay"></div>
+        <script src="./vendor/jquery-2.1.4.min.js"></script>
+        <script src="./vendor/slick.min.js"></script>
+        <script src="./vendor/prism.js"></script>
+        <script src="./scripts.js"></script>
+
+        <script>
+        // Styleguide Guide specific functions
+        $(document).ready(function () {
+            $('.language-markup').each(function () {
+                var $obj = $($(this).data('markup'));
+
+                $(this).text($obj.html());
+            });
+        }); // doc.ready
+        </script>
+    </body>
+</html>
