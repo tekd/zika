@@ -2,10 +2,10 @@
 
 {% block content %}
 <section class="top-section top-section--main-color">
-  <div class="row expanded">
+  <!-- <div class="row expanded"> -->
     <h1>Share your expertise</h1>
     <h3>Smarter Crowdsourcing for Zika</h3>
-  </div>
+  <!-- </div> -->
    
 </section>
 
@@ -26,10 +26,105 @@
   </div>
 </section>
 
+
+
 <section class="page-section">
   <div class="row expanded">
     <div class="column large-12">
+      <span class="error-messages"></span>
+      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='./confirmation.html';}"></iframe>
+        <form class="form" action="https://docs.google.com/a/thegovlab.org/forms/d/e/1FAIpQLSc1KlsdEiAEzSPrHmxB36DZIjvAYFAC74ne4GL7PmtM-94j9w/formResponse" method="POST" onsubmit="submitted=true;" target="hidden_iframe">
+        <!-- FIRST NAME -->
+        <label class="form-field-label" for="entry_1253314825"><div class="form-field-title field-required">First Name</div></label>
+        <input type="text" name="entry.1253314825" value="" class="ss-q-short" id="entry_1253314825" dir="auto" aria-label="First Name  " aria-required="true" required="" title="" required></label>
+        <!-- LAST NAME -->
+        <label class="form-field-label" for="entry_579020446"><div class="form-field-title field-required">Last Name</div></label>
+        <input type="text" name="entry.579020446" value="" class="ss-q-short" id="entry_579020446" dir="auto" aria-label="Last Name  " aria-required="true" required="" title="">
+        <!-- EMAIL -->
+        <label class="form-field-label" for="entry_945637751"><div class="form-field-title field-required">Email</div></label>
+        <input type="text" name="entry.945637751" value="" class="ss-q-short" id="entry_945637751" dir="auto" aria-label="Email  " aria-required="true" required="" title="">
+        <!-- ORGANIZATION -->
+        <label class="form-field-label" for="entry_1431036681"><div class="form-field-title field-required">Organization</div></label>
+        <input type="text" name="entry.1431036681" value="" class="ss-q-short" id="entry_1431036681" dir="auto" aria-label="Organization  " title="">
+        <!-- CONFERENCE SELECTION -->
+        <label for="entry_2107053402"><div class="form-field-title field-required">Please choose among the available sessions, where you have the most to contribute and that you would be committed to joining. Participation involves: 1) reading the briefing materials, 2) participating actively in the discussion and sharing your knowledge.* You may apply for one or more sessions depending on your expertise
+        </div>
+        <ul class="form-checkbox-group" role="group" aria-label="Please choose among the available sessions, where you have the most to contribute and that you would be committed to joining. Participation involves: 1) reading the briefing materials, 2) participating actively in the discussion and sharing your knowledge.* You may apply for one or more sessions depending on your expertise  ">
+        <!-- ACTIVE CONFERENCES -->
+        <li>
+          <div class="checkbox">
+            <input id="group_1463462154_1" name="entry.1463462154" role="checkbox" type="checkbox" value="Assessing Public Awareness" aria-required="true"><label for="group_1463462154_1">Assessing Public Awareness</label>
+          </div>
+        </li> 
+        <li>
+          <div class="checkbox">
+            <input id="group_1463462154_2" name= "entry.1463462154" role="checkbox" type="checkbox" value="Communication and Behavior Change" aria-required="true"><label for="group_1463462154_2">Communication and Behavior Change</label>
+          </div>
+        </li>
+        <!-- UPCOMING CONFERENCES -->
+        <!-- <li>
+          <div class="checkbox">
+            <input id="group_1463462154_3" name="entry.1463462154" role="checkbox" type="checkbox" value="Conference 3" aria-required="true"><label for="group_1463462154_3">Conference 3</label>
+          </div>
+        </li> 
+        <li>
+          <div class="checkbox">
+            <input id="group_1463462154_4" name="entry.1463462154" role="checkbox" type="checkbox" value="Conference 4" aria-required="true"><label for="group_1463462154_4">Conference 4</label>
+          </div>
+        </li> 
+        <li>
+          <div class="checkbox">
+            <input id="group_1463462154_5" name="entry.1463462154" role="checkbox" type="checkbox" value="Conference 5" aria-required="true"><label for="group_1463462154_5">Conference 5</label>
+          </div>
+        </li> 
+        <li>
+          <div class="checkbox">
+            <input id="group_1463462154_6" name="entry.1463462154" role="checkbox" type="checkbox" value="Conference 6" aria-required="true"><label for="group_1463462154_6">Conference 6</label>
+          </div>
+        </li>  -->
+        <!-- END UPCOMING CONFERENCES -->
+        </ul>
+        <!-- PAST PARTICIPANTS -->
+        <label for="entry_553977394"><div class="form-field-title">Have you applied to participate in any of the other conferences?</div></label>
+        <ul class="form-radio-group" role="radiogroup" aria-label="Have you applied to participate in any of the other conferences?  ">
+        <li>
+          <label>
+            <div class="radio"><input type="radio" name="entry.351358348" value="Yes" id="group_351358348_1" role="radio" class="ss-q-radio" aria-label="Yes">
+            <label for="group_351358348_1">Yes</label>
+            </div>
+          </label>
+        </li> 
+        <li>
+          <label>
+            <div class="radio"><input type="radio" name="entry.351358348" value="No" id="group_351358348_2" role="radio" class="ss-q-radio" aria-label="No">
+           <label for="group_351358348_2">No</label>
+            </div>
+         </label>
+        </li>
+        </ul>
+        <!-- ABOUT ME - REQUIRED -->
+        <label class="form-field-label" for="entry_2034790886"><div class="form-field-title field-required">Please briefly describe your background and your expertise (experience, skills and interests) in connection with the conferences you have specified.</div></label>
+        <textarea rows="8" cols="0"  name="entry.2034790886" id="entry_2034790886" aria-label="Please briefly describe your background and your expertise (experience, skills and interests) in connection with the conferences you have specified.  " aria-required="true" required=""></textarea>
+        <!-- ABOUT ME - NOT REQUIRED -->
+        <label class="form-field-label hidden-form-field" for="entry_1375254264"><div class="form-field-title">Add any additional information about yourself that’s pertinent to this conference that you didn’t tell us about in your previous application.</div></label>
+        <textarea rows="8" cols="0" name="entry.1375254264" id="entry_1375254264" class='hidden-form-field'></textarea>
+        <!-- CITY -->
+        <label class="form-field-label" for="entry_1389641910"><div class="form-field-title field-required">What is your current physical location? <br>City</div></label>
+        <input type="text" name="entry.1389641910" value="" class="ss-q-short" id="entry_1389641910" dir="auto" aria-label="City  " aria-required="true" required="" title="">
+        <!-- COUNTRY -->
+        <label class="form-field-label" for="entry_344739365"><div class="form-field-title field-required">Country</div></label>
+        <input type="text" name="entry.344739365" value="" class="ss-q-short" id="entry_344739365" dir="auto" aria-label="Country  " aria-required="true" required="" title="">
+        <!-- OTHER PARTICIPANTS -->
+        <label class="form-field-label" for="entry_2129327437"><div class="form-field-title">Do you have suggestions of other participants?</div></label>
+        <textarea name="entry.2129327437" rows="8" cols="0" class="ss-q-long" id="entry_2129327437" dir="auto" aria-label="Do you have suggestions of other participants?  "></textarea>
+        <input type="hidden" name="draftResponse" value="[,,&quot;933836574473359503&quot;]
+        ">
+        <input type="hidden" name="pageHistory" value="0">
+        <input type="hidden" name="fbzx" value="933836574473359503">
         <p>Please note that, in an effort to make conversation meaningful, we are limiting the size of each group. We will confirm your participation and provide login instructions by return email.</p>
+        <input type="submit" name="submit" value="Submit" id="form-submit" class=" button jfk-button jfk-button-action ">
+
+        </form>
       </div>  
     </div>
   </div>
@@ -38,11 +133,13 @@
 <section class="page-section">
   <div class="row expanded">
     <div class="column large-12">
-        <h3>Information collection statement </h3>
+        <h4>Information collection statement </h4>
         <p>Thank you for signing up to participate in <strong>Smarter Crowdsourcing: Zika</strong>. We collect personally identifiable information from you for the purpose of communicating with you about your involvement in the upcoming online conferences. In the spirit of openness, we will publish the names, affiliations, and locations of all participants. We will not share contact information. If you have any questions, please email maria@thegovlab.org.</p>
       </div>  
     </div>
-  </div>
 </section>
+
+
+
 
 {% endblock %}

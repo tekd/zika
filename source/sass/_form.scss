@@ -1,0 +1,12 @@
+.error-messages {
+  color:red;
+}
+
+.field-required::after {
+  content:" *";
+  color: red;
+}
+
+.hidden-form-field {
+  display: none;
+}
