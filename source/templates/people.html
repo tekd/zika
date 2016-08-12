@@ -1,0 +1,28 @@
+{% extends "_base.html" %}
+
+{% block content %}
+<section class="top-section top-section--main-color">
+    <h1>People</h1>
+</section>
+
+<div class="page-section">
+{% for partner in partners %}
+  <div class="row">
+    <div class="columns large-3 partner-country">
+      <h3>{{partner.partner_name}}</h3>
+    </div>
+    <div class="columns large-9">
+      {%for person in partner.people%}
+      <ul class="partner">
+        <li class="partner-name">{{person.name}}</li>
+        <li class="partner-title">{{person.title}}</li>
+        <li class="partner-affiliation">{{person.affiliation}}</li>
+      </ul>
+      {% endfor %}
+    </div>
+  </div>
+{% endfor %}
+</div>
+
+
+{% endblock %}
