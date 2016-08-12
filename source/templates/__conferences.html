@@ -1,38 +1,57 @@
 {% extends "_base.html" %}
 
 {% block content %}
-
 {% set topic = $global.topics[topic_id]%}
- <h3>Conference Info yolayhiiihuuhue</h3>
+
 {% if topic.conference.is_active %}
-  <p>TOPIC TITLE: {{ topic.title }}</p>
+<section class="top-section top-section--theme-color">
+  {# <h4 class="conference-date">{{ topic.conference.date }}</h4> #}
+  <div class="row expanded align-center">
+    <div class="large-8 column medium-10">
+      <h3>Conference Info</h3>     
+      <h2>{{ topic.title }}</h2>
+    </div>
+  </div>
+  <div class="main-buttons">
+    <a href="{{title | slug}}-conference.html#form" class="button button--accent-color">Participate</a>
+  </div>
+</section>
+</section>
 
-  <p>DATE: {{ topic.conference.date }}</p>
-
-  <h3>Participants</h3>
-    {% for participant in topic.conference.participants %}
-        <p>{{ participant.name }}</p>
-        <p>{{ participant.title }}</p>
-        <p><a href="{{ participant.twitter_url }}">Twitter</a></p>
-    {% endfor %}
-
-  <h3>Link to Participant Form</h3>
-
-  <h3>Conference Resources</h3>
-    {% for resource in topic.conference.resources %}
-      <p><a href="{{resource.url}}"> {{resource.name}} </a></p>
-    {% endfor %}
+<section class="page-section">
+  <div class="row align-center">
+    <div class="columns large-8">
+      <h4>Conference Resources</h4>
+      {% for resource in topic.conference.resources %}
+        <p><a href="{{resource.url}}"> {{resource.name}} </a></p>
+      {% endfor %}      
+    </div>
+  </div>
+  <div class="row align-center">
+    <div class="column large-8 medium-10">
+      <h3>Participants</h3>
+      {% for participant in topic.conference.participants %}
+          <p>{{ participant.name }} {{ participant.title }} <a href="{{ participant.twitter_url }}">Twitter</a></p>
+      {% endfor %}
+    </div>
+  </div>
 {% endif%}
 
 {% if topic.post_conference.is_active %}
-  <p>TAKEAWAYS: {{ topic.post_conference.takeaways }}</p>
-  <p> ACTION ITEMS: {{ topic.post_conference.action_items }}</p>
-    <h3>Post Conference Resources</h3>
-      {% for resource in topic.post_conference.resources %}
-        <p><a href="{{resource.url}}"> {{resource.name}} </a></p>
-      {% endfor %}
+<section class="page-section">
+  <div class="row align-center">
+    <div class="columns large-8">
+      <h3>Takeaways</h3>
+      <p>{{ topic.post_conference.takeaways }}</p>
+    </div>
+  </div>
+  <div class="row align-center">
+    <div class="columns large-8">
+      <h3>Action Items</h3>
+      <p>{{ topic.post_conference.action_items }}</p>
+    </div>
+  </div>
+</section>
 {% endif %}
-
-
 
 {% endblock %}

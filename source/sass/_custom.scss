@@ -17,10 +17,27 @@ $theme-color: #04ccb7;
 }
 
 .top-section--main-color { background-color: $main-color; }
+.top-section--theme-color { 
+  background-color: $theme-color; 
+  color: $main-color;
+}
 .top-section--white { background-color: white; }
+.top-section--background-panel {
+  color: white;
+  background-blend-mode: multiply;
+  background-color: $main-color;
+  background-size: cover;
+  background-position: center;
+  .top-section__content { margin: 80px 0; }
+}
 
 .page-section {
   &--main-color { background-color: $main-color; }
+
+  &__highlight { 
+    font-size: 1.4rem;
+
+  }
   // &--transparent { background-color: transparent; }
 }
 

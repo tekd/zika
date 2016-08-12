@@ -25,12 +25,14 @@
 
         <section>
           <div class="row expanded">
-            <div class="large-6 column topic topic--relevant-learning">
-              <h1>ASSESSING PUBLIC AWARENESS<span class="topic__date">Aug <em>31</em></span></h1>
-              <p>What are the most effective ways to capture the public’s understanding of mosquito borne diseases? How to use these findings to inform the design of campaigns to improve public awareness?</p>
-              <p><a href="./assessing-public-awareness.html" class="button button--theme-color">Conference Information</a></p>
+            {% for topic in topics %}
+            <div class="large-6 column topic" style="background-image: url(./images/topics/{{topic.image}})">
+              <h1>{{topic.title}}<span class="topic__date">{{topic.conference.date}} <em>31</em></span></h1>
+              <p>{{topic.short_description}}</p>
+              <p><a href="{{topic.title | slug }}.html" class="button button--theme-color">Conference Information</a></p>
             </div>
-            <div class="large-6 column topic topic--governance-and-coordination">
+            {% endfor %}
+            {# <div class="large-6 column topic topic--governance-and-coordination">
               <h1>COMMUNICATION & BEHAVIOR CHANGE<span class="topic__date">Sep <em>7</em></span></h1>
               <p>What are the most effective ways for getting the public to change behavior to prevent mosquito breeding and mosquito bites and get proper access to healthcare?</p>
               <p><a href="./communication-and-behavior-change.html" class="button button--theme-color">Conference Information</a></p>
@@ -55,7 +57,7 @@
               <h1>Information Collection / Data Governance</h1>
               <p>How do we develop policies and practices for better epidemiological data collecting and for sharing the data with the correct authorities, where there is an absence of government action?</p>
             </div>
-          </div>
+          </div> #}
         </div>
         </section>
 
