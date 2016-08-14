@@ -15,28 +15,34 @@
     date: August 1, 2016
     time: 11:00 AM
     participants:
-      - name: Denny Tek
-        title: Developer
-        twitter_url: www.example.html
-      - name: Anna Bialis
-        title: Developer
-        twitter_url: www.example.html
+      - name: Beth Simone Noveck
+        title: Co-Founder and Director, The GovLab
+        twitter_url: https://twitter.com/bethnoveck
+      - name: María Hermosilla
+        title: Research Fellow, The GovLab
+        twitter_url:
+      - name: Rafael F. Ayoub, MD
+        title: Health Research Advisor, The GovLab
+        twitter_url:
+      - name: Eleonore Pauwels
+        title: Health Research Advisor, The GovLab
+        twitter_url:
     resources:
-      - name: Example Conference Resource
-        url: www.example.com
-      - name: Example Conference Resource
-        url: www.example.com
+      # - name: Example Conference Resource
+      #   url: www.example.com
+      # - name: Example Conference Resource
+      #   url: www.example.com
   post_conference:
-    is_active: true
+    is_active: false
     takeaways: >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non erat in lectus eleifend aliquet eget malesuada sem. Suspendisse viverra sem ac quam volutpat, id elementum felis blandit. Morbi posuere erat ut sollicitudin consectetur.
     action_items: >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non erat in lectus eleifend aliquet eget malesuada sem. Suspendisse viverra sem ac quam volutpat, id elementum felis blandit. Morbi posuere erat ut sollicitudin consectetur.
     resources:
-      - name: Example Post Conference Resource
-        url: www.example.com
-      - name: Example Post Conference Resource
-        url: www.example.com
+      # - name: Example Post Conference Resource
+      #   url: www.example.com
+      # - name: Example Post Conference Resource
+      #   url: www.example.com
 
 - title: Communication and Behavior Change
   id: 01
@@ -53,28 +59,30 @@
     date: August 15, 2016
     time: 9:00 AM
     participants:
-      - name: Denny Tek
-        title: Developer
-        twitter_url: www.example.html
-      - name: Anna Bialis
-        title: Developer
-        twitter_url: www.example.html
-    resources:
-      - name: Example Conference Resource
-        url: www.example.com
-      - name: Example Conference Resource
-        url: www.example.com
+      - name: Beth Simone Noveck
+        title: Co-Founder and Director, The GovLab
+        twitter_url: https://twitter.com/bethnoveck
+      - name: María Hermosilla
+        title: Research Fellow, The GovLab
+        twitter_url: 
+      - name: Rafael F. Ayoub, MD
+        title: Health Research Advisor, The GovLab
+        twitter_url: 
+      - name: Eleonore Pauwels
+        title: Health Research Advisor, The GovLab
+        twitter_url: 
+    resources: 
   post_conference:
-    is_active: true
+    is_active: false
     takeaways: >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non erat in lectus eleifend aliquet eget malesuada sem. Suspendisse viverra sem ac quam volutpat, id elementum felis blandit. Morbi posuere erat ut sollicitudin consectetur.
     action_items: >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non erat in lectus eleifend aliquet eget malesuada sem. Suspendisse viverra sem ac quam volutpat, id elementum felis blandit. Morbi posuere erat ut sollicitudin consectetur.
     resources:
-      - name: Example Post Conference Resource
-        url: www.example.com
-      - name: Example Post Conference Resource
-        url: www.example.com
+      # - name: Example Post Conference Resource
+      #   url: www.example.com
+      # - name: Example Post Conference Resource
+      #   url: www.example.com
 
 
 
