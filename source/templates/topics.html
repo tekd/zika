@@ -1,0 +1,52 @@
+{% extends "_base.html" %}
+
+{% block content %}
+<section class="top-section top-section--main-color">
+  <div class="row expanded align-center">
+    <div class="medium-10 large-6 column top-section__content">
+      <h1>Topics</h1>
+      <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non erat in lectus eleifend aliquet eget malesuada sem. Suspendisse viverra sem ac quam volutpat, id elementum felis blandit.</h3>  
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="row expanded">
+    {% for topic in topics %}
+    <div class="large-6 column topic" style="background-image: url(./images/topics/{{topic.image}})">
+      <span class="topic__date"><p>Conference Date</p>{{ topic.conference.date | dateFilter("month")}}<br> <em>{{ topic.conference.date | dateFilter("day")}}</em></span>
+      <h1>{{topic.title}}</h1>
+      <p>{{topic.short_description}}</p>
+      <p><a href="{{topic.title | slug }}.html" class="button button--theme-color">More Information</a></p>
+    </div>
+    {% endfor %}
+    {# <div class="large-6 column topic topic--governance-and-coordination">
+      <h1>COMMUNICATION & BEHAVIOR CHANGE<span class="topic__date">Sep <em>7</em></span></h1>
+      <p>What are the most effective ways for getting the public to change behavior to prevent mosquito breeding and mosquito bites and get proper access to healthcare?</p>
+      <p><a href="./communication-and-behavior-change.html" class="button button--theme-color">Conference Information</a></p>
+    </div>
+  </div>
+  <div class="row expanded">
+    <div class="large-6 column topic topic--predictive-analytics topic--disabled">
+      <h1>Predictive Analytics</h1>
+      <p>What innovative approaches are available for using data to predict factors influencing outbreaks, such as mosquito infestations, patterns of human habitation and movement, climate & environmental factors, and rates and other forms of transmission?</p>
+    </div>
+    <div class="large-6 column topic topic--trash-and-standing-water topic--disabled">
+      <h1>Trash and Standing Water</h1>
+     <p>What can be done to eliminate uncollected waste and standing water where Aedes Aegypti mosquitoes breed?</p>
+    </div>
+  </div>
+  <div class="row expanded">
+    <div class="large-6 column topic topic--economics-of-testing topic--disabled">
+      <h1>Economics of Testing and Vaccination</h1>
+      <p>How do we identify and develop efficient and effective policies to avoid under- and over-inclusive testing and vaccination? </p>
+    </div>
+    <div class="large-6 column topic topic--information-collection topic--disabled">
+      <h1>Information Collection / Data Governance</h1>
+      <p>How do we develop policies and practices for better epidemiological data collecting and for sharing the data with the correct authorities, where there is an absence of government action?</p>
+    </div>
+  </div> #}
+</div>
+</section>
+
+{% endblock %}
