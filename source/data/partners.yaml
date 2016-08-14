@@ -71,14 +71,14 @@
 
 - partner_name: The GovLab
   people:
-    - name: Dr. Rafael Ayoub
-      title: Health Research Advisor
-      affiliation: The GovLab
     - name: Professor Beth Simone Noveck
       title: Director/NYU
       affiliation: The GovLab
     - name: María Hermosilla
       title: Project Manager
+      affiliation: The GovLab
+    - name: Dr. Rafael Ayoub
+      title: Health Research Advisor
       affiliation: The GovLab
     - name: Eleonore Pauwels
       title: Health Research Advisor
