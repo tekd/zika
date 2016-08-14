@@ -9,9 +9,8 @@
     </div>
   </div>
   <div class="main-buttons">
-    <a href="{{ problem_description_link }}" class="button button--accent-color">Problem Description</a>
     {% if conference.is_active %}<a href="{{title | slug}}-conference.html" class="button button--accent-color">Conference Page</a>{% endif %}
-    <a href="./application.html" class="button button--accent-color">Participate</a>
+    <a href="./call-for-participants.html" class="button button--accent-color">Participate</a>
   </div>
 </section>
 
@@ -22,5 +21,14 @@
       <p class="page-section__highlight">{{focus}}</p>
     </div>
   </div>
+  <div class="row expanded align-center">
+    <div class="column large-6 medium-12">
+      <h5>Problem Description</h5>
+      <p class="page-section__highlight">{{problem_description_summary}}</p>
+      <a href="{{ problem_description_link }}" class="button button--accent-color">Read the Full Problem Description</a>
+    </div>
+  </div>
 </section>
+
+
 {% endblock %}
