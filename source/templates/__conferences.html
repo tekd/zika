@@ -5,11 +5,19 @@
 
 {% if topic.conference.is_active %}
 <section class="top-section top-section--theme-color">
-  {# <h4 class="conference-date">{{ topic.conference.date }}</h4> #}
   <div class="row expanded align-center">
     <div class="large-8 column medium-10">
-      <h3>Conference Info</h3>     
-      <h2>{{ topic.title }}</h2>
+      <h3>Conference Information</h3>     
+      <h1>{{topic.title}}</h1>
+      <h3>{{topic.short_description}}</h3> 
+    </div>
+  </div>
+  <div class="row expanded align-center">
+    <div class="large-4 column medium-5">  
+      <h4>{{topic.conference.date}}</h4>
+    </div>
+    <div class="large-4 column medium-5">  
+      <h4>{{topic.conference.time}}</h4>
     </div>
   </div>
   <div class="main-buttons">
