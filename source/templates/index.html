@@ -27,9 +27,10 @@
           <div class="row expanded">
             {% for topic in topics %}
             <div class="large-6 column topic" style="background-image: url(./images/topics/{{topic.image}})">
-              <h1>{{topic.title}}<span class="topic__date">{{topic.conference.date}} <em>31</em></span></h1>
+              <span class="topic__date"><p>Conference Date</p>{{ topic.conference.date | dateFilter("month")}}<br> <em>{{ topic.conference.date | dateFilter("day")}}</em></span>
+              <h1>{{topic.title}}</h1>
               <p>{{topic.short_description}}</p>
-              <p><a href="{{topic.title | slug }}.html" class="button button--theme-color">Conference Information</a></p>
+              <p><a href="{{topic.title | slug }}.html" class="button button--theme-color">More Information</a></p>
             </div>
             {% endfor %}
             {# <div class="large-6 column topic topic--governance-and-coordination">
@@ -67,7 +68,7 @@
         <div class="page-section">
           <div class="row">
             <div class="medium-9 column more-info">
-              <p>For more background about Smarter Crowdsourcing - Zika, read our Playbook,a step-by-step guide for the development of the project. It provides answers to frequently asked questions about participation in this initiative.</p>
+              <p>For more background about <strong>Smarter Crowdsourcing: Zika</strong>, read our Playbook, a step-by-step guide for the development of the project. It provides answers to frequently asked questions about participation in this initiative.</p>
             </div>
             <div class=" medium-3 column secondary-buttons">
               <a href='#' class='button button--accent-color'>View the Playbook</a>
