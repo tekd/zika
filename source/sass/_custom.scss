@@ -169,3 +169,34 @@ $theme-color: #04ccb7;
     width: 100%;
   }
 }
+
+.conference-date, 
+.conference-time  {
+  margin: 0;
+  padding: 0;
+  &__label {
+    text-transform: uppercase;
+  }
+}
+
+.participants {
+  ul { 
+    padding: 0;
+   }
+  li {
+    display: inline-block;
+    overflow: auto;
+    width: 46%;
+    list-style-type: none;
+    margin-bottom: 15px;
+    color: rgba($black, .6);
+
+    strong {
+      color: rgba($black, .9);
+      display: block;
+    }
+  }
+  .fa-twitter {
+    color: $accent-color;
+  }
+}
