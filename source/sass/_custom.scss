@@ -77,7 +77,19 @@ $theme-color: #04ccb7;
       padding: 80px;
       font-weight: 400;
       color: $main-color;
-
+      height: 40vh;
+      @media (max-width: 1023px) {
+        height: 75vh;
+        font-size: 22px;
+      }
+      @media (max-width: 897px) {
+        height: 50vh;
+      }
+      @media (max-width: 485px) {
+        padding: 35px 20px;
+        height: 50vh;
+        font-size: 20px;
+      }
       &:after {
         color: white;
         animation: imagine 10s linear infinite;
