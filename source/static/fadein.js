@@ -8,9 +8,7 @@ $(document).ready(function() {
       }).html(items[counter++]);
       if (counter == items.length) {
           counter = 0;
-      } else {
-        target.show();
-      }
+      } 
   }
   bannerFade();
 });
