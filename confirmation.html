@@ -19,16 +19,16 @@
 
     <body>
         <header class="top-bar top-bar--main-color">
-        <span class="top-bar__button js-trigger-menu">menu</span>
-        <nav class="main-menu js-target-menu main-menu--left">
-          <a href="./index.html">Home</a>
-          <a href="./about.html">About</a>
-          <a href="./people.html">People</a>
-          <a href="./topics.html">Topics</a>
-          <a href="./call-for-participants.html">Call for Participants</a>
-        </nav>
-        
-        
+          <span class="top-bar__button js-trigger-menu">menu</span>
+          <nav class="main-menu js-target-menu main-menu--left">
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./people.html">People</a>
+            <a href="./topics.html">Topics</a>
+            <a href="./call-for-participants.html">Call for Participants</a>
+          </nav>
+          <a class="top-bar__logo" href="./"><img src="images/zika-logo-h-white.png" alt="Smarter Crowdsourcing | Zika"></a>
+          
       </header>
 
         
@@ -56,28 +56,31 @@
             <div class="row">
                 <div class="large-10 large-centered columns">
                     <div class="row">
-                        <div class="footer__content footer--sections medium-4 column">
+                        <div class="footer__content footer--sections medium-2 column">
                             <h2>Sections</h2>
                             <!-- Add generated sections here -->
                             <a href="./index.html">Home</a>
                             <a href="./about.html">About</a>
                             <a href="./people.html">People</a>
+                        </div>
+                        <div class="footer__content footer--sections medium-3 column">
+                            <h2>&nbsp;</h2>
+                            <!-- Add generated sections here -->
                             <a href="./topics.html">Topics</a>
                             <a href="./call-for-participants.html">Call for Participants</a>
                         </div>
-                        <div class="footer__content medium-4 column">
+
+                        <div class="footer__content medium-offset-2 medium-2 column">
                             <h2>Partners</h2>
                             <div class="footer-partner">
-                                <a class="footer__partner-logo" href="https://www.macfound.org/" tagret="_blank"><img src="images/partners/macarthur-logo-white.png" alt="MacArthur Foundation"></a>
+                                <a class="footer__partner-logo" href="http://www.iadb.org/" target="_blank"><img src="images/partners/idb-white.gif" alt="Inter-American Development Bank"></a>
                             </div>
-                            
                         </div>
-                        <div class="footer__content medium-4 column">
+                        <div class="footer__content medium-3 column">
                             <div class="footer-partner">
                             <h2>&nbsp;</h2>
-                            <a class="footer__partner-logo" href="" tagret="_blank"><img src="images/govlab-logo-white.png" alt="The GovLab"></a>
+                            <a class="footer__partner-logo" href="" target="_blank"><img src="images/govlab-logo-white.png" alt="The GovLab"></a>
                             </div>
-                            
                         </div>
                     </div>
                 </div>
@@ -99,16 +102,6 @@
         <script src="./vendor/prism.js"></script>
         <script src="./scripts.js"></script>
         <script src="./form-validation.js"></script>
-
-        <script>
-        // Styleguide Guide specific functions
-        $(document).ready(function () {
-            $('.language-markup').each(function () {
-                var $obj = $($(this).data('markup'));
-
-                $(this).text($obj.html());
-            });
-        }); // doc.ready
-        </script>
+        <script src="./fadein.js"></script>
     </body>
 </html>

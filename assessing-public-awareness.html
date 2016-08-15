@@ -19,22 +19,22 @@
 
     <body>
         <header class="top-bar top-bar--main-color">
-        <span class="top-bar__button js-trigger-menu">menu</span>
-        <nav class="main-menu js-target-menu main-menu--left">
-          <a href="./index.html">Home</a>
-          <a href="./about.html">About</a>
-          <a href="./people.html">People</a>
-          <a href="./topics.html">Topics</a>
-          <a href="./call-for-participants.html">Call for Participants</a>
-        </nav>
-        
-        
+          <span class="top-bar__button js-trigger-menu">menu</span>
+          <nav class="main-menu js-target-menu main-menu--left">
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./people.html">People</a>
+            <a href="./topics.html">Topics</a>
+            <a href="./call-for-participants.html">Call for Participants</a>
+          </nav>
+          <a class="top-bar__logo" href="./"><img src="images/zika-logo-h-white.png" alt="Smarter Crowdsourcing | Zika"></a>
+          
       </header>
 
         
-<section class="top-section top-section--main-color top-section--background-panel" style="background-image: url(./images/topics/relevant-learning.jpg);">
+<section class="top-section top-section--main-color top-section--background-panel" style="background-image: url(./images/topics/assessing-public-awareness.jpg);">
   <div class="row expanded align-center">
-    <div class="medium-10 large-6 column top-section__content">
+    <div class="medium-10 large-9 column top-section__content">
       <h1>Assessing Public Awareness</h1>
       <h3>What are the most effective ways to capture the public’s understanding of mosquito borne diseases? How to use these findings to inform the design of campaigns to improve public awareness?
 </h3>  
@@ -47,19 +47,18 @@
 </section>
 
 <section class="page-section">
-  <div class="row expanded align-center">
-    <div class="column large-6 medium-12">
+  <div class="row align-center">
+    <div class="column large-9 medium-10">
       <h5>Focus</h5>
       <p class="page-section__highlight">Public health campaigns to prevent infection can be improved with more evidence-based practices that afford greater insight into the current state of public understanding of mosquito borne diseases and their consequences. The goal of this session is to identify innovative and effective methods for knowing what people do and do not know.</p>
     </div>
   </div>
-  <div class="row expanded align-center">
-    <div class="column large-6 medium-12">
+  <div class="row align-center">
+    <div class="column large-9 medium-12">
       <h5>Problem Description</h5>
-      <p class="page-section__highlight">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non erat in lectus eleifend aliquet eget malesuada sem. Suspendisse viverra sem ac quam volutpat, id elementum felis blandit. Morbi posuere erat ut sollicitudin consectetur.
+      <p class="page-section__highlight">The problems have been fleshed out into a briefing designed to describe the root causes of the problem, current approaches in different countries, and lessons learned from other domains.
 </p>
-      <p class="page-section__highlight">Read the draft problem description for the online conference.</p>
-      <a href="www.example.com" class="button button--accent-color">Read the Problem Description</a>
+      <a href="https://docs.google.com/document/d/1SL5VuLBSqltM5J1_WrBITfRZInKdHQiPvuXCbCGWDow/edit" target="_blank" class="button button--accent-color">Read the Problem Description</a>
     </div>
   </div>
 </section>
@@ -71,28 +70,31 @@
             <div class="row">
                 <div class="large-10 large-centered columns">
                     <div class="row">
-                        <div class="footer__content footer--sections medium-4 column">
+                        <div class="footer__content footer--sections medium-2 column">
                             <h2>Sections</h2>
                             <!-- Add generated sections here -->
                             <a href="./index.html">Home</a>
                             <a href="./about.html">About</a>
                             <a href="./people.html">People</a>
+                        </div>
+                        <div class="footer__content footer--sections medium-3 column">
+                            <h2>&nbsp;</h2>
+                            <!-- Add generated sections here -->
                             <a href="./topics.html">Topics</a>
                             <a href="./call-for-participants.html">Call for Participants</a>
                         </div>
-                        <div class="footer__content medium-4 column">
+
+                        <div class="footer__content medium-offset-2 medium-2 column">
                             <h2>Partners</h2>
                             <div class="footer-partner">
-                                <a class="footer__partner-logo" href="https://www.macfound.org/" tagret="_blank"><img src="images/partners/macarthur-logo-white.png" alt="MacArthur Foundation"></a>
+                                <a class="footer__partner-logo" href="http://www.iadb.org/" target="_blank"><img src="images/partners/idb-white.gif" alt="Inter-American Development Bank"></a>
                             </div>
-                            
                         </div>
-                        <div class="footer__content medium-4 column">
+                        <div class="footer__content medium-3 column">
                             <div class="footer-partner">
                             <h2>&nbsp;</h2>
-                            <a class="footer__partner-logo" href="" tagret="_blank"><img src="images/govlab-logo-white.png" alt="The GovLab"></a>
+                            <a class="footer__partner-logo" href="" target="_blank"><img src="images/govlab-logo-white.png" alt="The GovLab"></a>
                             </div>
-                            
                         </div>
                     </div>
                 </div>
@@ -114,16 +116,6 @@
         <script src="./vendor/prism.js"></script>
         <script src="./scripts.js"></script>
         <script src="./form-validation.js"></script>
-
-        <script>
-        // Styleguide Guide specific functions
-        $(document).ready(function () {
-            $('.language-markup').each(function () {
-                var $obj = $($(this).data('markup'));
-
-                $(this).text($obj.html());
-            });
-        }); // doc.ready
-        </script>
+        <script src="./fadein.js"></script>
     </body>
 </html>

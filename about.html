@@ -19,16 +19,16 @@
 
     <body>
         <header class="top-bar top-bar--main-color">
-        <span class="top-bar__button js-trigger-menu">menu</span>
-        <nav class="main-menu js-target-menu main-menu--left">
-          <a href="./index.html">Home</a>
-          <a href="./about.html">About</a>
-          <a href="./people.html">People</a>
-          <a href="./topics.html">Topics</a>
-          <a href="./call-for-participants.html">Call for Participants</a>
-        </nav>
-        
-        
+          <span class="top-bar__button js-trigger-menu">menu</span>
+          <nav class="main-menu js-target-menu main-menu--left">
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./people.html">People</a>
+            <a href="./topics.html">Topics</a>
+            <a href="./call-for-participants.html">Call for Participants</a>
+          </nav>
+          <a class="top-bar__logo" href="./"><img src="images/zika-logo-h-white.png" alt="Smarter Crowdsourcing | Zika"></a>
+          
       </header>
 
         
@@ -41,7 +41,7 @@
     <div class="medium-12 column">
       <p>Global and complex public health emergencies, such as Zika, Dengue and Chikungunya, threaten public health and well-being, risk disruption to global and regional trade and economic stability, and cause widespread uncertainty and concern.</p>
 
-      <p>In response, the Governance Lab and the Inter-American Development Bank in partnership with  the Governments of Rio de Janeiro, Argentina, Colombia and Panama, are hosting a series of online conferences taking place August-October 2016.</p>
+      <p>In response, the Governance Lab and the Inter-American Development Bank in partnership with  the Governments of <strong>Rio de Janeiro</strong>, <strong>Argentina</strong>, <strong>Colombia</strong> and <strong>Panama</strong>, are hosting a series of online conferences taking place August-October 2016.</p>
 
       <p>Instead of a handful of people meeting once at great expense in a conference room, we will use the Internet to mobilize and curate diverse and distributed expertise -- both credentialed know-how and experiential wisdom -- to identify, design and iterate upon implementable ideas that governments can use.<p>
 
@@ -50,27 +50,6 @@
   </div>
 </section>
 
-<section class="divider divider--theme-color">
-  <h1>Government Partners</h1>
-</section>
-<div class="page-section">
-  <div class="row">
-    <div class="medium-3 columns">
-      <h4>Argentina</h4>
-    </div>
-    <div class="medium-3 columns">
-      <h4>Brazil</h4>
-    </div>
-    <div class="medium-3 columns">
-      <h4>Colombia</h4>
-    </div>
-    <div class="medium-3 columns">
-      <h4>Panama</h4>
-    </div>
-  </div>
-</div>
-
-
 
 
 
@@ -78,28 +57,31 @@
             <div class="row">
                 <div class="large-10 large-centered columns">
                     <div class="row">
-                        <div class="footer__content footer--sections medium-4 column">
+                        <div class="footer__content footer--sections medium-2 column">
                             <h2>Sections</h2>
                             <!-- Add generated sections here -->
                             <a href="./index.html">Home</a>
                             <a href="./about.html">About</a>
                             <a href="./people.html">People</a>
+                        </div>
+                        <div class="footer__content footer--sections medium-3 column">
+                            <h2>&nbsp;</h2>
+                            <!-- Add generated sections here -->
                             <a href="./topics.html">Topics</a>
                             <a href="./call-for-participants.html">Call for Participants</a>
                         </div>
-                        <div class="footer__content medium-4 column">
+
+                        <div class="footer__content medium-offset-2 medium-2 column">
                             <h2>Partners</h2>
                             <div class="footer-partner">
-                                <a class="footer__partner-logo" href="https://www.macfound.org/" tagret="_blank"><img src="images/partners/macarthur-logo-white.png" alt="MacArthur Foundation"></a>
+                                <a class="footer__partner-logo" href="http://www.iadb.org/" target="_blank"><img src="images/partners/idb-white.gif" alt="Inter-American Development Bank"></a>
                             </div>
-                            
                         </div>
-                        <div class="footer__content medium-4 column">
+                        <div class="footer__content medium-3 column">
                             <div class="footer-partner">
                             <h2>&nbsp;</h2>
-                            <a class="footer__partner-logo" href="" tagret="_blank"><img src="images/govlab-logo-white.png" alt="The GovLab"></a>
+                            <a class="footer__partner-logo" href="" target="_blank"><img src="images/govlab-logo-white.png" alt="The GovLab"></a>
                             </div>
-                            
                         </div>
                     </div>
                 </div>
@@ -121,16 +103,6 @@
         <script src="./vendor/prism.js"></script>
         <script src="./scripts.js"></script>
         <script src="./form-validation.js"></script>
-
-        <script>
-        // Styleguide Guide specific functions
-        $(document).ready(function () {
-            $('.language-markup').each(function () {
-                var $obj = $($(this).data('markup'));
-
-                $(this).text($obj.html());
-            });
-        }); // doc.ready
-        </script>
+        <script src="./fadein.js"></script>
     </body>
 </html>
