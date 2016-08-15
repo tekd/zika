@@ -5,14 +5,11 @@
     - name: Rudi Borrmann
       title: Undersecretary of Public Innovation & Open Government
       affiliation: Ministry of Modernization
-    - name: Gaston de Rochebouët
-      title: COO of the Public Innovation National Direction
-      affiliation: Ministry of Modernization
     - name: Aranzazu Echezarreta
       title: National Director of Public Innovation
       affiliation: Ministry of Modernization
-    - name: Andrés Ibarra
-      title: 
+    - name: María Inés Baque
+      title: Secretary of Innovation and Public Management
       affiliation: Minister of Modernization
 
 - partner_name: Brazil
@@ -41,13 +38,13 @@
 
 - partner_name: Panama
   people:
-    - name: Dra. María Eugenia Barnett de Antinori 
+    - name: Dr. María Eugenia Barnett de Antinori 
       title: Global Health Security Project Coordinator
       affiliation: The Gorgas Memorial Institute for Health Studies
     - name: Dr. Israel Cedeño
       title: International Epidemiological Surveillance Coordinator
       affiliation: Ministry of Health
-    - name: Dra. Lizbeth Cerezo 
+    - name: Dr. Lizbeth Cerezo 
       title: National Coordinator of Epidemiological Surveillance of Arbovirosis and Malaria
       affiliation: Ministry of Health
     - name: Dr. Juan Miguel Pascale
