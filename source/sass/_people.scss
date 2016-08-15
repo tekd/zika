@@ -1,0 +1,22 @@
+.partner {
+  list-style: none;
+  vertical-align: text-top;
+  margin-top: 20px;
+
+  .partner-name {
+    color: black; 
+    font-weight: 600;
+  }
+  
+  .partner-title {color: gray;}
+  
+  .partner-affiliation {color: gray;}
+}
+.partner-country {
+    h3 {
+      text-align: right;
+      font-weight: 300;
+      font-size: 20px;
+      margin-top: 20px;
+    }
+  }
