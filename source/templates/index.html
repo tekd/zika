@@ -26,6 +26,7 @@
         <section>
           <div class="row expanded">
             {% for topic in topics %}
+            {% if topic.is_active %}
             <div class="large-6 column topic" style="background-image: url(./images/topics/{{topic.image}})">
               <h1>{{topic.title}}</h1>
               <p>{{topic.short_description}}</p>
@@ -36,6 +37,7 @@
                 <em class="topic__day">{{ topic.conference.date | dateFilter("day")}}</em>
               </div>
             </div>
+            {% endif %}
             {% endfor %}
         </div>
         </section>
