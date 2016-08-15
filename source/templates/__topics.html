@@ -3,7 +3,7 @@
 {% block content %}
 <section class="top-section top-section--main-color top-section--background-panel" style="background-image: url(./images/topics/{{image}});">
   <div class="row expanded align-center">
-    <div class="medium-10 large-6 column top-section__content">
+    <div class="medium-10 large-9 column top-section__content">
       <h1>{{title}}</h1>
       <h3>{{short_description}}</h3>  
     </div>
@@ -15,14 +15,14 @@
 </section>
 
 <section class="page-section">
-  <div class="row expanded align-center">
-    <div class="column large-6 medium-12">
+  <div class="row align-center">
+    <div class="column large-9 medium-10">
       <h5>Focus</h5>
       <p class="page-section__highlight">{{focus}}</p>
     </div>
   </div>
-  <div class="row expanded align-center">
-    <div class="column large-6 medium-12">
+  <div class="row align-center">
+    <div class="column large-9 medium-12">
       <h5>Problem Description</h5>
       <p class="page-section__highlight">{{problem_description_summary}}</p>
       <a href="{{ problem_description_link }}" class="button button--accent-color">Read the Problem Description</a>

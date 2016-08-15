@@ -1,12 +1,15 @@
 .topic {
   color: white;
-  padding: 80px 80px;
+  
   position: relative;
   background-blend-mode: multiply;
   background-color: $main-color;
   background-size: cover;
-  background-position: center;
+  background-position: center top;
   @extend .u-transition;
+
+  @include breakpoint($medium) { padding: 40px 40px; }
+  @include breakpoint($large) { padding: 80px 80px; }
 
   &:hover {
     background-color: $theme-color;
@@ -14,7 +17,7 @@
   }
 
   &__date { 
-    position: absolute;
+    @include breakpoint($medium) { position: absolute; }
     text-align: right;
     right: 30px;
     bottom: 15px;
@@ -44,14 +47,16 @@
     opacity: .6;
     pointer-events: none;
   }
+
   &--inactive {
-    color: rgba(white, .9);
+    color: rgba(white, .4);
     opacity: .9;
     pointer-events: none;
     padding: 40px;
-    &:nth-of-type(odd) { background-color: rgba($main-color, .9); }
-    &:nth-of-type(even) { background-color: rgba($main-color, .95); }
+    &:nth-of-type(odd) { background-color: rgba($main-color, .95); }
+    &:nth-of-type(even) { background-color: rgba($main-color, 1); }
   }
+
   h1 {
     font-size: 22px;
     font-weight: 600;

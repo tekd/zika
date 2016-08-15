@@ -22,21 +22,24 @@ $theme-color: #04ccb7;
   color: $main-color;
 }
 .top-section--white { background-color: white; }
-.top-section--background-panel {
-  color: white;
-  background-blend-mode: multiply;
-  background-color: $main-color;
-  background-size: cover;
-  background-position: center;
-  .top-section__content { margin: 80px 0; }
-}
+
+.top-section--background-panel,
 .top-section--background-panel-theme-color {
   color: white;
   background-blend-mode: multiply;
-  background-color: $theme-color;
   background-size: cover;
-  background-position: center;
+  background-position: center top;
   .top-section__content { margin: 80px 0; }
+}
+
+.top-section--background-panel { background-color: $main-color; }
+
+.top-section--background-panel-theme-color { 
+  background-color: $theme-color; 
+  color: $main-color;
+
+  h1, h3 {mix-blend-mode: multiply;}
+
 }
 .page-section {
   &--main-color { background-color: $main-color; }

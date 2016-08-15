@@ -5,7 +5,7 @@
   <div class="row expanded align-center">
     <div class="medium-10 large-6 column top-section__content">
       <h1>Topics</h1>
-      <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non erat in lectus eleifend aliquet eget malesuada semuspendisse viverra</h3>  
+      {# <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non erat in lectus eleifend aliquet eget malesuada semuspendisse viverra</h3>   #}
     </div>
   </div>
 </section>
@@ -30,10 +30,10 @@
 </section>
 
 <section>
-  <div class="row expanded">
-    {% for topic in topics %}
+  {% for topic in topics %}
     {% if not topic.is_active %}
-        <div class="large-12 column topic topic--inactive">
+        <div class="row expanded align-center topic topic--inactive">
+          <div class="large-9 medium-10 column">
           <h1>{{topic.title}}</h1>
           <p>{{topic.short_description}}</p>
           <div class="topic__date">
@@ -42,7 +42,7 @@
         </div>
       </div>  
     {% endif %}
-    {% endfor %}
+  {% endfor %}
 
     {# <div class="large-6 column topic topic--governance-and-coordination">
       <h1>COMMUNICATION & BEHAVIOR CHANGE<span class="topic__date">Sep <em>7</em></span></h1>
