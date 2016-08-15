@@ -15,17 +15,44 @@
     date: August 31, 2016
     time: 10am - 12pm EST
     participants:
-      - name: Beth Simone Noveck
-        title: Co-Founder and Director, The GovLab
-        twitter_url: https://twitter.com/bethnoveck
-      - name: María Hermosilla
-        title: Research Fellow, The GovLab
-        twitter_url:
       - name: Rafael F. Ayoub, MD
-        title: Health Research Advisor, The GovLab
+        title: Health Research Advisor
+        affiliation: The GovLab
         twitter_url:
-      - name: Eleonore Pauwels
-        title: Health Research Advisor, The GovLab
+      - name: Dr. Lizbeth Cerezo 
+        title: National Coordinator of Epidemiological Surveillance of Arbovirosis and Malaria
+        affiliation: Ministry of Health, Panama
+        twitter_url:
+      - name: Dr. Betina Durovni
+        title: Sub-Secretary of Primary Health, Prevention and Surveillance
+        affiliation: City of Rio de Janeiro, Brazil
+      - name: Aranzazu Echezarreta
+        title: National Director of Public Innovation
+        affiliation: Ministry of Modernization, Argentina
+        twitter_url:
+      - name: María Hermosilla
+        title: Project Manager
+        affiliation: The GovLab
+        twitter_url:
+      - name: Ralf Moreno
+        title: Project Manager
+        affiliation: Inter-American Development Bank
+        twitter_url:
+      - name: Dr. María Mercedes Muñoz 
+        title: Coordinator of the Public Health Surveillance Group, Demography and Epidemiology Department
+        affiliation: Ministry of Health and Social Protection, Colombia
+        twitter_url:
+      - name: Professor Beth Simone Noveck
+        title: Director/NYU
+        affiliation: The GovLab
+        twitter_url:
+      - name: Dr. Juan Miguel Pascale
+        title: Deputy Director 
+        affiliation: The Gorgas Memorial Institute for Health Studies, Panama
+        twitter_url:
+      - name: Diana Pinto
+        title: Health Lead Specialist, USA
+        affiliation: Inter-American Development Bank
         twitter_url:
     resources:
       # - name: Example Conference Resource
@@ -59,18 +86,45 @@
     date: September 7, 2016
     time: 10am - 12pm EST
     participants:
-      - name: Beth Simone Noveck
-        title: Co-Founder and Director, The GovLab
-        twitter_url: https://twitter.com/bethnoveck
-      - name: María Hermosilla
-        title: Research Fellow, The GovLab
-        twitter_url: 
       - name: Rafael F. Ayoub, MD
-        title: Health Research Advisor, The GovLab
-        twitter_url: 
-      - name: Eleonore Pauwels
-        title: Health Research Advisor, The GovLab
-        twitter_url: 
+        title: Health Research Advisor
+        affiliation: The GovLab
+        twitter_url:
+      - name: Dr. Lizbeth Cerezo 
+        title: National Coordinator of Epidemiological Surveillance of Arbovirosis and Malaria
+        affiliation: Ministry of Health, Panama
+        twitter_url:
+      - name: Dr. Betina Durovni
+        title: Sub-Secretary of Primary Health, Prevention and Surveillance
+        affiliation: City of Rio de Janeiro, Brazil
+      - name: Aranzazu Echezarreta
+        title: National Director of Public Innovation
+        affiliation: Ministry of Modernization, Argentina
+        twitter_url:
+      - name: María Hermosilla
+        title: Project Manager
+        affiliation: The GovLab
+        twitter_url:
+      - name: Ralf Moreno
+        title: Project Manager
+        affiliation: Inter-American Development Bank
+        twitter_url:
+      - name: Dr. María Mercedes Muñoz 
+        title: Coordinator of the Public Health Surveillance Group, Demography and Epidemiology Department
+        affiliation: Ministry of Health and Social Protection, Colombia
+        twitter_url:
+      - name: Professor Beth Simone Noveck
+        title: Director/NYU
+        affiliation: The GovLab
+        twitter_url:
+      - name: Dr. Juan Miguel Pascale
+        title: Deputy Director 
+        affiliation: The Gorgas Memorial Institute for Health Studies, Panama
+        twitter_url:
+      - name: Diana Pinto
+        title: Health Lead Specialist, USA
+        affiliation: Inter-American Development Bank
+        twitter_url:
     resources: 
   post_conference:
     is_active: false
