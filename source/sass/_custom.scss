@@ -33,6 +33,7 @@ $theme-color: #04ccb7;
 
 .page-section {
   &--main-color { background-color: $main-color; }
+  &--theme-color { background-color: $theme-color; }
 
   &__highlight { 
     font-size: 1.4rem;
@@ -114,13 +115,6 @@ $theme-color: #04ccb7;
     font-weight: 400;
     font-size: 20px;
   }
-
-  // &--relevant-learning { background-image: url("../images/topics/relevant-learning.jpg"); }
-  // &--governance-and-coordination { background-image: url("../images/topics/governance-and-coordination.jpg"); }
-  // &--predictive-analytics { background-image: url("../images/topics/predictive-analytics.jpg"); }
-  // &--trash-and-standing-water { background-image: url("../images/topics/trash-and-standing-water.jpg"); }
-  // &--economics-of-testing { background-image: url("../images/topics/economics-of-testing.jpg"); }
-  // &--information-collection { background-image: url("../images/topics/information-collection.jpg"); }
 }
 
 .imagine-banner {

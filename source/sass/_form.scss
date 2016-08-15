@@ -10,3 +10,9 @@
 .hidden-form-field {
   display: none;
 }
+
+.form-checkbox-group,
+.form-radio-group {
+  padding: 0 0 10px 0;
+  li { list-style-type: none; }
+}
