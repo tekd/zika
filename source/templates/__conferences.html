@@ -4,7 +4,7 @@
 {% set topic = $global.topics[topic_id]%}
 
 {% if topic.conference.is_active %}
-<section class="top-section top-section--theme-color">
+<section class="top-section top-section--theme-color top-section--background-panel-theme-color" style="background-image: url(./images/topics/{{topic.image}})">
     <div class="row expanded align-center">
       <div class="medium-10 large-6 column top-section__content">
        <h3>Conference Information</h3>     
@@ -32,7 +32,6 @@
     <div class="column large-8 medium-10">
       <h5>Problem Description</h5>
       <p>{{topic.problem_description_summary}}</p>
-      <p>Read the draft problem description for the online conference.</p>
       <a href="{{ problem_description_link }}" class="button button--accent-color">Read the Problem Description</a>
     </div>
   </div>
@@ -41,13 +40,6 @@
       <h5>Apply to Participate</h5>
         <p>Would you like to lend your skills to tackle a public health emergency? Deliberate with diverse innovators and professionals to refine good ideas into actionable projects? Join a conversation with government partners interested in implementing new approaches to combatting Zika and other mosquito-borne diseases.</p>
         <a href="./call-for-participants.html" class="button button--accent-color">Apply Here</a>
-    </div>
-  </div>
-  <div class="row align-center">
-    <div class="columns large-8 medium-10">
-      <h5>About the Online Conference</h5>
-      <p>In a series of weekly, 2-hour web-based conferences, experts from around the world will discuss innovative and practical ways to tackle the root causes of Zika and mosquito-borne diseases. These small-group discussions are intended to foster brainstorming of actionable new strategies in conversation with those government officials responsible for managing the outbreaks.</p>   
-      <a href="./topics.html" class="button button--accent-color">View All Topics</a> 
     </div>
   </div>
   <div class="row align-center">

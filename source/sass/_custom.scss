@@ -30,7 +30,14 @@ $theme-color: #04ccb7;
   background-position: center;
   .top-section__content { margin: 80px 0; }
 }
-
+.top-section--background-panel-theme-color {
+  color: white;
+  background-blend-mode: multiply;
+  background-color: $theme-color;
+  background-size: cover;
+  background-position: center;
+  .top-section__content { margin: 80px 0; }
+}
 .page-section {
   &--main-color { background-color: $main-color; }
   &--theme-color { background-color: $theme-color; }
