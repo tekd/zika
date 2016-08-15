@@ -5,7 +5,7 @@
   <div class="row expanded align-center">
     <div class="medium-10 large-6 column top-section__content">
       <h1>Topics</h1>
-      <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non erat in lectus eleifend aliquet eget malesuada sem. Suspendisse viverra sem ac quam volutpat, id elementum felis blandit.</h3>  
+      <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non erat in lectus eleifend aliquet eget malesuada semuspendisse viverra</h3>  
     </div>
   </div>
 </section>
@@ -13,12 +13,16 @@
 <section>
   <div class="row expanded">
     {% for topic in topics %}
-    <div class="large-6 column topic" style="background-image: url(./images/topics/{{topic.image}})">
-      <span class="topic__date"><p>Conference Date</p>{{ topic.conference.date | dateFilter("month")}}<br> <em>{{ topic.conference.date | dateFilter("day")}}</em></span>
-      <h1>{{topic.title}}</h1>
-      <p>{{topic.short_description}}</p>
-      <p><a href="{{topic.title | slug }}.html" class="button button--theme-color">More Information</a></p>
-    </div>
+      <div class="large-6 column topic" style="background-image: url(./images/topics/{{topic.image}})">
+        <h1>{{topic.title}}</h1>
+        <p>{{topic.short_description}}</p>
+        <p><a href="{{topic.title | slug }}.html" class="button button--theme-color">More Information</a></p>
+        <div class="topic__date">
+          <h6>Conference in</h6>
+          <span class="topic__month">{{ topic.conference.date | dateFilter("month") | truncate(3, true, "")}}</span>
+          <em class="topic__day">{{ topic.conference.date | dateFilter("day")}}</em>
+        </div>
+      </div>
     {% endfor %}
     {# <div class="large-6 column topic topic--governance-and-coordination">
       <h1>COMMUNICATION & BEHAVIOR CHANGE<span class="topic__date">Sep <em>7</em></span></h1>
