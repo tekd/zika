@@ -19,7 +19,7 @@
         <p>{{topic.short_description}}</p>
         <p><a href="{{topic.title | slug }}.html" class="button button--theme-color">More Information</a></p>
         <div class="topic__date">
-          <h6>Conference in</h6>
+          <h6>Conference on</h6>
           <span class="topic__month">{{ topic.conference.date | dateFilter("month") | truncate(3, true, "")}}</span>
           <em class="topic__day">{{ topic.conference.date | dateFilter("day")}}</em>
         </div>
