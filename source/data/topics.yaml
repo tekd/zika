@@ -12,20 +12,47 @@
   problem_description_link: www.example.com
   conference:
     is_active: true
-    date: August 1, 2016
-    time: 11:00 AM
+    date: August 31, 2016
+    time: 10am - 12pm EST
     participants:
-      - name: Beth Simone Noveck
-        title: Co-Founder and Director, The GovLab
-        twitter_url: https://twitter.com/bethnoveck
-      - name: María Hermosilla
-        title: Research Fellow, The GovLab
-        twitter_url:
       - name: Rafael F. Ayoub, MD
-        title: Health Research Advisor, The GovLab
+        title: Health Research Advisor
+        affiliation: The GovLab
         twitter_url:
-      - name: Eleonore Pauwels
-        title: Health Research Advisor, The GovLab
+      - name: Dr. Lizbeth Cerezo 
+        title: National Coordinator of Epidemiological Surveillance of Arbovirosis and Malaria
+        affiliation: Ministry of Health, Panama
+        twitter_url:
+      - name: Dr. Betina Durovni
+        title: Sub-Secretary of Primary Health, Prevention and Surveillance
+        affiliation: City of Rio de Janeiro, Brazil
+      - name: Aranzazu Echezarreta
+        title: National Director of Public Innovation
+        affiliation: Ministry of Modernization, Argentina
+        twitter_url:
+      - name: María Hermosilla
+        title: Project Manager
+        affiliation: The GovLab
+        twitter_url:
+      - name: Ralf Moreno
+        title: Project Manager
+        affiliation: Inter-American Development Bank
+        twitter_url:
+      - name: Dr. María Mercedes Muñoz 
+        title: Coordinator of the Public Health Surveillance Group, Demography and Epidemiology Department
+        affiliation: Ministry of Health and Social Protection, Colombia
+        twitter_url:
+      - name: Professor Beth Simone Noveck
+        title: Director/NYU
+        affiliation: The GovLab
+        twitter_url:
+      - name: Dr. Juan Miguel Pascale
+        title: Deputy Director 
+        affiliation: The Gorgas Memorial Institute for Health Studies, Panama
+        twitter_url:
+      - name: Diana Pinto
+        title: Health Lead Specialist, USA
+        affiliation: Inter-American Development Bank
         twitter_url:
     resources:
       # - name: Example Conference Resource
@@ -56,21 +83,48 @@
   problem_description_link: www.example.com
   conference:
     is_active: true
-    date: August 15, 2016
-    time: 9:00 AM
+    date: September 7, 2016
+    time: 10am - 12pm EST
     participants:
-      - name: Beth Simone Noveck
-        title: Co-Founder and Director, The GovLab
-        twitter_url: https://twitter.com/bethnoveck
-      - name: María Hermosilla
-        title: Research Fellow, The GovLab
-        twitter_url: 
       - name: Rafael F. Ayoub, MD
-        title: Health Research Advisor, The GovLab
-        twitter_url: 
-      - name: Eleonore Pauwels
-        title: Health Research Advisor, The GovLab
-        twitter_url: 
+        title: Health Research Advisor
+        affiliation: The GovLab
+        twitter_url:
+      - name: Dr. Lizbeth Cerezo 
+        title: National Coordinator of Epidemiological Surveillance of Arbovirosis and Malaria
+        affiliation: Ministry of Health, Panama
+        twitter_url:
+      - name: Dr. Betina Durovni
+        title: Sub-Secretary of Primary Health, Prevention and Surveillance
+        affiliation: City of Rio de Janeiro, Brazil
+      - name: Aranzazu Echezarreta
+        title: National Director of Public Innovation
+        affiliation: Ministry of Modernization, Argentina
+        twitter_url:
+      - name: María Hermosilla
+        title: Project Manager
+        affiliation: The GovLab
+        twitter_url:
+      - name: Ralf Moreno
+        title: Project Manager
+        affiliation: Inter-American Development Bank
+        twitter_url:
+      - name: Dr. María Mercedes Muñoz 
+        title: Coordinator of the Public Health Surveillance Group, Demography and Epidemiology Department
+        affiliation: Ministry of Health and Social Protection, Colombia
+        twitter_url:
+      - name: Professor Beth Simone Noveck
+        title: Director/NYU
+        affiliation: The GovLab
+        twitter_url:
+      - name: Dr. Juan Miguel Pascale
+        title: Deputy Director 
+        affiliation: The Gorgas Memorial Institute for Health Studies, Panama
+        twitter_url:
+      - name: Diana Pinto
+        title: Health Lead Specialist, USA
+        affiliation: Inter-American Development Bank
+        twitter_url:
     resources: 
   post_conference:
     is_active: false
@@ -84,5 +138,266 @@
       # - name: Example Post Conference Resource
       #   url: www.example.com
 
+- title: Relevant Learning 
+  id: 02
+  is_active: false
+  image: 
+  short_description: >
+    What can be done to accelerate relevant learning among affected public policymakers, especially those outside of a ministry of health (e.g. environment, sanitation, urban planning, etc), and at various levels of government so they can develop a geographically specific and culturally contextualized understanding of a public health issue quickly enough to determine what related policies and services they must create? 
+  focus: 
+  problem_description_summary: 
+  problem_description_link: 
+  conference:
+    is_active: false
+    date: 
+    time: 
+    participants:
+      - name: 
+        title: 
+        twitter_url: 
+    resources: 
+  post_conference:
+    is_active: false
+    takeaways:
+    action_items:
+    resources:
 
+- title: Governance and Coordination
+  id: 03
+  is_active: false
+  image: 
+  short_description: >
+    What are the best strategies for ensuring collaboration and avoiding duplication of effort between the many agencies involved in responding to a complex public health crisis? Who should be in charge? 
+  focus: 
+  problem_description_summary: 
+  problem_description_link: 
+  conference:
+    is_active: false
+    date: 
+    time: 
+    participants:
+      - name: 
+        title: 
+        twitter_url: 
+    resources: 
+  post_conference:
+    is_active: false
+    takeaways:
+    action_items:
+    resources:
+
+- title: Predictive Analytics
+  id: 04
+  is_active: false
+  image: 
+  short_description: >
+    What innovative approaches are available for using data to predict factors influencing outbreaks, such as mosquito infestations, patterns of human habitation and movement, climate & environmental factors, and rates and other forms of transmission?
+  focus: 
+  problem_description_summary: 
+  problem_description_link: 
+  conference:
+    is_active: false
+    date: 
+    time: 
+    participants:
+      - name: 
+        title: 
+        twitter_url: 
+    resources: 
+  post_conference:
+    is_active: false
+    takeaways:
+    action_items:
+    resources:
+
+- title: Trash and Standing Water
+  id: 05
+  is_active: false
+  image: 
+  short_description: >
+    What can be done to eliminate uncollected waste and standing water where Aedes Aegypti mosquitoes breed?
+  focus: 
+  problem_description_summary: 
+  problem_description_link: 
+  conference:
+    is_active: false
+    date: 
+    time: 
+    participants:
+      - name: 
+        title: 
+        twitter_url: 
+    resources: 
+  post_conference:
+    is_active: false
+    takeaways:
+    action_items:
+    resources:
+
+- title: Economics of Testing and Vaccination
+  id: 06
+  is_active: false
+  image: 
+  short_description: >
+    How do we identify and develop efficient and effective policies to avoid under- and over-inclusive testing and vaccination? 
+  focus: 
+  problem_description_summary: 
+  problem_description_link: 
+  conference:
+    is_active: false
+    date: 
+    time: 
+    participants:
+      - name: 
+        title: 
+        twitter_url: 
+    resources: 
+  post_conference:
+    is_active: false
+    takeaways:
+    action_items:
+    resources:
+
+- title: Information Collection/Data Governance
+  id: 07
+  is_active: false
+  image: 
+  short_description: >
+    How do we develop policies and practices for better epidemiological data collecting and for sharing the data with the correct authorities, where there is an absence of government action?
+  focus: 
+  problem_description_summary: 
+  problem_description_link: 
+  conference:
+    is_active: false
+    date: 
+    time: 
+    participants:
+      - name: 
+        title: 
+        twitter_url: 
+    resources: 
+  post_conference:
+    is_active: false
+    takeaways:
+    action_items:
+    resources:
+
+- title: Data Collaboratives
+  id: 08
+  is_active: false
+  image: 
+  short_description: >
+    Where there is an absence of government data or the capacity to gather data, what alternatives exist from private and other sources for filling that gap?
+  focus: 
+  problem_description_summary: 
+  problem_description_link: 
+  conference:
+    is_active: false
+    date: 
+    time: 
+    participants:
+      - name: 
+        title: 
+        twitter_url: 
+    resources: 
+  post_conference:
+    is_active: false
+    takeaways:
+    action_items:
+    resources:
+
+- title: Surveillance 
+  id: 09
+  is_active: false
+  image: 
+  short_description: What are the best ways to identify mosquito breeding locations? 
+  focus: 
+  problem_description_summary: 
+  problem_description_link: 
+  conference:
+    is_active: false
+    date: 
+    time: 
+    participants:
+      - name: 
+        title: 
+        twitter_url: 
+    resources: 
+  post_conference:
+    is_active: false
+    takeaways:
+    action_items:
+    resources:
+
+- title: Bite Prevention
+  id: 10
+  is_active: false
+  image: 
+  short_description: >
+    What are the creative, environmentally-friendly yet effective approaches to prevent mosquito bites at particular times (e.g. dusk) and on particular areas of the body (e.g. ankles)?
+  focus: 
+  problem_description_summary: 
+  problem_description_link: 
+  conference:
+    is_active: false
+    date: 
+    time: 
+    participants:
+      - name: 
+        title: 
+        twitter_url: 
+    resources: 
+  post_conference:
+    is_active: false
+    takeaways:
+    action_items:
+    resources:
+
+- title: Scale Up of Access to Comprehensive Healthcare
+  id: 11
+  is_active: false
+  image: 
+  short_description: >
+    How do we quickly scale up the infrastructure to manage acute and chronic care for Zika and other MBDs for patients and families and overcome current inefficiencies of health systems ? 
+  focus: 
+  problem_description_summary: 
+  problem_description_link: 
+  conference:
+    is_active: false
+    date: 
+    time: 
+    participants:
+      - name: 
+        title: 
+        twitter_url: 
+    resources: 
+  post_conference:
+    is_active: false
+    takeaways:
+    action_items:
+    resources:
+
+- title: Long Term Care
+  id: 12
+  is_active: false
+  image: 
+  short_description: >
+    How do we provide support for families with members at risk or already suffering with chronic effects of Zika, like Microcephaly?
+  focus: 
+  problem_description_summary: 
+  problem_description_link: 
+  conference:
+    is_active: false
+    date: 
+    time: 
+    participants:
+      - name: 
+        title: 
+        twitter_url: 
+    resources: 
+  post_conference:
+    is_active: false
+    takeaways:
+    action_items:
+    resources:
 

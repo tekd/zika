@@ -55,7 +55,7 @@
       <h5>Participants</h5>
       <ul id="participants_list">
       {% for participant in topic.conference.participants %}
-        <li><strong>{{participant.name}} {% if participant.twitter_url%}<a href="{{participant.twitter_url}}" target='_blank'><span class='fa fa-twitter' aria-hidden='true'></span></a> {% endif %}</strong>{{participant.title}}</li>
+        <li><strong>{{participant.name}} {% if participant.twitter_url%}<a href="{{participant.twitter_url}}" target='_blank'><span class='fa fa-twitter' aria-hidden='true'></span></a> {% endif %}</strong>{{participant.title}} <br>{{participant.affiliation}}</li>
       {% endfor %}
       </ul>
     </div>
