@@ -13,6 +13,7 @@
 <section>
   <div class="row expanded">
     {% for topic in topics %}
+    {% if topic.is_active %}
       <div class="large-6 column topic" style="background-image: url(./images/topics/{{topic.image}})">
         <h1>{{topic.title}}</h1>
         <p>{{topic.short_description}}</p>
@@ -23,7 +24,26 @@
           <em class="topic__day">{{ topic.conference.date | dateFilter("day")}}</em>
         </div>
       </div>
+      {% endif %}
     {% endfor %}
+  </div>
+</section>
+
+<section>
+  <div class="row expanded">
+    {% for topic in topics %}
+    {% if not topic.is_active %}
+        <div class="large-12 column topic topic--inactive">
+          <h1>{{topic.title}}</h1>
+          <p>{{topic.short_description}}</p>
+          <div class="topic__date">
+          <p><span class="topic__date"><h6>Forthcoming</h6></span></p>
+          </div>
+        </div>
+      </div>  
+    {% endif %}
+    {% endfor %}
+
     {# <div class="large-6 column topic topic--governance-and-coordination">
       <h1>COMMUNICATION & BEHAVIOR CHANGE<span class="topic__date">Sep <em>7</em></span></h1>
       <p>What are the most effective ways for getting the public to change behavior to prevent mosquito breeding and mosquito bites and get proper access to healthcare?</p>

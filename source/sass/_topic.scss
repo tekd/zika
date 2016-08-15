@@ -44,7 +44,14 @@
     opacity: .6;
     pointer-events: none;
   }
-
+  &--inactive {
+    color: rgba(white, .9);
+    opacity: .9;
+    pointer-events: none;
+    padding: 40px;
+    &:nth-of-type(odd) { background-color: rgba($main-color, .9); }
+    &:nth-of-type(even) { background-color: rgba($main-color, .95); }
+  }
   h1 {
     font-size: 22px;
     font-weight: 600;
