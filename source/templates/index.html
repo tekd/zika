@@ -27,10 +27,14 @@
           <div class="row expanded">
             {% for topic in topics %}
             <div class="large-6 column topic" style="background-image: url(./images/topics/{{topic.image}})">
-              <span class="topic__date"><p>Conference Date</p>{{ topic.conference.date | dateFilter("month")}}<br> <em>{{ topic.conference.date | dateFilter("day")}}</em></span>
               <h1>{{topic.title}}</h1>
               <p>{{topic.short_description}}</p>
               <p><a href="{{topic.title | slug }}.html" class="button button--theme-color">More Information</a></p>
+              <div class="topic__date">
+                <h6>Conference in</h6>
+                <span class="topic__month">{{ topic.conference.date | dateFilter("month") | truncate(3, true, "")}}</span>
+                <em class="topic__day">{{ topic.conference.date | dateFilter("day")}}</em>
+              </div>
             </div>
             {% endfor %}
         </div>

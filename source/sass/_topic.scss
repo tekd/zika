@@ -1,0 +1,59 @@
+.topic {
+  color: white;
+  padding: 80px 80px;
+  position: relative;
+  background-blend-mode: multiply;
+  background-color: $main-color;
+  background-size: cover;
+  background-position: center;
+  @extend .u-transition;
+
+  &:hover {
+    background-color: $theme-color;
+    @extend .u-transition;
+  }
+
+  &__date { 
+    position: absolute;
+    text-align: right;
+    right: 30px;
+    bottom: 15px;
+
+    h6 { 
+      margin: 10px 0 0;
+      line-height: 1;
+      display: inline-block;
+      font-size: 1rem;
+    }
+  }
+
+  &__month {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+  }
+
+  &__day {
+    font-size: 3rem;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  &--disabled {
+    color: rgba(white, .3);
+    opacity: .6;
+    pointer-events: none;
+  }
+
+  h1 {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 20px;
+  }
+}
