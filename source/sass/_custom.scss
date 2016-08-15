@@ -1,8 +1,8 @@
 $main-color: #2c4758;
 $accent-color: #FFAA00;
 $theme-color: #04ccb7;
-// $accent-color: #FF1150;
-// $accent-color: darken($purple, 8);
+
+.text-centered { text-align: center; }
 
 .top-bar--main-color {
   background-color: $main-color;
@@ -36,9 +36,9 @@ $theme-color: #04ccb7;
 
   &__highlight { 
     font-size: 1.4rem;
-
   }
-  // &--transparent { background-color: transparent; }
+  &--zebra-dark { background-color: rgba(black, 0.03); }
+
 }
 
 .divider--theme-color {
