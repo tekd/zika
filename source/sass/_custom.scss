@@ -36,10 +36,10 @@ $theme-color: #04ccb7;
 
 .top-section--background-panel-theme-color { 
   background-color: $theme-color; 
-  color: $main-color;
-
-  h1, h3 {mix-blend-mode: multiply;}
-
+  h3 {
+    color: white;
+    opacity: 1;
+  }
 }
 .page-section {
   &--main-color { background-color: $main-color; }
