@@ -41,11 +41,19 @@
 
 
 body {
+  @media only screen 
+    and (max-device-width: 1200px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+      .main-buttons {
+        display: none;
+      }
+  }
   @include breakpoint($touch) {
     @media (max-width: 414px) {
       .top-section {padding-top: 0;}
       .site-logo {max-width: 19rem; margin-top:16px;}
       .main-buttons {
+        display: none;
         .button--accent-color {
           display: inline-block;
           margin-bottom:15px;

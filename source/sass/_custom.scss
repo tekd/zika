@@ -134,10 +134,6 @@ $theme-color: #04ccb7;
   margin-bottom: -55px;
   position: relative;
   z-index: 1;
-  @media (max-width: 360px) {
-    display: none;
-  }
-
   .button {
     margin: 0 5px;
     box-shadow: 2px 2px 10px rgba(black, .1);
