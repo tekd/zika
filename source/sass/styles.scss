@@ -27,3 +27,11 @@
   padding-bottom: 30px;
   }
 }
+
+.checkbox label{
+    display: inline-block;
+    margin-left: 2.5em;
+}
+.checkbox label:before{
+    margin-left: -40px;
+}
