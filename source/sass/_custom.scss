@@ -58,7 +58,7 @@ $theme-color: #04ccb7;
 }
 
 .divider--main-color{
-  background-color: rgba($main-color);
+  background-color: rgba($main-color,.8);
   padding-top: 20px;
   padding-bottom: 20px;
   line-height: 1.3;
