@@ -57,19 +57,11 @@ $theme-color: #04ccb7;
   color: $main-color;
 }
 
-.divider--main-color{
-  background-color: rgba($main-color,.8);
-  padding-top: 20px;
-  padding-bottom: 20px;
-  line-height: 1.3;
-  color: $white;
-  h1 {
-    font-size: 2.2rem;
-    text-align: center;
-    text-transform: uppercase;
-  }
-
+.divider--main-color {
+  background-color: $main-color;
+  color: white;
 }
+
 
 
 .button--accent-color {
