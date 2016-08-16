@@ -28,7 +28,9 @@
     {% endfor %}
   </div>
 </section>
-
+<div class="divider--main-color">
+    <h1>Topics under Consideration</h1>
+</div>
 <section>
   {% for topic in topics %}
     {% if not topic.is_active %}
@@ -36,9 +38,6 @@
           <div class="large-9 medium-10 column">
           <h1>{{topic.title}}</h1>
           <p>{{topic.short_description}}</p>
-          <div class="topic__date">
-          <p><span class="topic__date"><h6>Forthcoming</h6></span></p>
-          </div>
         </div>
       </div>  
     {% endif %}
