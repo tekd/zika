@@ -251,6 +251,13 @@ gulp.task('nunjucksData', ['json'], function() {
 
 // END AUTO GEN PAGES
 
+// CNAME
+gulp.task('cname', function () {
+  return gulp.src('source/templates/CNAME')
+  .pipe(gulp.dest('public'));
+});
+
+
 // Sass
 gulp.task('sass', function () {
   // Gets all files ending with .scss in source/sass
@@ -327,7 +334,7 @@ gulp.task('watch', function () {
 gulp.task('default', function (callback) {
   runSequence(
     'clean',
-    ['sass', 'js', 'image', 'nunjucksGenerated', 'nunjucksData', 'vendor'],
+    ['sass', 'js', 'image', 'cname', 'nunjucksGenerated', 'nunjucksData', 'vendor'],
     ['browserSync', 'watch'],
     callback
   );
