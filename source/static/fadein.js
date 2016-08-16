@@ -3,7 +3,7 @@ $(document).ready(function() {
       items = $('.imagine-banner').children(),
       counter = 0;
   function bannerFade() {
-      target.fadeIn(2000).delay( 2000 ).fadeOut(2000,function() {
+      target.fadeIn(2000).delay( 4000 ).fadeOut(2000,function() {
           bannerFade();
       }).html(items[counter++]);
       if (counter == items.length) {
