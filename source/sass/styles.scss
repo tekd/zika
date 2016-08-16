@@ -9,32 +9,21 @@
 @import 'form.scss';
 @import 'people.scss';
 
-
-
-.footer--sections {
-  a {
-    @media (max-width: 500px) {
-      text-align: left;
-      padding-bottom: 20px;
-    }
-    display: block;
-    box-sizing: border-box;
-    color: $white-70;
-    padding: 5px 10px;
-    text-decoration: none;
-
-  &:hover {
-      color: $white;
-      background-color: $white-10;
-    }
+.footer-alt {
+  background-color: $gray-80;
+  text-align: center;
+  color: $white-80;
+  font-size: 18px;
+  h4 {
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom:0;
   }
-}
-
-.footer-partner {
-  @media (max-width: 500px) {
-    padding-bottom: 0;
-    width: 300px;
-    text-align: center;
-    h2 {display:none;}
+  .footer__partner-logo {
+    text-align:center;
+    img {
+      max-height: 80px;
+    }
+  padding-bottom: 30px;
   }
 }
