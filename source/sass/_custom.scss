@@ -140,6 +140,13 @@ $theme-color: #04ccb7;
 }
 
 .main-buttons {
+  @media only screen 
+    and (max-device-width: 400px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+      .button {
+        width: 46%;
+      }
+    }
   text-align: center;
   margin-bottom: -55px;
   position: relative;
