@@ -79,24 +79,25 @@ $theme-color: #04ccb7;
 
 
 .imagine-banner {
+  padding: 24px;
     h2 {
-      font-size: 24px;
+      padding-bottom: 0;
+      font-size: 1.5rem;
       text-transform: none;
       margin: 0;
       text-align: center;
-      padding: 80px;
       font-weight: 400;
       color: $main-color;
-      height: 38vh;
+      height: 30vh;
       @include breakpoint($touch) {
-        padding: 30px 0;
+        font-size: 1.2rem;
           @media (max-width: 414px) {
-            font-size: 18px;
-            padding-top: 9px;
+            font-size: 1rem;
         }
       }
       @include breakpoint($medium) {
-        padding: 80px; 
+        padding: 30px; 
+        font-size: 1.2rem;
       }
       &:after {
         color: white;
@@ -122,7 +123,10 @@ $theme-color: #04ccb7;
   max-width: 520px;
   margin-top: 70px;
   @include breakpoint($touch) {
+    @media (max-width: 565px) {
+
     max-width: 19rem; margin-top:16px;
+    }
   }
 
   &__wrapper {
