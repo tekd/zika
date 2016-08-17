@@ -108,17 +108,15 @@ $theme-color: #04ccb7;
       font-weight: 400;
       color: $main-color;
       height: 30vh;
-      @media (min-width: 640px) {
-        height: 18vh;
-      }
       @include breakpoint($touch) {
         font-size: 1.2rem;
-          @media (max-width: 414px) {
-            font-size: 1rem;
-            height:32vh;
-            padding: 0;
+        @media (max-width: 414px) {
+          font-size: 1rem;
         }
       }
+        @media (min-width: 740px) {
+          height: 18vh;
+        }
       @include breakpoint($medium) {
         padding: 30px; 
         font-size: 1.2rem;
@@ -129,7 +127,6 @@ $theme-color: #04ccb7;
       }
     }
 }
-
 
 ///////////////////////////////////////////////////////
 
