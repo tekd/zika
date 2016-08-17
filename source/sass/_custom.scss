@@ -110,9 +110,10 @@ $theme-color: #04ccb7;
       height: 30vh;
       @include breakpoint($touch) {
         font-size: 1.2rem;
-        @media (max-width: 414px) {
+        @media only screen  {
           font-size: 1rem;
         }
+        
       }
         @media (min-width: 740px) {
           height: 18vh;
