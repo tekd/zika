@@ -15,6 +15,11 @@ $theme-color: #04ccb7;
     }
   }
 }
+.top-bar__logo img {
+  @media (max-width: 500px) {
+    height:80%
+  }
+}
 
 .top-section--main-color { background-color: $main-color; }
 .top-section--theme-color { 
