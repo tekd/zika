@@ -41,15 +41,11 @@
     margin-left: -40px;
 }
 
+// Nav-menu fix
+.main-menu:not(.m-active) {
+  box-shadow: none;
+}
 
-// // REMOVE BUTTONS ON ALL MOBILE
-// body {
-//   @media only screen 
-//     and (max-device-width: 1200px)
-//     and (-webkit-min-device-pixel-ratio: 2) {
-//       .main-buttons {
-//         // display: none;
-//       }
-//   }
-// }
-
+.main-menu {
+  overflow-y: auto;
+}
