@@ -20,3 +20,17 @@
       margin-top: 20px;
     }
   }
+.partner-container {
+  @include breakpoint($touch) {
+    .partner-country h3 {
+      text-align:left;
+    }
+    @media (min-width: 515px) {
+      padding-left:20%;
+      .partner {padding:0;}
+    }
+    @media (max-width: 515px) {
+      .partner {padding:0;}
+    }
+  }
+}

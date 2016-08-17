@@ -40,14 +40,14 @@
 }
 
 
-// REMOVE BUTTONS ON ALL MOBILE
-body {
-  @media only screen 
-    and (max-device-width: 1200px)
-    and (-webkit-min-device-pixel-ratio: 2) {
-      .main-buttons {
-        display: none;
-      }
-  }
-}
+// // REMOVE BUTTONS ON ALL MOBILE
+// body {
+//   @media only screen 
+//     and (max-device-width: 1200px)
+//     and (-webkit-min-device-pixel-ratio: 2) {
+//       .main-buttons {
+//         // display: none;
+//       }
+//   }
+// }
 
