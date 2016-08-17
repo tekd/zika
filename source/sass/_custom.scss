@@ -21,10 +21,18 @@ $theme-color: #04ccb7;
   }
 }
 
+.top-section {
+  @include breakpoint($touch) {
+    padding-top:30px;
+    padding-bottom: 20px;
+  }
+}
+
 .top-section--main-color { background-color: $main-color; }
 .top-section--theme-color { 
   background-color: $theme-color; 
   color: $main-color;
+
 }
 .top-section--white { background-color: white; }
 
@@ -100,10 +108,15 @@ $theme-color: #04ccb7;
       font-weight: 400;
       color: $main-color;
       height: 30vh;
+      @media (min-width: 640px) {
+        height: 18vh;
+      }
       @include breakpoint($touch) {
         font-size: 1.2rem;
           @media (max-width: 414px) {
             font-size: 1rem;
+            height:32vh;
+            padding: 0;
         }
       }
       @include breakpoint($medium) {
@@ -135,8 +148,7 @@ $theme-color: #04ccb7;
   margin-top: 70px;
   @include breakpoint($touch) {
     @media (max-width: 565px) {
-
-    max-width: 19rem; margin-top:16px;
+      max-width: 19rem;
     }
   }
 
