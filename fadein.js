@@ -1,1 +1,1 @@
-$(document).ready(function(){function n(){e.fadeIn(2e3).delay(4e3).fadeOut(2e3,function(){n()}).html(a[i++]),i==a.length&&(i=0)}var e=$(".imagine-banner").hide(),a=$(".imagine-banner").children(),i=0;n()});
+$(document).ready(function(){function n(){e.fadeIn(2e3).delay(5500).fadeOut(2e3,function(){n()}).html(a[i++]),i==a.length&&(i=0)}var e=$(".imagine-banner").hide(),a=$(".imagine-banner").children(),i=0;n()});
