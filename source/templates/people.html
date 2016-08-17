@@ -7,11 +7,11 @@
 
 <div class="page-section">
 {% for partner in partners %}
-  <div class="row">
-    <div class="columns large-3 partner-country">
+  <div class="row partner-container">
+    <div class="columns large-3 small-12 partner-country">
       <h3>{{partner.partner_name}}</h3>
     </div>
-    <div class="columns large-9">
+    <div class="columns large-9 small-12">
       {%for person in partner.people%}
       <ul class="partner">
         <li class="partner-name">{{person.name}}</li>
