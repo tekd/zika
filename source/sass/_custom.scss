@@ -88,6 +88,16 @@ $theme-color: #04ccb7;
       font-weight: 400;
       color: $main-color;
       height: 38vh;
+      @include breakpoint($touch) {
+        padding: 30px 0;
+          @media (max-width: 414px) {
+            font-size: 18px;
+            padding-top: 9px;
+        }
+      }
+      @include breakpoint($medium) {
+        padding: 80px; 
+      }
       &:after {
         color: white;
         animation: imagine 10s linear infinite;
@@ -111,6 +121,9 @@ $theme-color: #04ccb7;
 .site-logo {
   max-width: 520px;
   margin-top: 70px;
+  @include breakpoint($touch) {
+    max-width: 19rem; margin-top:16px;
+  }
 
   &__wrapper {
     text-align: center;
