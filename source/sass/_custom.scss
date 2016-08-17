@@ -79,26 +79,25 @@ $theme-color: #04ccb7;
 
 
 .imagine-banner {
+  padding: 24px;
     h2 {
-      font-size: 24px;
+      padding-bottom: 0;
+      font-size: 1.5rem;
       text-transform: none;
       margin: 0;
       text-align: center;
-      padding: 80px;
       font-weight: 400;
       color: $main-color;
-      height: 40vh;
-      @media (max-width: 1023px) {
-        height: 75vh;
-        font-size: 22px;
+      height: 30vh;
+      @include breakpoint($touch) {
+        font-size: 1.2rem;
+          @media (max-width: 414px) {
+            font-size: 1rem;
+        }
       }
-      @media (max-width: 897px) {
-        height: 50vh;
-      }
-      @media (max-width: 485px) {
-        padding: 35px 20px;
-        height: 50vh;
-        font-size: 20px;
+      @include breakpoint($medium) {
+        padding: 30px; 
+        font-size: 1.2rem;
       }
       &:after {
         color: white;
@@ -123,6 +122,12 @@ $theme-color: #04ccb7;
 .site-logo {
   max-width: 520px;
   margin-top: 70px;
+  @include breakpoint($touch) {
+    @media (max-width: 565px) {
+
+    max-width: 19rem; margin-top:16px;
+    }
+  }
 
   &__wrapper {
     text-align: center;
