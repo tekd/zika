@@ -10,6 +10,7 @@
 
   @include breakpoint($medium) { padding: 40px 40px; }
   @include breakpoint($large) { padding: 80px 80px; }
+  @media (max-width: 640px) {padding: 45px;}
 
   &:hover {
     background-color: $theme-color;
