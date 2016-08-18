@@ -15,6 +15,9 @@ var del             = require('del'),
     uglify          = require('gulp-uglify'),
     ghPages         = require('gulp-gh-pages'),
     imagemin        = require('gulp-imagemin'),
+    imageResize     = require('gulp-image-resize'),
+    cache           = require('gulp-cache')
+    changed         = require('gulp-changed')
     sourcemaps      = require('gulp-sourcemaps'),
     browserSync     = require('browser-sync'),
     runSequence     = require('run-sequence').use(gulp),
@@ -274,10 +277,17 @@ gulp.task('vendor', function () {
     .pipe(gulp.dest('public/vendor'));
 });
 
-gulp.task('image', function () {
+gulp.task('image', ['imageResize'], function () {
   return gulp.src('source/static/images/**/*')
     .pipe(imagemin())
     .pipe(gulp.dest('public/images'));
+});
+
+gulp.task('imageResize', function () {
+  gulp.src('source/static/images/topics/*')
+    .pipe(changed('source/static/images/topics/resized/'))
+    .pipe(imageResize({ width : 2000 }))
+    .pipe(gulp.dest('source/static/images/topics/resized/'));
 });
 
 gulp.task('js', function () {
