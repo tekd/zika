@@ -76,37 +76,51 @@ $(document).ready(function() {
 
     }
 
+
     var pastParticipantCheck = $('input[name="entry.351358348"]');
 
-    pastParticipantCheck.change(function() {
-        var labelRequired = $('label[for="'+ aboutMeRequiredInput.attr("id") +'"]');
-        // labelRequired.find(".form-field-title").removeClass('field-required');
-        var labelNotRequired = $('label[for="'+ aboutMeNotRequiredInput.attr("id") +'"]');
-        // labelNotRequired.find(".form-field-title").addClass('field-required')
-      if ($('#group_351358348_1').is(":checked")) {
-        var i = requiredFields.indexOf(aboutMeRequiredInput);
-        if ( i != -1) {
-          requiredFields.splice(i, 1);
-        }
-        aboutMeRequiredInput.removeClass("invalid").addClass("valid");
-        var existingContent = aboutMeRequiredInput.val();
-        aboutMeRequiredInput.val("See Previous Application " + existingContent);
-        aboutMeRequiredInput.hide();
-        labelRequired.hide();
-        aboutMeNotRequiredInput.show();
-        labelNotRequired.show();
-      } else if ($('#group_351358348_2').is(":checked")) {
-        aboutMeRequiredInput.attr("required", true);
-        requiredFields.push(aboutMeRequiredInput);
-        var existingContent = aboutMeRequiredInput.val();
-        var newContent = existingContent.replace("See Previous Application ","");
-        aboutMeRequiredInput.val(newContent)
-        aboutMeRequiredInput.show();
-        labelRequired.show();
-        labelNotRequired.hide();
-        aboutMeNotRequiredInput.hide();
+    function validatePastParticipants() {
+
+      if ($('#group_351358348_1').is(":checked") || $('#group_351358348_2').is(":checked")) {
+        return true;
+      } else {
+        $('.error-messages').append('<p>Please fill out all required fields.</p>');
+        return false
       }
-    });
+    }
+
+    // TOGGLE REQUIRED FIELDS
+    // pastParticipantCheck.change(function() {
+    //     var labelRequired = $('label[for="'+ aboutMeRequiredInput.attr("id") +'"]');
+    //     // labelRequired.find(".form-field-title").removeClass('field-required');
+    //     var labelNotRequired = $('label[for="'+ aboutMeNotRequiredInput.attr("id") +'"]');
+    //     // labelNotRequired.find(".form-field-title").addClass('field-required')
+    //   if ($('#group_351358348_1').is(":checked")) {
+    //     var i = requiredFields.indexOf(aboutMeRequiredInput);
+    //     if ( i != -1) {
+    //       requiredFields.splice(i, 1);
+    //     }
+    //     aboutMeRequiredInput.removeClass("invalid").addClass("valid");
+    //     var existingContent = aboutMeRequiredInput.val();
+    //     aboutMeRequiredInput.val("See Previous Application " + existingContent);
+    //     aboutMeRequiredInput.hide();
+    //     labelRequired.hide();
+    //     aboutMeNotRequiredInput.show();
+    //     labelNotRequired.show();
+    //   } else if ($('#group_351358348_2').is(":checked")) {
+    //     aboutMeRequiredInput.attr("required", true);
+    //     requiredFields.push(aboutMeRequiredInput);
+    //     var existingContent = aboutMeRequiredInput.val();
+    //     var newContent = existingContent.replace("See Previous Application ","");
+    //     aboutMeRequiredInput.val(newContent)
+    //     aboutMeRequiredInput.show();
+    //     labelRequired.show();
+    //     labelNotRequired.hide();
+    //     aboutMeNotRequiredInput.hide();
+    //   }
+    // });
+
+    // END TOGGLE REQUIRED FIELDS
 
     var validated = false;
 
@@ -128,7 +142,7 @@ $(document).ready(function() {
 
     function validateForm() {
       $('.error-messages').text("");
-        validated = noNullFields(requiredFields) && validateEmailAddress() && validateConferenceSelect();
+        validated = noNullFields(requiredFields) && validateEmailAddress() && validateConferenceSelect() && validatePastParticipants() ;
     }
 
     function liveValidateNullFields(requiredFields) {  
