@@ -245,46 +245,60 @@
     is_active: true
     date: September 7, 2016
     time: 10am - 12pm EST
-    participants:
-      - name: Rafael F. Ayoub, MD
-        title: Health Research Advisor
-        affiliation: The GovLab
-        twitter_url:
-      - name: Dr. Lizbeth Cerezo 
-        title: National Coordinator of Epidemiological Surveillance of Arbovirosis and Malaria
-        affiliation: Ministry of Health, Panama
-        twitter_url:
-      - name: Dr. Betina Durovni
-        title: Sub-Secretary of Primary Health, Prevention and Surveillance
-        affiliation: City of Rio de Janeiro, Brazil
-      - name: Aranzazu Echezarreta
-        title: National Director of Public Innovation
-        affiliation: Ministry of Modernization, Argentina
-        twitter_url:
-      - name: María Hermosilla
-        title: Project Manager
-        affiliation: The GovLab
-        twitter_url:
-      - name: Ralf Moreno
-        title: Project Manager
-        affiliation: Inter-American Development Bank
-        twitter_url:
-      - name: Dr. María Mercedes Muñoz 
-        title: Coordinator of the Public Health Surveillance Group, Demography and Epidemiology Department
-        affiliation: Ministry of Health and Social Protection, Colombia
-        twitter_url:
-      - name: Professor Beth Simone Noveck
-        title: Director/NYU
-        affiliation: The GovLab
-        twitter_url:
-      - name: Dr. Juan Miguel Pascale
-        title: Deputy Director 
-        affiliation: The Gorgas Memorial Institute for Health Studies, Panama
-        twitter_url:
-      - name: Diana Pinto
-        title: Health Lead Specialist, USA
-        affiliation: Inter-American Development Bank
-        twitter_url:
+    supporting_participants: 
+    partner_participants:
+      - name: Panama
+        people:
+          - name: Dr. Lizbeth Cerezo
+            title: National Coordinator of Epidemiological Surveillance of Arbovirosis and Malaria
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Dr. Juan Pascale
+            title: Deputy Director
+            affiliation: The Gorgas Memorial Institute for Health Studies
+            twitter_url:
+      - name: Argentina
+        people:
+          - name: Aranzazu Echezarreta
+            title: National Director of Public Innovation
+            affiliation: Ministry of Modernization, Argentina
+            twitter_url:
+      - name: Colombia
+        people:
+          - name: Dr. María Mercedes Muñoz
+            title: Coordinator of the Public Health Surveillance Group, Demography and Epidemiology Department
+            affiliation: Ministry of Health and Social Protection
+            twitter_url:
+      - name: City of Rio de Janeiro
+        people:
+          - name: Dr. Betina Durovni
+            title: Sub-Secretary of Primary Health
+            affiliation: Prevention and Surveillance 
+            twitter_url:
+      - name: Inter-American Development Bank 
+        people:
+          - name: Ralf Moreno
+            title: Project Manager
+            affiliation: Social Protection and Health Division
+            twitter_url:
+          - name: Diana Pinto
+            title: Health Lead Specialist, USA
+            affiliation: Social Protection and Health Division
+            twitter_url:
+      - name: The Governance Lab, NYU
+        people:
+          - name: Dr. Rafael Ayoub
+            title: Health Research Advisor
+            affiliation: 
+            twitter_url:
+          - name: Professor Beth Simone Noveck
+            title: Director
+            affiliation: 
+            twitter_url:
+          - name: María Hermosilla
+            title: Project Manager and Research Fellow
+            affiliation: 
+            twitter_url:
     resources: 
   post_conference:
     is_active: false
