@@ -48,16 +48,33 @@
   <h1>Participants</h1>
 </section>
 <section class="page-section">
+  {% if topic.conference.supporting_participants %}
   <div class="row align-center">
     <div class="column large-9 medium-10 participants">
-      <h5>Participants</h5>
-      <ul id="participants_list">
-      {% for participant in topic.conference.participants %}
-        <li><strong>{{participant.name}} {% if participant.twitter_url%}<a href="{{participant.twitter_url}}" target='_blank'><span class='fa fa-twitter' aria-hidden='true'></span></a> {% endif %}</strong>{{participant.title}} <br>{{participant.affiliation}}</li>
+    <h4>Supporters</h4>
+        <ul id="participants_list">
+        {% for person in topic.conference.supporting_participants %}
+          <li><strong>{{person.name}} {% if person.twitter_url%}<a href="{{person.twitter_url}}" target='_blank'><span class='fa fa-twitter' aria-hidden='true'></span></a> {% endif %}</strong>{{person.title}} <br>{{person.affiliation}}</li>
       {% endfor %}
       </ul>
     </div>
   </div>
+  {% endif%}
+  {% if topic.conference.partner_participants %}
+  <div class="row align-center">
+    <div class="column large-9 medium-10 participants">
+    <h4>Government Partners</h4>
+      {% for p in topic.conference.partner_participants %}
+      <h5>{{p.name}}</h5>
+        <ul id="participants_list">
+        {% for person in p.people %}
+          <li><strong>{{person.name}} {% if person.twitter_url%}<a href="{{person.twitter_url}}" target='_blank'><span class='fa fa-twitter' aria-hidden='true'></span></a> {% endif %}</strong>{{person.title}} <br>{{person.affiliation}}</li>
+        {% endfor %}
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+  {% endif %}
 </section>
 
 

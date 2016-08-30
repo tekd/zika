@@ -15,46 +15,204 @@
     is_active: true
     date: August 31, 2016
     time: 10am - 12pm EST
-    participants:
-      - name: Rafael F. Ayoub, MD
-        title: Health Research Advisor
-        affiliation: The GovLab
+    supporting_participants: 
+      - name: David Broniatowski
+        title: Assistant Professor, School of Engineering and Applied Science
+        affiliation: The George Washington University, US 
         twitter_url:
-      - name: Dr. Lizbeth Cerezo 
-        title: National Coordinator of Epidemiological Surveillance of Arbovirosis and Malaria
-        affiliation: Ministry of Health, Panama
+      - name: Huiling Ding
+        title: Associate Professor
+        affiliation: North California State University, USA 
         twitter_url:
-      - name: Dr. Betina Durovni
-        title: Sub-Secretary of Primary Health, Prevention and Surveillance
-        affiliation: City of Rio de Janeiro, Brazil
-      - name: Aranzazu Echezarreta
-        title: National Director of Public Innovation
-        affiliation: Ministry of Modernization, Argentina
+      - name: John P. Elder
+        title: Distinguished Professor, Division of Health Promotion and Behavioral Science, Graduate School of Public Health
+        affiliation: San Diego State University
         twitter_url:
-      - name: María Hermosilla
-        title: Project Manager
-        affiliation: The GovLab
+      - name: Dr. Gaya Gamhewage
+        title: Medical Officer, Infectious Hazards Management, Health Emergency Programme
+        affiliation: World Health Organization, Switzerland
         twitter_url:
-      - name: Ralf Moreno
-        title: Project Manager
-        affiliation: Inter-American Development Bank
+      - name: Manuel Garcia-Herranz
+        title: Lead Research Scientist
+        affiliation: UNICEF Office of Innovation
         twitter_url:
-      - name: Dr. María Mercedes Muñoz 
-        title: Coordinator of the Public Health Surveillance Group, Demography and Epidemiology Department
-        affiliation: Ministry of Health and Social Protection, Colombia
+      - name: Dan Goldstein
+        title: Principal Researcher
+        affiliation: Microsoft Research, USA  
         twitter_url:
-      - name: Professor Beth Simone Noveck
-        title: Director/NYU
-        affiliation: The GovLab
+      - name: Molly Jackman
+        title: Public Policy Research Manager,
+        affiliation: Facebook
         twitter_url:
-      - name: Dr. Juan Miguel Pascale
-        title: Deputy Director 
-        affiliation: The Gorgas Memorial Institute for Health Studies, Panama
+      - name: José Ignacio Mata
+        title: Expert in Communication for Behavioral Change, Salud Mesoamerica 2015
+        affiliation: Honduras
         twitter_url:
-      - name: Diana Pinto
-        title: Health Lead Specialist, USA
-        affiliation: Inter-American Development Bank
+      - name: Esteban Moro
+        title: Visiting Professor, MIT Media Lab, USA; Assistant Professor, Department of Mathematics, Carlos III University of Madrid, Spain
+        affiliation: 
         twitter_url:
+      - name: Mario Mosquera-Vasquez
+        title:  Chief, Communication for Development
+        affiliation:  UNICEF-India
+        twitter_url:
+      - name: Dr. Adriana Naim
+        title: Health Programs Coordinator
+        affiliation: RTI International, Guatemala
+        twitter_url:
+      - name: Monserrat Naranjo
+        title: Directora de Proyectos, Curarse en Salud
+        affiliation: Mexico
+        twitter_url:
+      - name: Wendy Nilsen
+        title: Program Director, Smart and Connected Health
+        affiliation: National Science Foundation, USA
+        twitter_url:
+      - name: Brendan Nyhan
+        title: Professor, Department of Government
+        affiliation: Dartmouth College, USA
+        twitter_url:
+      - name: Nancy Pendarvis Harris
+        title: Vice President
+        affiliation: JSI, USA
+        twitter_url:
+      - name: Mathias Pollock
+        title: Social and Behavior Change Technical Advisor
+        affiliation: Population Services International
+        twitter_url:
+      - name: Lee Rainie
+        title: Director of Internet, Science and Technology Research
+        affiliation: Pew Research Center, USA
+        twitter_url:
+      - name: Dr. Magdalena Serpa
+        title: Senior Program Officer, Maternal, Newborn, Child Health & Nutrition
+        affiliation: PATH  
+        twitter_url:
+      - name: Fabro Steibe
+        title: Executive Director
+        affiliation: Institute for Technology and Society, Brazil
+        twitter_url:
+      - name: Joshua Tucker
+        title: Co-Director, Social Media and Political Participation Lab (Smapp)
+        affiliation: NYU, USA
+        twitter_url:
+      - name: Dr. Lynn Weekes
+        title: CEO
+        affiliation: NPS Medicinewise, Australia
+    partner_participants:
+      - name: Panama
+        people:
+          - name: Dr. María Eugenia Barnett de Antinori
+            title: Global Health Security Project Coordinator
+            affiliation: The Gorgas Memorial Institute for Health Studies
+            twitter_url:
+          - name: Dr. Israel Cedeño
+            title: International Epidemiological Surveillance Coordinator
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Dr. Lizbeth Cerezo
+            title: National Coordinator of Epidemiological Surveillance of Arbovirosis and Malaria
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Gliz Checa
+            title: Promotion Department
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Joel González
+            title: Communication Department
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Dr. Juan Pascale
+            title: Deputy Director
+            affiliation: The Gorgas Memorial Institute for Health Studies
+            twitter_url:
+          - name: Evidelia Saavedra
+            title: Promotion Department
+            affiliation: Ministry of Health
+            twitter_url:
+      - name: Argentina
+        people:
+          - name: Gaston De Rochebouët
+            title: Public Innovation National Direction
+            affiliation: Ministry of Modernization
+            twitter_url:
+          - name: Tomás Dominguez Vidal
+            title: Public Innovation National Direction
+            affiliation: Ministry of Modernization
+            twitter_url:
+          - name: Dr. Raul Forlenza
+            title: Department of Epidemiology
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Andrea Jaitt
+            title: Communication Services
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Dr. Eugenio Mirkin
+            title: Department of Epidemiology
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Dr. Jorge San Juan
+            title: Director of Epidemiology
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Dr. Teresa Varela
+            title: Department of Epidemiology
+            affiliation: Ministry of Health
+            twitter_url:
+      - name: Colombia
+        people:
+          - name: Dr. María Mercedes Muñoz
+            title: Coordinator of the Public Health Surveillance Group, Demography and Epidemiology Department
+            affiliation: Ministry of Health and Social Protection
+            twitter_url:
+          - name: María Isabel Schotborgh
+            title: Specialist
+            affiliation: Ministry of Health and Social Protection
+            twitter_url:
+      - name: City of Rio de Janeiro
+        people:
+          - name: Dr. Betina Durovni
+            title: Sub-Secretary of Primary Health
+            affiliation: Prevention and Surveillance 
+            twitter_url:
+          - name: Cristina Boaretto
+            title: Health Promotion Superintendent
+            affiliation: Secretary of Health
+            twitter_url:
+          - name: Valeria Saraceni
+            title: Health Situation Analysis Coordination
+            affiliation: Secretary of Health
+            twitter_url:
+      - name: Inter-American Development Bank 
+        people:
+          - name: Rafael Anta
+            title: Lead Specialist
+            affiliation: Competitiveness and Innovation Division
+            twitter_url:
+          - name: Ralf Moreno
+            title: Project Manager
+            affiliation: Social Protection and Health Division
+            twitter_url:
+          - name: Diana Pinto
+            title: Health Lead Specialist, USA
+            affiliation: Social Protection and Health Division
+            twitter_url:
+      - name: The Governance Lab, NYU
+        people:
+          - name: Dr. Rafael Ayoub
+            title: Health Research Advisor
+            affiliation: 
+            twitter_url:
+          - name: Professor Beth Simone Noveck
+            title: Director
+            affiliation: 
+            twitter_url:
+          - name: María Hermosilla
+            title: Project Manager and Research Fellow
+            affiliation: 
+            twitter_url:
+          
     resources:
       # - name: Example Conference Resource
       #   url: www.example.com
