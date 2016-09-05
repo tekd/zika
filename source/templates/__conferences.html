@@ -26,8 +26,8 @@
     <a href="./call-for-participants.html" class="button button--accent-color">Participate</a>
   </div>
 </section>
-
 <section class="page-section">
+{% if topic.problem_description_summary %}
   <div class="row align-center">
     <div class="column large-9 medium-10">
       <h5>Problem Description</h5>
@@ -35,6 +35,7 @@
       <a href="{{ topic.problem_description_link }}" target="_blank" class="button button--accent-color">Read the Problem Description</a>
     </div>
   </div>
+{% endif %}
   <div class="row align-center">
     <div class="column large-9 medium-10">
       <h5>Request an Invitation</h5>

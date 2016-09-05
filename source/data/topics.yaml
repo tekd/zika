@@ -395,10 +395,11 @@
   short_description: >
     What can be done to eliminate uncollected waste and standing water where Aedes Aegypti mosquitoes breed?
   focus: Trash and containers fill with standing water where mosquitoes breed. The goal of this session is to identify innovative and effective methods to prevent waste accumulation and water deposits from becoming more sources of breeding sites.
+  topic_description_summary: The problems have been fleshed out into a briefing designed to describe the root causes of the problem, current approaches in different countries, and lessons learned from other domains.
   problem_description_summary: Each online session is focused on a specific problem, that has been fleshed out into a briefing to describe the root causes of the problem, current approaches in different countries, and lessons learned from other domains.
   problem_description_link: https://docs.google.com/document/d/1FGhvl935iBNKW9UA5Tt3iw9n3YakIFf_hat-5x7tIe8/edit
   conference:
-    is_active: false
+    is_active: true
     date: September 21, 2016
     time: 10am - 12pm EST
     supporting_participants: 
@@ -497,12 +498,13 @@
   short_description: >
     How do we develop policies and practices for better epidemiological data collecting and for sharing the data with the correct authorities, where there is an absence of government action?
   focus: Slow and inaccurate collection and dissemination of epidemiological data reduces efficiency in the prevention and control of outbreaks. The goal of this session is to identify innovative and effective methods to collect reliable epidemiological data and making it available for policy makers.
+  topic_description_summary: The problems have been fleshed out into a briefing designed to describe the root causes of the problem, current approaches in different countries, and lessons learned from other domains.
   problem_description_summary: 
   problem_description_link: 
   conference:
-    is_active: false
-    date: 
-    time: 
+    is_active: true
+    date: September 28, 2016
+    time: 10am - 12pm EST
     supporting_participants: 
     partner_participants:
       - name: Panama
