@@ -13,7 +13,7 @@
 <section>
   <div class="row expanded">
     {% for topic in topics %}
-    {% if topic.is_active %}
+    {% if topic.is_active  and topic.conference.is_active %}
       <div class="large-6 small-12 column topic" style="background-image: url(./images/topics/resized/{{topic.image}})">
         <h1>{{topic.title}}</h1>
         <p>{{topic.short_description}}</p>
@@ -25,6 +25,20 @@
         </div>
       </div>
       {% endif %}
+    {% endfor %}
+    {% for topic in topics %}
+    {% if topic.is_active and not topic.conference.is_active %}
+      <div class="large-6 small-12 column topic" style="background-image: url(./images/topics/resized/{{topic.image}})">
+        <h1>{{topic.title}}</h1>
+        <p>{{topic.short_description}}</p>
+        <p><a href="{{topic.title | slug }}.html" class="button button--theme-color">More Information</a></p>
+        <div class="topic__date topic__date-past">
+          <h6>This conference took place on</h6>
+          <span class="topic__month">{{ topic.conference.date | dateFilter("month") | truncate(3, true, "")}}</span>
+          <em class="topic__day">{{ topic.conference.date | dateFilter("day")}}</em>
+        </div>
+      </div>
+    {% endif %}
     {% endfor %}
   </div>
 </section>

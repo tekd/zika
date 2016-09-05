@@ -12,7 +12,7 @@
       Each online session is focused on a specific problem, that has been fleshed out into a briefing to describe the root causes of the problem, current approaches in different countries, and lessons learned from other domains.
   problem_description_link: https://docs.google.com/document/d/1JsbhW2nXFRCxqC_jxv-VFjyBHtqM7QwmG25Hu1v8E1Y/edit
   conference:
-    is_active: true
+    is_active: false
     date: August 31, 2016
     time: 10am - 12pm EST
     supporting_participants: 
