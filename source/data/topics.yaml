@@ -36,10 +36,6 @@
         title: Lead Research Scientist
         affiliation: UNICEF Office of Innovation
         twitter_url:
-      - name: Dan Goldstein
-        title: Principal Researcher
-        affiliation: Microsoft Research, USA  
-        twitter_url:
       - name: Molly Jackman
         title: Public Policy Research Manager,
         affiliation: Facebook
@@ -72,6 +68,10 @@
         title: Professor, Department of Government
         affiliation: Dartmouth College, USA
         twitter_url:
+      - name: Rafael Obregon
+        title:  Chief, Communication for Development
+        affiliation: UNICEF, USA
+        twitter_url:
       - name: Nancy Pendarvis Harris
         title: Vice President
         affiliation: JSI, USA
@@ -83,6 +83,14 @@
       - name: Lee Rainie
         title: Director of Internet, Science and Technology Research
         affiliation: Pew Research Center, USA
+        twitter_url:
+      - name: Alex Rutherford
+        title: Data Scientist
+        affiliation: UNICEF Innovation Unit, USA
+        twitter_url:
+      - name: Esmily Yusmary Ruiz Varón
+        title: Consultant, Transmissible Diseases
+        affiliation: Ministry of Health and Social Protection, Colombia
         twitter_url:
       - name: Dr. Magdalena Serpa
         title: Senior Program Officer, Maternal, Newborn, Child Health & Nutrition
@@ -99,6 +107,10 @@
       - name: Dr. Lynn Weekes
         title: CEO
         affiliation: NPS Medicinewise, Australia
+      - name: Allison Wolff
+        title:
+        affiliation: Facebook, USA
+        twitter_url:
     partner_participants:
       - name: Panama
         people:
@@ -166,12 +178,28 @@
             twitter_url:
       - name: Colombia
         people:
+          - name: Ricardo Amortegui González
+            title: Coordinator, Communications Group
+            affiliation: Ministry of Health and Social Protection
+            twitter_url:
+          - name: Jairo Hernández Márquez
+            title: Coordinator, Healthy Territories Group, Subdepartment of Environmental Health
+            affiliation: Ministry of Health and Social Protection
+            twitter_url:
+          - name: Ana María Lara Salinas
+            title:  Advisor, Cooperation and International Relations
+            affiliation: Ministry of Health and Social Protection
+            twitter_url:
           - name: Dr. María Mercedes Muñoz
             title: Coordinator of the Public Health Surveillance Group, Demography and Epidemiology Department
             affiliation: Ministry of Health and Social Protection
             twitter_url:
-          - name: María Isabel Schotborgh
-            title: Specialist
+          - name: Julio Padilla
+            title: Specialist, Subdepartment of Communicable Diseases, Department of Promotion and Prevention
+            affiliation: Ministry of Health and Social Protection
+            twitter_url:
+          - name: Mónica Lucía Ramírez
+            title: Subdepartment of Environmental Health
             affiliation: Ministry of Health and Social Protection
             twitter_url:
       - name: City of Rio de Janeiro
