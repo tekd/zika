@@ -278,27 +278,163 @@
     date: September 7, 2016
     time: 10am - 12pm EST
     supporting_participants: 
+      - name: Dr. Juliet Bedford
+        title: Director
+        affiliation: Anthrologica, United Kingdom
+        twitter_url: 
+      - name: Aphaluck Bhatiasevi
+        title: Technical Officer, Risk Communication
+        affiliation: World Health Organization, Switzerland
+        twitter_url: 
+      - name: Professor Brian Elbel
+        title: Associate Professor of Population Health and Health Policy
+        affiliation: NYU School of Medicine & NYU Wagner Graduate School of Public Service, USA
+        twitter_url: 
+      - name: John P. Elder
+        title: Distinguished Professor, Division of Health Promotion and Behavioral Science, Graduate School of Public Health
+        affiliation: San Diego State University, USA
+        twitter_url: 
+      - name: Baruch Fischhoff
+        title: Howard Heinz University Professor, Department of Engineering and Public Policy, Institute for Politics and Strategy
+        affiliation: Carnegie Mellon University, USA
+        twitter_url: 
+      - name: Romaine Lacombe
+        title: CEO and Co Founder
+        affiliation: Plume Labs
+        twitter_url: 
+      - name: Miguel Luengo Ortiz
+        title: Founder, Malaria Spot; Chief Data Scientist, UN Global Pulse
+        affiliation: Spain
+        twitter_url: 
+      - name: Christopher Mast
+        title: Executive Director & Area Lead for Infectious Disease
+        affiliation: Merck
+        twitter_url: 
+      - name: Jaykumar Menon
+        title: Professor of Practice
+        affiliation: McGill University Institute for the Study of International Development, Canada
+        twitter_url: 
+      - name: María Lucía Mesa Rubio
+        title: Advisor, Vice Minister
+        affiliation: Ministry of Health and Social Protection
+        twitter_url: 
+      - name: Dr. Adriana Naim
+        title: Health Programs Coordinator
+        affiliation: RTI International, Guatemala
+        twitter_url: 
+      - name: Monserrat Narváez
+        title: Project Director
+        affiliation: Curarse en Salud, Mexico
+        twitter_url: 
+      - name: Rafael Obregon
+        title: Chief, Communication for Development
+        affiliation: UNICEF, USA
+        twitter_url: 
+      - name: Carlos Scartascini
+        title: Research Economist
+        affiliation: Inter-American Development Bank, USA
+        twitter_url: 
+      - name: Alexandra Siegel
+        title: Social Media and Political Participation Lab (Smapp)
+        affiliation: NYU, USA
+        twitter_url: 
+      - name: Monica Wills Silva
+        title: Advisor
+        affiliation: Behavioral Insights Team, United Kingdom
+        twitter_url: 
     partner_participants:
       - name: Panama
         people:
+          - name: Gliz Checa
+            title: Promotion Department
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Evidelia Saavedra
+            title: Promotion Department
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Joel González
+            title: Communication Department
+            affiliation: Ministry of Health
+            twitter_url:
           - name: Dr. Lizbeth Cerezo
             title: National Coordinator of Epidemiological Surveillance of Arbovirosis and Malaria
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Julio Ruiloba
+            title: Communications
+            affiliation: Presidency
+            twitter_url:
+          - name: Dr. Israel Cedeño
+            title: International Epidemiological Surveillance Coordinator
             affiliation: Ministry of Health
             twitter_url:
           - name: Dr. Juan Pascale
             title: Deputy Director
             affiliation: The Gorgas Memorial Institute for Health Studies
             twitter_url:
+          - name: Dr. María Eugenia Barnett de Antinori
+            title: Global Health Security Project Coordinator
+            affiliation: The Gorgas Memorial Institute for Health Studies
+            twitter_url:
       - name: Argentina
         people:
-          - name: Aranzazu Echezarreta
-            title: National Director of Public Innovation
-            affiliation: Ministry of Modernization, Argentina
+          - name: Dr. Jorge San Juan
+            title: Director of Epidemiology
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Dr. Raul Forlenza
+            title: Department of Epidemiology
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: María Victoria Gazia
+            title: Department of Epidemiology
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Dr. Eugenio Mirkin
+            title: Department of Epidemiology
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Florencia Guedes
+            title: Communication Services
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Andrea Jaitt
+            title: Communication Services
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Tomás Dominguez Vidal
+            title: Public Innovation National Direction
+            affiliation: Ministry of Modernization
             twitter_url:
       - name: Colombia
         people:
+          - name: Ricardo Amortegui González
+            title: Coordinator, Communications Group
+            affiliation: Ministry of Health and Social Protection
+            twitter_url:
+          - name: Jairo Hernández Márquez
+            title: Coordinator, Healthy Territories Group, Subdepartment of Environmental Health
+            affiliation: Ministry of Health and Social Protection
+            twitter_url:
+          - name: Esmily Ruiz Varón
+            title: Subdepartment of Communicable Diseases, Department of Promotion and Prevention
+            affiliation: Ministry of Health and Social Protection
+            twitter_url:
           - name: Dr. María Mercedes Muñoz
             title: Coordinator of the Public Health Surveillance Group, Demography and Epidemiology Department
+            affiliation: Ministry of Health and Social Protection
+            twitter_url:
+          - name: Julio Padilla
+            title: Specialist, Subdepartment of Communicable Diseases, Department of Promotion and Prevention
+            affiliation: Ministry of Health and Social Protection
+            twitter_url:
+          - name: Mónica Lucía Ramírez
+            title: Subdepartment of Environmental Health
+            affiliation: Ministry of Health and Social Protection
+            twitter_url:
+          - name: Ana María Lara Salinas
+            title:  Advisor, Cooperation and International Relations
             affiliation: Ministry of Health and Social Protection
             twitter_url:
       - name: City of Rio de Janeiro
@@ -307,8 +443,20 @@
             title: Sub-Secretary of Primary Health
             affiliation: Prevention and Surveillance 
             twitter_url:
+          - name: Cristina Boaretto
+            title: Health Promotion Superintendent
+            affiliation: Secretary of Health
+            twitter_url:
+          - name: Valeria Saraceni
+            title: Health Situation Analysis Coordination
+            affiliation: Secretary of Health
+            twitter_url:
       - name: Inter-American Development Bank 
         people:
+          - name: Rafael Anta
+            title: Lead Specialist
+            affiliation: Competitiveness and Innovation Division
+            twitter_url:
           - name: Ralf Moreno
             title: Project Manager
             affiliation: Social Protection and Health Division
