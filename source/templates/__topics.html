@@ -9,7 +9,7 @@
     </div>
   </div>
   <div class="main-buttons">
-    {% if conference.is_active %}<a href="{{title | slug}}-conference.html" class="button button--accent-color">Conference</a>{% endif %}
+    {% if is_active and conference %}<a href="{{title | slug}}-conference.html" class="button button--accent-color">Conference</a>{% endif %}
     <a href="./call-for-participants.html" class="button button--accent-color">Participate</a>
   </div>
 </section>
