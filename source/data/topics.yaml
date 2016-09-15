@@ -672,11 +672,11 @@
   is_active: true
   image: infocollection-bw.jpg
   short_description: >
-    How do we develop policies and practices for better epidemiological data collecting and for sharing the data with the correct authorities, where there is an absence of government action?
-  focus: Slow and inaccurate collection and dissemination of epidemiological data reduces efficiency in the prevention and control of outbreaks. The goal of this session is to identify innovative and effective methods to collect reliable epidemiological data and making it available for policy makers.
+    How do we develop policies and practices for better epidemiological data collection and for sharing data with the appropriate authorities?
+  focus: Slow and inaccurate collection and dissemination of epidemiological data reduces efficiency in the prevention and control of outbreaks. The goal of this session is to identify innovative and effective methods to collect reliable epidemiological data from institutions and individuals and make it available. We are looking for concrete and specific examples of responsible and effective public health data sharing practices.
   topic_description_summary: The problems have been fleshed out into a briefing designed to describe the root causes of the problem, current approaches in different countries, and lessons learned from other domains.
-  problem_description_summary: 
-  problem_description_link: 
+  problem_description_summary: Each online session is focused on a specific problem, that has been fleshed out into a briefing to describe the root causes of the problem, current approaches in different countries, and lessons learned from other domains.
+  problem_description_link: https://docs.google.com/document/d/1LZlg7w_JW3JbDqoyRBE2OzjqGIw3Fq5dgd-1OchQ-iQ/edit
   conference:
     is_active: true
     date: September 28, 2016
