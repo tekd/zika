@@ -36,7 +36,7 @@
                 <p><a href="{{topic.title | slug }}.html" class="button button--theme-color">
                 More Information</a></p>
                 {% elif topic.conference.is_active and not topic.conference.is_active_info %}
-                <p><button disabled class="button button--theme-color button--disabled">More Information Coming Soon</button></p>
+                <p><a href="javascript: void(0)" class="button button--disabled">More Information Coming Soon</a></p>
                 {% endif %}
                 <div class="topic__date">
                   <h6>Conference on</h6>

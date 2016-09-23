@@ -94,7 +94,13 @@ $theme-color: #04ccb7;
   }
 }
 
-.button--disabled { font-size: 20px; line-height: 32px; }
+.button--disabled {
+    cursor: default;
+
+    &:hover {
+      background-color: rgba(0,0,0,0.1); 
+    }
+}
 
 /////////////////////////////////////////////////////////////////
 
