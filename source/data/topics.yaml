@@ -950,7 +950,7 @@
 - title: Long Term Care
   id: 12
   is_active: true
-  image: 
+  image: long-term-care.jpg
   short_description: >
     How do we provide support for families with members who are at risk or already suffering with chronic effects of Zika, such as Microcephaly?
   focus: 
@@ -975,7 +975,7 @@
 - title: Predictive Analytics
   id: 04
   is_active: true
-  image: 
+  image: predictive-analytics.jpg
   short_description: >
     What are the innovative options to analyze available data from new technologies to predict and therefore prevent outbreaks?
   focus: 
