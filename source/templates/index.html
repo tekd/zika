@@ -32,7 +32,12 @@
               <div class="large-6 small-12 column topic" style="background-image: url(./images/topics/resized/{{topic.image}})">
                 <h1>{{topic.title}}</h1>
                 <p>{{topic.short_description}}</p>
-                <p><a href="{{topic.title | slug }}.html" class="button button--theme-color">More Information</a></p>
+                {% if topic.conference.is_active and topic.conference.is_active_info %}
+                <p><a href="{{topic.title | slug }}.html" class="button button--theme-color">
+                More Information</a></p>
+                {% elif topic.conference.is_active and not topic.conference.is_active_info %}
+                <p><button disabled class="button button--theme-color button--disabled">More Information Coming Soon</button></p>
+                {% endif %}
                 <div class="topic__date">
                   <h6>Conference on</h6>
                   <span class="topic__month">{{ topic.conference.date | dateFilter("month") | truncate(3, true, "")}}</span>
