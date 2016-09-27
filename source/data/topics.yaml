@@ -814,6 +814,74 @@
     date: September 28, 2016
     time: 10am - 12pm EST
     supporting_participants: 
+      - name: Sebastián Acevedo
+        title: Consultant on Open Government, Public Innovation and Data Analytics
+        affiliation: Inter-American Development Bank, USA
+        twitter_url:
+      - name: Dr Graham Alabaster
+        title: Senior Technical Officer
+        affiliation: Department of Public Health and Environment, Water Sanitation Hygiene and Health, World Health Organization, Switzerland
+        twitter_url:
+      - name: Frederic Bartumeus
+        title: Spain Research Professor, Director
+        affiliation: Catalan Institution for Research and Advanced Studies (ICREA), MosquitoAlert, Spain
+        twitter_url:
+      - name: Yaneer Bar-Yam
+        title: Professor and President
+        affiliation: New England Complex Systems Institute Research Scientist, MIT, USA
+        twitter_url:
+      - name: Jón Ingi Bergsteinsson
+        title: CTO and Co-Founder
+        affiliation: MEDEI ApS, Denmark
+        twitter_url:
+      - name: Flávio Coelho
+        title: Professor of Mathematical Epidemiology, Applied Mathematics School, Getulio Vargas Foundation; Head, Mathematical Epidemiology Research Center, Getulio Vargas Foundation, Brazil
+        affiliation:
+        twitter_url:
+      - name: Oswaldo G. Cruz 
+        title: Epidemiologist
+        affiliation: Fundação Oswaldo Cruz, Rio de Janeiro, Brazil
+        twitter_url:
+      - name: Duane J Gubler
+        title: Professor Emeritus and Founding Director
+        affiliation: Signature Research Program in Emerging Infectious Disease, Duke-NUS Medical School, Singapore
+        twitter_url:
+      - name: Michael A. Johansson
+        title: Biologist, CDC Division of Vector-Borne Diseases, Puerto Rico; and Visiting Scientist, Harvard TH Chan School of Public Health, Boston, Massachusetts
+        affiliation:
+        twitter_url:
+      - name: Dr. Pia MacDonald
+        title: Senior Director
+        affiliation: Applied Public Health Research, RTI International, USA
+        twitter_url:
+      - name: Hon. Tolbert Nyenswah
+        title: Deputy Minister of Health for Disease Surveillance and Epidemic Control
+        affiliation: Liberia
+        twitter_url:
+      - name: Monserrat Narváez
+        title: Project Director
+        affiliation: Curarse en Salud, Mexico
+        twitter_url:
+      - name: Juan Pane
+        title: Chief Innovation Officer
+        affiliation: Centro de Desarrollo Sostenible, Paraguay
+        twitter_url:
+      - name: Diana Rojas Alvarez MD, PhDc 
+        title: Center for Inference and Dynamics Infectious Diseases, Department of Epidemiology, University of Florida, USA. 
+        affiliation:
+        twitter_url:
+      - name: Dr. Alfonso Rosales
+        title: Senior Maternal and Child Advisor/ZIKV LACRO regional response director
+        affiliation: World Vision, USA
+        twitter_url:
+      - name: João Bosco Siqueira Jr.
+        title: Associate Professor
+        affiliation: Institute Tropical Pathology and Public Health, Federal University of Goias, Brazil
+        twitter_url:
+      - name: Lakshminarayanan Subramanian
+        title: Associate Professor
+        affiliation: Courant Institute of Mathematical Sciences, New York University, USA
+        twitter_url:
     partner_participants:
       - name: Panama
         people:
@@ -825,12 +893,48 @@
             title: Deputy Director
             affiliation: The Gorgas Memorial Institute for Health Studies
             twitter_url:
+          - name: Edgardo Villalobos
+            title: Deputy Director of Environmental Health
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Cecilio Tejeira
+            title: Deputy Director of International Affairs
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Dr. Israel Cedeño
+            title: International Epidemiological Surveillance Coordinator
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Dra. María Eugenia Barnett de Antinori
+            title: Global Health Security Project Coordinator
+            affiliation: The Gorgas Memorial Institute for Health Studies
+            twitter_url:
       - name: Argentina
         people:
           - name: Aranzazu Echezarreta
             title: National Director of Public Innovation
             affiliation: Ministry of Modernization
             twitter_url:
+          - name: Dr. Raul Forlenza
+            title: Department of Epidemiology
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: María Victoria Gazia
+            title: Department of Epidemiology
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Dr. Eugenio Mirkin
+            title: Department of Epidemiology
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Gaston De Rochebouet
+            title: Public Innovation Department
+            affiliation: Ministry of Modernization
+            twitter_url:
+          - name: Tomas Dominguez Vidal
+            title: Public Innovation Department
+            affiliation: Ministry of Modernization
+            twitter_url:         
       - name: Colombia
         people:
           - name: Dr. María Mercedes Muñoz
@@ -841,14 +945,42 @@
             title: Advisor, Cooperation and International Relations 
             affiliation: Ministry of Health and Social Protection
             twitter_url: 
+          - name: Andrea Paredes
+            title: Demography and Epidemiology Department
+            affiliation: Ministry of Health and Social Protection
+            twitter_url:
+          - name: Claudia Cuellar
+            title: Demography and Epidemiology Department
+            affiliation: Ministry of Health and Social Protection
+            twitter_url:
+          - name: Martha Ospina
+            title: Director
+            affiliation: National Institute of Health
+            twitter_url:
       - name: City of Rio de Janeiro
         people:
           - name: Dr. Betina Durovni
             title: Sub-Secretary of Primary Health
             affiliation: Prevention and Surveillance 
             twitter_url:
+          - name: Cristina Boaretto 
+            title: Health Promotion Superintendent
+            affiliation: Secretary of Health
+            twitter_url:
+          - name: Elen Barreto
+            title: Health Promotion Department
+            affiliation: Secretary of Health
+            twitter_url:
+          - name: Valeria Saraceni
+            title: Health Situation Analysis Coordination
+            affiliation: Secretary of Health
+            twitter_url:
       - name: Inter-American Development Bank 
         people:
+          - name: Rafael Anta
+            title: Lead Specialist
+            affiliation: Competitiveness and Innovation Division
+            twitter_url:
           - name: Ralf Moreno
             title: Project Manager
             affiliation: Social Protection and Health Division
@@ -869,6 +1001,14 @@
             twitter_url:
           - name: María Hermosilla
             title: Project Manager and Research Fellow
+            affiliation: 
+            twitter_url:
+          - name: Dinorah Cantu
+            title: Academy Coordinator
+            affiliation: 
+            twitter_url:
+          - name: Anirudh Dinesh
+            title: Graduate Research Assistant
             affiliation: 
             twitter_url:
     resources: 
