@@ -1,442 +1,5 @@
 ---
 # Topics
-- title: Trash and Standing Water
-  id: 05
-  is_active: true
-  image: trash-bw.jpg
-  short_description: >
-    What can be done to eliminate uncollected waste and standing water where Aedes Aegypti mosquitoes breed?
-  focus: Trash and containers fill with standing water where mosquitoes breed. The goal of this session is to identify innovative and effective methods to prevent waste accumulation and water deposits from becoming more sources of breeding sites.
-  topic_description_summary: The problems have been fleshed out into a briefing designed to describe the root causes of the problem, current approaches in different countries, and lessons learned from other domains.
-  problem_description_summary: Each online session is focused on a specific problem, that has been fleshed out into a briefing to describe the root causes of the problem, current approaches in different countries, and lessons learned from other domains.
-  problem_description_link: https://docs.google.com/document/d/1FGhvl935iBNKW9UA5Tt3iw9n3YakIFf_hat-5x7tIe8/edit
-  conference:
-    is_active: false
-    date: September 21, 2016
-    time: 10am - 12pm EST
-    supporting_participants: 
-      - name: Dr. Graham Alabaster
-        title: Senior Technical expert
-        affiliation: Public Health, Environmental and Social Determinants of Health (PHE) unit, World Health Organization, Switzerland
-        twitter_url:
-      - name: Joe Eyerman
-        title:  Director
-        affiliation: RTI Center for Security, Defense, and Safety, USA
-        twitter_url: 
-      - name: Durland Fish
-        title: Professor Emeritus of Epidemiology
-        affiliation: Department of Epidemiology of Microbial Diseases, Yale School of Public Health, USA
-        twitter_url:
-      - name: Nicholas Johnson
-        title: Founder
-        affiliation: Open Trash Lab, USA
-        twitter_url:
-      - name: Jeff Kirschner
-        title: Founder and CEO
-        affiliation: Litterati, USA
-        twitter_url:
-      - name: Rafael Maciel-de-Freitas
-        title: Public Health Researcher
-        affiliation: Hematozoa Transmitters Laboratory, Instituto Oswaldo Cruz, Fiocruz, Brazil
-        twitter_url:
-      - name: Ligia Moncada
-        title: Professor
-        affiliation: Public Health Department, School of Medicine, National University of Colombia, Colombia 
-        twitter_url:
-      - name: Dietmar Offenhuber
-        title: Assistant Professor of Public Policy and Urban Affairs
-        affiliation: Northeastern University, USA
-        twitter_url: 
-      - name: Juliana Quintero
-        title: Associate Researcher
-        affiliation: Centro de Estudios e Investigación en Salud - CEIS, Fundación Santa Fe de Bogotá, Colombia
-        twitter_url: 
-      - name: Michael Reynolds 
-        title: Founder 
-        affiliation: Earthship Biotecture, USA
-        twitter_url: 
-      - name: Nicolas Schweigmann
-        title: Director
-        affiliation: Mosquito Study Group, Buenos Aires University, Argentina
-        twitter_url: 
-      - name: Carlos V. Urmeneta
-        title: Country Director
-        affiliation: iDE - International Development Enterprises, Honduras
-        twitter_url:    
-    partner_participants:
-      - name: Panama
-        people:
-          - name: Edgardo Villalobos
-            title: Deputy Director of Environmental Health
-            affiliation: Ministry of Health
-            twitter_url:
-          - name: Cecilio Tejeira
-            title: Deputy Director of International Affairs
-            affiliation: Ministry of Health
-            twitter_url:
-          - name:  Dra. María Eugenia Barnett de Antinori
-            title: Global Health Security Project Coordinator
-            affiliation: The Gorgas Memorial Institute for Health Studies
-            twitter_url:
-      - name: Argentina
-        people:
-          - name: Ricardo Benítez
-            title: Head
-            affiliation: Department of Environmental Health, Ministry of Health
-            twitter_url:
-          - name: Carlos Díaz Filgueira
-            title: National Directorate of Integral Waste Management, Ministry of Environment and Sustainable Development 
-            affiliation: 
-            twitter_url:
-          - name: Dr. Raul Forlenza
-            title: Department of Epidemiology, Ministry of Health
-            affiliation: 
-            twitter_url:
-          - name: María Victoria Gazia
-            title: Department of Epidemiology, Ministry of Health
-            affiliation: 
-            twitter_url:
-          - name: Dr. Eugenio Mirkin
-            title: Department of Epidemiology, Ministry of Health
-            affiliation: 
-            twitter_url:
-          - name: Silvia Rivero
-            title: Lead
-            affiliation: Basic Sanitation and Housing Quality Program, Ministry of Health
-            twitter_url:
-          - name: Gaston De Rochebouet
-            title: Public Innovation Department, Ministry of Modernization
-            affiliation: 
-            twitter_url:
-          - name: Aranzazu Echezarreta
-            title: Public Innovation Department, Ministry of Modernization
-            affiliation: 
-            twitter_url:
-          - name: Tomas Dominguez Vidal
-            title: Public Innovation Department, Ministry of Modernization
-            affiliation: 
-            twitter_url:
-      - name: Colombia
-        people:
-          - name: Arturo Díaz
-            title:
-            affiliation: Subdepartment of Environmental Health, Ministry of Health and Social Protection
-            twitter_url: 
-          - name: Ana María Lara Salinas
-            title: Advisor, Cooperation and International Relations 
-            affiliation: Ministry of Health and Social Protection
-            twitter_url: 
-      - name: City of Rio de Janeiro
-        people:
-          - name: Dr. Betina Durovni
-            title: Sub-Secretary of Primary Health
-            affiliation: Prevention and Surveillance 
-            twitter_url:
-          - name: Cristina Boaretto
-            title: Health Promotion Superintendent
-            affiliation: Secretary of Health
-            twitter_url:
-          - name: Elen Barreto
-            title: Health Promotion Department, Secretary of Health
-            affiliation: 
-            twitter_url:
-          - name: Valeria Saraceni
-            title: Health Situation Analysis Coordinator
-            affiliation: Secretary of Health
-            twitter_url:
-          - name: Gustavo Puppi
-            title: Director of West Services
-            affiliation: Comlurb
-            twitter_url:
-          - name: José Moulin
-            title: Casa Civil, Presidente
-            affiliation: Instituto Fundação João Goulart
-            twitter_url:
-      - name: Inter-American Development Bank 
-        people:
-          - name: Ralf Moreno
-            title: Project Manager
-            affiliation: Social Protection and Health Division
-            twitter_url:
-          - name: Diana Pinto
-            title: Health Lead Specialist, USA
-            affiliation: Social Protection and Health Division
-            twitter_url:
-          - name: Rafael Anta
-            title: Lead Specialist
-            affiliation: Competitiveness and Innovation Division
-            twitter_url: 
-          - name: Marcella Distrutti
-            title: Social Protection and Health Division
-            affiliation: 
-            twitter_url: 
-          - name: Alfredo Rihm
-            title: Water and Sanitation Specialist
-            affiliation: 
-            twitter_url: 
-          - name: Michelle Marshall
-            title: Knowledge Management Specialist
-            affiliation:
-            twitter_url:             
-
-      - name: The Governance Lab, NYU
-        people:
-          - name: Dr. Rafael Ayoub
-            title: Health Research Advisor
-            affiliation: 
-            twitter_url:
-          - name: Professor Beth Simone Noveck
-            title: Director
-            affiliation: 
-            twitter_url:
-          - name: María Hermosilla
-            title: Project Manager and Research Fellow
-            affiliation: 
-            twitter_url:
-          - name: Dinorah Cantu
-            title: Academy Coordinator
-            affiliation: 
-            twitter_url:
-          - name: Anirudh Dinesh
-            title: Research Assistant
-            affiliation: 
-            twitter_url:
-  resources: 
-  post_conference:
-    is_active: false
-    takeaways:
-    action_items:
-    resources:
-
-- title: Communication and Behavior Change
-  id: 01
-  is_active: true
-  image: communication-and-behavior-change.jpg
-  short_description: >
-    What are the most effective ways for getting the public to change behavior to prevent mosquito breeding and mosquito bites and get proper access to healthcare?
-  focus: There are new opportunities, including innovative approaches and new communications media, to improve how governments communicate with the public so as to create greater incentives for that behavior change needed to mitigate the risk of Zika and mosquito borne illnesses. The goal of this session is to identify innovative approaches to communication that overcomes built-in inertia, preconceived beliefs and misinformation and  induces sustained behavior change.
-  topic_description_summary: The problems have been fleshed out into a briefing designed to describe the root causes of the problem, current approaches in different countries, and lessons learned from other domains.
-  problem_description_summary: >
-    Each online session is focused on a specific problem, that has been fleshed out into a briefing to describe the root causes of the problem, current approaches in different countries, and lessons learned from other domains.
-  problem_description_link: https://docs.google.com/document/d/1ko2hAnGHc5DjihNFfXjDbXPLA3x--shod0auwj6ZGTI/edit
-  conference:
-    is_active: false
-    date: September 7, 2016
-    time: 10am - 12pm EST
-    supporting_participants: 
-      - name: Dr. Juliet Bedford
-        title: Director
-        affiliation: Anthrologica, United Kingdom
-        twitter_url: 
-      - name: Aphaluck Bhatiasevi
-        title: Technical Officer, Risk Communication
-        affiliation: World Health Organization, Switzerland
-        twitter_url: 
-      - name: Professor Brian Elbel
-        title: Associate Professor of Population Health and Health Policy
-        affiliation: NYU School of Medicine & NYU Wagner Graduate School of Public Service, USA
-        twitter_url: 
-      - name: John P. Elder
-        title: Distinguished Professor, Division of Health Promotion and Behavioral Science, Graduate School of Public Health
-        affiliation: San Diego State University, USA
-        twitter_url: 
-      - name: Baruch Fischhoff
-        title: Howard Heinz University Professor, Department of Engineering and Public Policy, Institute for Politics and Strategy
-        affiliation: Carnegie Mellon University, USA
-        twitter_url: 
-      - name: Romaine Lacombe
-        title: CEO and Co Founder
-        affiliation: Plume Labs
-        twitter_url: 
-      - name: Miguel Luengo Ortiz
-        title: Founder, Malaria Spot; Chief Data Scientist, UN Global Pulse
-        affiliation: Spain
-        twitter_url: 
-      - name: Christopher Mast
-        title: Executive Director & Area Lead for Infectious Disease
-        affiliation: Merck
-        twitter_url: 
-      - name: Jaykumar Menon
-        title: Professor of Practice
-        affiliation: McGill University Institute for the Study of International Development, Canada
-        twitter_url: 
-      - name: María Lucía Mesa Rubio
-        title: Advisor, Vice Minister
-        affiliation: Ministry of Health and Social Protection
-        twitter_url: 
-      - name: Dr. Adriana Naim
-        title: Health Programs Coordinator
-        affiliation: RTI International, Guatemala
-        twitter_url: 
-      - name: Monserrat Narváez
-        title: Project Director
-        affiliation: Curarse en Salud, Mexico
-        twitter_url: 
-      - name: Rafael Obregon
-        title: Chief, Communication for Development
-        affiliation: UNICEF, USA
-        twitter_url: 
-      - name: Carlos Scartascini
-        title: Research Economist
-        affiliation: Inter-American Development Bank, USA
-        twitter_url: 
-      - name: Alexandra Siegel
-        title: Social Media and Political Participation Lab (Smapp)
-        affiliation: NYU, USA
-        twitter_url: 
-      - name: Monica Wills Silva
-        title: Advisor
-        affiliation: Behavioral Insights Team, United Kingdom
-        twitter_url: 
-    partner_participants:
-      - name: Panama
-        people:
-          - name: Gliz Checa
-            title: Promotion Department
-            affiliation: Ministry of Health
-            twitter_url:
-          - name: Evidelia Saavedra
-            title: Promotion Department
-            affiliation: Ministry of Health
-            twitter_url:
-          - name: Joel González
-            title: Communication Department
-            affiliation: Ministry of Health
-            twitter_url:
-          - name: Dr. Lizbeth Cerezo
-            title: National Coordinator of Epidemiological Surveillance of Arbovirosis and Malaria
-            affiliation: Ministry of Health
-            twitter_url:
-          - name: Julio Ruiloba
-            title: Communications
-            affiliation: Presidency
-            twitter_url:
-          - name: Dr. Israel Cedeño
-            title: International Epidemiological Surveillance Coordinator
-            affiliation: Ministry of Health
-            twitter_url:
-          - name: Dr. Juan Pascale
-            title: Deputy Director
-            affiliation: The Gorgas Memorial Institute for Health Studies
-            twitter_url:
-          - name: Dr. María Eugenia Barnett de Antinori
-            title: Global Health Security Project Coordinator
-            affiliation: The Gorgas Memorial Institute for Health Studies
-            twitter_url:
-      - name: Argentina
-        people:
-          - name: Dr. Jorge San Juan
-            title: Head of Department of Epidemiology
-            affiliation: Ministry of Health
-            twitter_url:
-          - name: Dr. Raul Forlenza
-            title: Department of Epidemiology
-            affiliation: Ministry of Health
-            twitter_url:
-          - name: María Victoria Gazia
-            title: Department of Epidemiology
-            affiliation: Ministry of Health
-            twitter_url:
-          - name: Dr. Eugenio Mirkin
-            title: Department of Epidemiology
-            affiliation: Ministry of Health
-            twitter_url:
-          - name: Florencia Guedes
-            title: Communication Services
-            affiliation: Ministry of Health
-            twitter_url:
-          - name: Andrea Jaitt
-            title: Communication Services
-            affiliation: Ministry of Health
-            twitter_url:
-          - name: Tomás Dominguez Vidal
-            title: Public Innovation National Direction
-            affiliation: Ministry of Modernization
-            twitter_url:
-      - name: Colombia
-        people:
-          - name: Ricardo Amortegui González
-            title: Coordinator, Communications Group
-            affiliation: Ministry of Health and Social Protection
-            twitter_url:
-          - name: Jairo Hernández Márquez
-            title: Coordinator, Healthy Territories Group, Subdepartment of Environmental Health
-            affiliation: Ministry of Health and Social Protection
-            twitter_url:
-          - name: Esmily Ruiz Varón
-            title: Subdepartment of Communicable Diseases, Department of Promotion and Prevention
-            affiliation: Ministry of Health and Social Protection
-            twitter_url:
-          - name: Dr. María Mercedes Muñoz
-            title: Coordinator of the Public Health Surveillance Group, Demography and Epidemiology Department
-            affiliation: Ministry of Health and Social Protection
-            twitter_url:
-          - name: Julio Padilla
-            title: Specialist, Subdepartment of Communicable Diseases, Department of Promotion and Prevention
-            affiliation: Ministry of Health and Social Protection
-            twitter_url:
-          - name: Mónica Lucía Ramírez
-            title: Subdepartment of Environmental Health
-            affiliation: Ministry of Health and Social Protection
-            twitter_url:
-          - name: Ana María Lara Salinas
-            title:  Advisor, Cooperation and International Relations
-            affiliation: Ministry of Health and Social Protection
-            twitter_url:
-      - name: City of Rio de Janeiro
-        people:
-          - name: Dr. Betina Durovni
-            title: Sub-Secretary of Primary Health
-            affiliation: Prevention and Surveillance 
-            twitter_url:
-          - name: Cristina Boaretto
-            title: Health Promotion Superintendent
-            affiliation: Secretary of Health
-            twitter_url:
-          - name: Valeria Saraceni
-            title: Health Situation Analysis Coordination
-            affiliation: Secretary of Health
-            twitter_url:
-      - name: Inter-American Development Bank 
-        people:
-          - name: Rafael Anta
-            title: Lead Specialist
-            affiliation: Competitiveness and Innovation Division
-            twitter_url:
-          - name: Ralf Moreno
-            title: Project Manager
-            affiliation: Social Protection and Health Division
-            twitter_url:
-          - name: Diana Pinto
-            title: Health Lead Specialist, USA
-            affiliation: Social Protection and Health Division
-            twitter_url:
-      - name: The Governance Lab, NYU
-        people:
-          - name: Dr. Rafael Ayoub
-            title: Health Research Advisor
-            affiliation: 
-            twitter_url:
-          - name: Professor Beth Simone Noveck
-            title: Director
-            affiliation: 
-            twitter_url:
-          - name: María Hermosilla
-            title: Project Manager and Research Fellow
-            affiliation: 
-            twitter_url:
-    resources: 
-  post_conference:
-    is_active: false
-    takeaways: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non erat in lectus eleifend aliquet eget malesuada sem. Suspendisse viverra sem ac quam volutpat, id elementum felis blandit. Morbi posuere erat ut sollicitudin consectetur.
-    action_items: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non erat in lectus eleifend aliquet eget malesuada sem. Suspendisse viverra sem ac quam volutpat, id elementum felis blandit. Morbi posuere erat ut sollicitudin consectetur.
-    resources:
-      # - name: Example Post Conference Resource
-      #   url: www.example.com
-      # - name: Example Post Conference Resource
-      #   url: www.example.com
 
 - title: Assessing Public Awareness
   id: 00
@@ -700,6 +263,236 @@
       # - name: Example Post Conference Resource
       #   url: www.example.com
 
+- title: Communication and Behavior Change
+  id: 01
+  is_active: true
+  image: communication-and-behavior-change.jpg
+  short_description: >
+    What are the most effective ways for getting the public to change behavior to prevent mosquito breeding and mosquito bites and get proper access to healthcare?
+  focus: There are new opportunities, including innovative approaches and new communications media, to improve how governments communicate with the public so as to create greater incentives for that behavior change needed to mitigate the risk of Zika and mosquito borne illnesses. The goal of this session is to identify innovative approaches to communication that overcomes built-in inertia, preconceived beliefs and misinformation and  induces sustained behavior change.
+  topic_description_summary: The problems have been fleshed out into a briefing designed to describe the root causes of the problem, current approaches in different countries, and lessons learned from other domains.
+  problem_description_summary: >
+    Each online session is focused on a specific problem, that has been fleshed out into a briefing to describe the root causes of the problem, current approaches in different countries, and lessons learned from other domains.
+  problem_description_link: https://docs.google.com/document/d/1ko2hAnGHc5DjihNFfXjDbXPLA3x--shod0auwj6ZGTI/edit
+  conference:
+    is_active: false
+    date: September 7, 2016
+    time: 10am - 12pm EST
+    supporting_participants: 
+      - name: Dr. Juliet Bedford
+        title: Director
+        affiliation: Anthrologica, United Kingdom
+        twitter_url: 
+      - name: Aphaluck Bhatiasevi
+        title: Technical Officer, Risk Communication
+        affiliation: World Health Organization, Switzerland
+        twitter_url: 
+      - name: Professor Brian Elbel
+        title: Associate Professor of Population Health and Health Policy
+        affiliation: NYU School of Medicine & NYU Wagner Graduate School of Public Service, USA
+        twitter_url: 
+      - name: John P. Elder
+        title: Distinguished Professor, Division of Health Promotion and Behavioral Science, Graduate School of Public Health
+        affiliation: San Diego State University, USA
+        twitter_url: 
+      - name: Baruch Fischhoff
+        title: Howard Heinz University Professor, Department of Engineering and Public Policy, Institute for Politics and Strategy
+        affiliation: Carnegie Mellon University, USA
+        twitter_url: 
+      - name: Romaine Lacombe
+        title: CEO and Co Founder
+        affiliation: Plume Labs
+        twitter_url: 
+      - name: Miguel Luengo Ortiz
+        title: Founder, Malaria Spot; Chief Data Scientist, UN Global Pulse
+        affiliation: Spain
+        twitter_url: 
+      - name: Christopher Mast
+        title: Executive Director & Area Lead for Infectious Disease
+        affiliation: Merck
+        twitter_url: 
+      - name: Jaykumar Menon
+        title: Professor of Practice
+        affiliation: McGill University Institute for the Study of International Development, Canada
+        twitter_url: 
+      - name: María Lucía Mesa Rubio
+        title: Advisor, Vice Minister
+        affiliation: Ministry of Health and Social Protection
+        twitter_url: 
+      - name: Dr. Adriana Naim
+        title: Health Programs Coordinator
+        affiliation: RTI International, Guatemala
+        twitter_url: 
+      - name: Monserrat Narváez
+        title: Project Director
+        affiliation: Curarse en Salud, Mexico
+        twitter_url: 
+      - name: Rafael Obregon
+        title: Chief, Communication for Development
+        affiliation: UNICEF, USA
+        twitter_url: 
+      - name: Carlos Scartascini
+        title: Research Economist
+        affiliation: Inter-American Development Bank, USA
+        twitter_url: 
+      - name: Alexandra Siegel
+        title: Social Media and Political Participation Lab (Smapp)
+        affiliation: NYU, USA
+        twitter_url: 
+      - name: Monica Wills Silva
+        title: Advisor
+        affiliation: Behavioral Insights Team, United Kingdom
+        twitter_url: 
+    partner_participants:
+      - name: Panama
+        people:
+          - name: Gliz Checa
+            title: Promotion Department
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Evidelia Saavedra
+            title: Promotion Department
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Joel González
+            title: Communication Department
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Dr. Lizbeth Cerezo
+            title: National Coordinator of Epidemiological Surveillance of Arbovirosis and Malaria
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Julio Ruiloba
+            title: Communications
+            affiliation: Presidency
+            twitter_url:
+          - name: Dr. Israel Cedeño
+            title: International Epidemiological Surveillance Coordinator
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Dr. Juan Pascale
+            title: Deputy Director
+            affiliation: The Gorgas Memorial Institute for Health Studies
+            twitter_url:
+          - name: Dr. María Eugenia Barnett de Antinori
+            title: Global Health Security Project Coordinator
+            affiliation: The Gorgas Memorial Institute for Health Studies
+            twitter_url:
+      - name: Argentina
+        people:
+          - name: Dr. Jorge San Juan
+            title: Head of Department of Epidemiology
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Dr. Raul Forlenza
+            title: Department of Epidemiology
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: María Victoria Gazia
+            title: Department of Epidemiology
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Dr. Eugenio Mirkin
+            title: Department of Epidemiology
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Florencia Guedes
+            title: Communication Services
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Andrea Jaitt
+            title: Communication Services
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Tomás Dominguez Vidal
+            title: Public Innovation National Direction
+            affiliation: Ministry of Modernization
+            twitter_url:
+      - name: Colombia
+        people:
+          - name: Ricardo Amortegui González
+            title: Coordinator, Communications Group
+            affiliation: Ministry of Health and Social Protection
+            twitter_url:
+          - name: Jairo Hernández Márquez
+            title: Coordinator, Healthy Territories Group, Subdepartment of Environmental Health
+            affiliation: Ministry of Health and Social Protection
+            twitter_url:
+          - name: Esmily Ruiz Varón
+            title: Subdepartment of Communicable Diseases, Department of Promotion and Prevention
+            affiliation: Ministry of Health and Social Protection
+            twitter_url:
+          - name: Dr. María Mercedes Muñoz
+            title: Coordinator of the Public Health Surveillance Group, Demography and Epidemiology Department
+            affiliation: Ministry of Health and Social Protection
+            twitter_url:
+          - name: Julio Padilla
+            title: Specialist, Subdepartment of Communicable Diseases, Department of Promotion and Prevention
+            affiliation: Ministry of Health and Social Protection
+            twitter_url:
+          - name: Mónica Lucía Ramírez
+            title: Subdepartment of Environmental Health
+            affiliation: Ministry of Health and Social Protection
+            twitter_url:
+          - name: Ana María Lara Salinas
+            title:  Advisor, Cooperation and International Relations
+            affiliation: Ministry of Health and Social Protection
+            twitter_url:
+      - name: City of Rio de Janeiro
+        people:
+          - name: Dr. Betina Durovni
+            title: Sub-Secretary of Primary Health
+            affiliation: Prevention and Surveillance 
+            twitter_url:
+          - name: Cristina Boaretto
+            title: Health Promotion Superintendent
+            affiliation: Secretary of Health
+            twitter_url:
+          - name: Valeria Saraceni
+            title: Health Situation Analysis Coordination
+            affiliation: Secretary of Health
+            twitter_url:
+      - name: Inter-American Development Bank 
+        people:
+          - name: Rafael Anta
+            title: Lead Specialist
+            affiliation: Competitiveness and Innovation Division
+            twitter_url:
+          - name: Ralf Moreno
+            title: Project Manager
+            affiliation: Social Protection and Health Division
+            twitter_url:
+          - name: Diana Pinto
+            title: Health Lead Specialist, USA
+            affiliation: Social Protection and Health Division
+            twitter_url:
+      - name: The Governance Lab, NYU
+        people:
+          - name: Dr. Rafael Ayoub
+            title: Health Research Advisor
+            affiliation: 
+            twitter_url:
+          - name: Professor Beth Simone Noveck
+            title: Director
+            affiliation: 
+            twitter_url:
+          - name: María Hermosilla
+            title: Project Manager and Research Fellow
+            affiliation: 
+            twitter_url:
+    resources: 
+  post_conference:
+    is_active: false
+    takeaways: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non erat in lectus eleifend aliquet eget malesuada sem. Suspendisse viverra sem ac quam volutpat, id elementum felis blandit. Morbi posuere erat ut sollicitudin consectetur.
+    action_items: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non erat in lectus eleifend aliquet eget malesuada sem. Suspendisse viverra sem ac quam volutpat, id elementum felis blandit. Morbi posuere erat ut sollicitudin consectetur.
+    resources:
+      # - name: Example Post Conference Resource
+      #   url: www.example.com
+      # - name: Example Post Conference Resource
+      #   url: www.example.com
+
 - title: Relevant Learning 
   id: 02
   is_active: false
@@ -742,6 +535,239 @@
         title: 
         twitter_url: 
     resources: 
+  post_conference:
+    is_active: false
+    takeaways:
+    action_items:
+    resources:
+
+- title: Predictive Analytics
+  id: 04
+  is_active: true
+  image: predictive-analytics.jpg
+  short_description: >
+    What are the innovative options to analyze available data from new technologies to predict and therefore prevent outbreaks?
+  focus: 
+  problem_description_summary: 
+  problem_description_link: 
+  conference:
+    is_active: true
+    is_active_info: false
+    date: October 26, 2016
+    time: 10am - 12pm EST
+    participants:
+      - name: 
+        title: 
+        twitter_url: 
+    resources: 
+  post_conference:
+    is_active: false
+    takeaways:
+    action_items:
+    resources:
+
+- title: Trash and Standing Water
+  id: 05
+  is_active: true
+  image: trash-bw.jpg
+  short_description: >
+    What can be done to eliminate uncollected waste and standing water where Aedes Aegypti mosquitoes breed?
+  focus: Trash and containers fill with standing water where mosquitoes breed. The goal of this session is to identify innovative and effective methods to prevent waste accumulation and water deposits from becoming more sources of breeding sites.
+  topic_description_summary: The problems have been fleshed out into a briefing designed to describe the root causes of the problem, current approaches in different countries, and lessons learned from other domains.
+  problem_description_summary: Each online session is focused on a specific problem, that has been fleshed out into a briefing to describe the root causes of the problem, current approaches in different countries, and lessons learned from other domains.
+  problem_description_link: https://docs.google.com/document/d/1FGhvl935iBNKW9UA5Tt3iw9n3YakIFf_hat-5x7tIe8/edit
+  conference:
+    is_active: false
+    date: September 21, 2016
+    time: 10am - 12pm EST
+    supporting_participants: 
+      - name: Dr. Graham Alabaster
+        title: Senior Technical expert
+        affiliation: Public Health, Environmental and Social Determinants of Health (PHE) unit, World Health Organization, Switzerland
+        twitter_url:
+      - name: Joe Eyerman
+        title:  Director
+        affiliation: RTI Center for Security, Defense, and Safety, USA
+        twitter_url: 
+      - name: Durland Fish
+        title: Professor Emeritus of Epidemiology
+        affiliation: Department of Epidemiology of Microbial Diseases, Yale School of Public Health, USA
+        twitter_url:
+      - name: Nicholas Johnson
+        title: Founder
+        affiliation: Open Trash Lab, USA
+        twitter_url:
+      - name: Jeff Kirschner
+        title: Founder and CEO
+        affiliation: Litterati, USA
+        twitter_url:
+      - name: Rafael Maciel-de-Freitas
+        title: Public Health Researcher
+        affiliation: Hematozoa Transmitters Laboratory, Instituto Oswaldo Cruz, Fiocruz, Brazil
+        twitter_url:
+      - name: Ligia Moncada
+        title: Professor
+        affiliation: Public Health Department, School of Medicine, National University of Colombia, Colombia 
+        twitter_url:
+      - name: Dietmar Offenhuber
+        title: Assistant Professor of Public Policy and Urban Affairs
+        affiliation: Northeastern University, USA
+        twitter_url: 
+      - name: Juliana Quintero
+        title: Associate Researcher
+        affiliation: Centro de Estudios e Investigación en Salud - CEIS, Fundación Santa Fe de Bogotá, Colombia
+        twitter_url: 
+      - name: Michael Reynolds 
+        title: Founder 
+        affiliation: Earthship Biotecture, USA
+        twitter_url: 
+      - name: Nicolas Schweigmann
+        title: Director
+        affiliation: Mosquito Study Group, Buenos Aires University, Argentina
+        twitter_url: 
+      - name: Carlos V. Urmeneta
+        title: Country Director
+        affiliation: iDE - International Development Enterprises, Honduras
+        twitter_url:    
+    partner_participants:
+      - name: Panama
+        people:
+          - name: Edgardo Villalobos
+            title: Deputy Director of Environmental Health
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Cecilio Tejeira
+            title: Deputy Director of International Affairs
+            affiliation: Ministry of Health
+            twitter_url:
+          - name:  Dra. María Eugenia Barnett de Antinori
+            title: Global Health Security Project Coordinator
+            affiliation: The Gorgas Memorial Institute for Health Studies
+            twitter_url:
+      - name: Argentina
+        people:
+          - name: Ricardo Benítez
+            title: Head
+            affiliation: Department of Environmental Health, Ministry of Health
+            twitter_url:
+          - name: Carlos Díaz Filgueira
+            title: National Directorate of Integral Waste Management, Ministry of Environment and Sustainable Development 
+            affiliation: 
+            twitter_url:
+          - name: Dr. Raul Forlenza
+            title: Department of Epidemiology, Ministry of Health
+            affiliation: 
+            twitter_url:
+          - name: María Victoria Gazia
+            title: Department of Epidemiology, Ministry of Health
+            affiliation: 
+            twitter_url:
+          - name: Dr. Eugenio Mirkin
+            title: Department of Epidemiology, Ministry of Health
+            affiliation: 
+            twitter_url:
+          - name: Silvia Rivero
+            title: Lead
+            affiliation: Basic Sanitation and Housing Quality Program, Ministry of Health
+            twitter_url:
+          - name: Gaston De Rochebouet
+            title: Public Innovation Department, Ministry of Modernization
+            affiliation: 
+            twitter_url:
+          - name: Aranzazu Echezarreta
+            title: Public Innovation Department, Ministry of Modernization
+            affiliation: 
+            twitter_url:
+          - name: Tomas Dominguez Vidal
+            title: Public Innovation Department, Ministry of Modernization
+            affiliation: 
+            twitter_url:
+      - name: Colombia
+        people:
+          - name: Arturo Díaz
+            title:
+            affiliation: Subdepartment of Environmental Health, Ministry of Health and Social Protection
+            twitter_url: 
+          - name: Ana María Lara Salinas
+            title: Advisor, Cooperation and International Relations 
+            affiliation: Ministry of Health and Social Protection
+            twitter_url: 
+      - name: City of Rio de Janeiro
+        people:
+          - name: Dr. Betina Durovni
+            title: Sub-Secretary of Primary Health
+            affiliation: Prevention and Surveillance 
+            twitter_url:
+          - name: Cristina Boaretto
+            title: Health Promotion Superintendent
+            affiliation: Secretary of Health
+            twitter_url:
+          - name: Elen Barreto
+            title: Health Promotion Department, Secretary of Health
+            affiliation: 
+            twitter_url:
+          - name: Valeria Saraceni
+            title: Health Situation Analysis Coordinator
+            affiliation: Secretary of Health
+            twitter_url:
+          - name: Gustavo Puppi
+            title: Director of West Services
+            affiliation: Comlurb
+            twitter_url:
+          - name: José Moulin
+            title: Casa Civil, Presidente
+            affiliation: Instituto Fundação João Goulart
+            twitter_url:
+      - name: Inter-American Development Bank 
+        people:
+          - name: Ralf Moreno
+            title: Project Manager
+            affiliation: Social Protection and Health Division
+            twitter_url:
+          - name: Diana Pinto
+            title: Health Lead Specialist, USA
+            affiliation: Social Protection and Health Division
+            twitter_url:
+          - name: Rafael Anta
+            title: Lead Specialist
+            affiliation: Competitiveness and Innovation Division
+            twitter_url: 
+          - name: Marcella Distrutti
+            title: Social Protection and Health Division
+            affiliation: 
+            twitter_url: 
+          - name: Alfredo Rihm
+            title: Water and Sanitation Specialist
+            affiliation: 
+            twitter_url: 
+          - name: Michelle Marshall
+            title: Knowledge Management Specialist
+            affiliation:
+            twitter_url:             
+
+      - name: The Governance Lab, NYU
+        people:
+          - name: Dr. Rafael Ayoub
+            title: Health Research Advisor
+            affiliation: 
+            twitter_url:
+          - name: Professor Beth Simone Noveck
+            title: Director
+            affiliation: 
+            twitter_url:
+          - name: María Hermosilla
+            title: Project Manager and Research Fellow
+            affiliation: 
+            twitter_url:
+          - name: Dinorah Cantu
+            title: Academy Coordinator
+            affiliation: 
+            twitter_url:
+          - name: Anirudh Dinesh
+            title: Research Assistant
+            affiliation: 
+            twitter_url:
+  resources: 
   post_conference:
     is_active: false
     takeaways:
@@ -961,31 +987,6 @@
     is_active_info: false
     date: October 19, 2016
     time: 10am - 12pm EST 
-    participants:
-      - name: 
-        title: 
-        twitter_url: 
-    resources: 
-  post_conference:
-    is_active: false
-    takeaways:
-    action_items:
-    resources:
-
-- title: Predictive Analytics
-  id: 04
-  is_active: true
-  image: predictive-analytics.jpg
-  short_description: >
-    What are the innovative options to analyze available data from new technologies to predict and therefore prevent outbreaks?
-  focus: 
-  problem_description_summary: 
-  problem_description_link: 
-  conference:
-    is_active: true
-    is_active_info: false
-    date: October 26, 2016
-    time: 10am - 12pm EST
     participants:
       - name: 
         title: 
