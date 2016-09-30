@@ -809,7 +809,7 @@
   problem_description_summary: Each online session is focused on a specific problem, that has been fleshed out into a briefing to describe the root causes of the problem, current approaches in different countries, and lessons learned from other domains.
   problem_description_link: https://docs.google.com/document/d/1LZlg7w_JW3JbDqoyRBE2OzjqGIw3Fq5dgd-1OchQ-iQ/edit
   conference:
-    is_active: true
+    is_active: false
     is_active_info: true
     date: September 28, 2016
     time: 10am - 12pm EST
