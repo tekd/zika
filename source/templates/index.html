@@ -13,15 +13,19 @@
           <div class="row expanded align-center">
             <div class="column large-10 small-12">
               <section class="imagine-banner">
-                <h2>Imagine if the epidemiologist, the computer scientist, the urban planner and those with diverse know how could talk to one another to design actionable solutions to the root causes of mosquito borne illness.</h2>
+                <!-- <h2>Imagine if the epidemiologist, the computer scientist, the urban planner and those with diverse know how could talk to one another to design actionable solutions to the root causes of mosquito borne illness.</h2>
                 <h2>Imagine if those creative individuals could speak directly to the institutions with the power and responsibility for delivering new policies and services.</h2>
-                <h2>Imagine if the smartest and most innovative people could come together to fight Zika quickly and easily.</h2>
+                <h2>Imagine if the smartest and most innovative people could come together to fight Zika quickly and easily.</h2> -->
+                <h2>Imagina si el epidemiólogo, el especialista en computación, el planificador urbano y aquellas personas con diversidad de conocimientos pudieran hablar entre sí para idear soluciones aplicables a las causas que originan las enfermedades trasmitidas por mosquitos.</h2>
               </section>
             </div>
           </div>
           <div class="main-buttons main-buttons__index">
-            <a href="./call-for-participants.html" class="button button--accent-color">Participate</a>
-            <a href="./topics.html" class="button button--accent-color">Topics</a>
+            <!-- <a href="./call-for-participants.html" class="button button--accent-color">Participate</a> -->
+            <a href="./call-for-participants.html" class="button button--accent-color">Participar</a>
+<!--             <a href="./topics.html" class="button button--accent-color">Topics</a>
+ -->            
+            <a href="./topics.html" class="button button--accent-color">Temas</a>
           </div>
         </section>
 
@@ -34,12 +38,13 @@
                 <p>{{topic.short_description}}</p>
                 {% if topic.conference.is_active and topic.conference.is_active_info %}
                 <p><a href="{{topic.title | slug }}.html" class="button button--theme-color">
-                More Information</a></p>
+                MÁS INFORMACIÓN</a></p> <!-- More Information -->
                 {% elif topic.conference.is_active and not topic.conference.is_active_info %}
-                <p><a href="javascript: void(0)" class="button button--disabled">More Information Coming Soon</a></p>
+                <p><a href="javascript: void(0)" class="button button--disabled">MÁS INFORMACIÓN</a></p> <!-- More Information Coming Soon -->
                 {% endif %}
                 <div class="topic__date">
-                  <h6>Conference on</h6>
+                  <!-- <h6>Conference on</h6> -->
+                  <h6>ESTA CONFERENCIA SE REALIZÓ EL</h6>
                   <span class="topic__month">{{ topic.conference.date | dateFilter("month") | truncate(3, true, "")}}</span>
                   <em class="topic__day">{{ topic.conference.date | dateFilter("day")}}</em>
                 </div>
@@ -51,9 +56,9 @@
               <div class="large-6 small-12 column topic" style="background-image: url(./images/topics/resized/{{topic.image}})">
                 <h1>{{topic.title}}</h1>
                 <p>{{topic.short_description}}</p>
-                <p><a href="{{topic.title | slug }}.html" class="button button--theme-color">More Information</a></p>
+                <p><a href="{{topic.title | slug }}.html" class="button button--theme-color">MÁS INFORMACIÓN</a></p>
                 <div class="topic__date topic__date-past">
-                  <h6>This conference took place on</h6>
+                  <h6>ESTA CONFERENCIA SE REALIZÓ EL</h6>
                   <span class="topic__month">{{ topic.conference.date | dateFilter("month") | truncate(3, true, "")}}</span>
                   <em class="topic__day">{{ topic.conference.date | dateFilter("day")}}</em>
                 </div>
@@ -65,13 +70,16 @@
         </section>
 
         <section class="divider divider--theme-color">
-          <h1>More Information</h1>
+          <!-- <h1>More Information</h1> -->
+          <h1>MÁS INFORMACIÓN</h1>
         </section>
         <section class="page-section">
           <div class="row align-center">
             <div class="medium-10 large-9 column more-info">
-              <p>In a series of weekly, 2-hour web-based conferences, experts from around the world will discuss innovative and practical ways to tackle the root causes of Zika and mosquito-borne diseases. These small-group discussions are intended to foster brainstorming of actionable new strategies in conversation with those government officials responsible for managing the outbreaks.</p>
-              <div class="text-centered"><a href='./topics.html' class='button button--accent-color'>View the Schedule</a></div>
+              <!-- <p>In a series of weekly, 2-hour web-based conferences, experts from around the world will discuss innovative and practical ways to tackle the root causes of Zika and mosquito-borne diseases. These small-group discussions are intended to foster brainstorming of actionable new strategies in conversation with those government officials responsible for managing the outbreaks.</p>
+              <div class="text-centered"><a href='./topics.html' class='button button--accent-color'>View the Schedule</a></div> -->
+              <p>En una serie de conferencias semanales, de dos horas de duración, realizadas a través de la red, expertos de todo el mundo analizarán formas innovadoras y prácticas de abordar las causas del zika y de las enfermedades trasmitidas por mosquitos. Esos coloquios de pequeños grupos de personas están destinados a promover la aportación de ideas sobre nuevas estrategias aplicables, en conversación con los funcionarios gubernamentales encargados de hacer frente a las epidemias.</p>
+              <div class="text-centered"><a href='./topics.html' class='button button--accent-color'>VER EL CALENDARIO</a></div>
             </div>
           </div>
         </div>
@@ -79,16 +87,20 @@
         <section class="page-section page-section--zebra-dark">
           <div class="row align-center">
             <div class="medium-10 large-9 column more-info">
-              <p><strong>Would you like to lend your skills to tackle a public health emergency?</strong> Deliberate with diverse innovators and professionals to refine good ideas into actionable projects? Join a conversation with government partners interested in implementing new approaches to combatting Zika and other mosquito-borne diseases.</p>
-              <div class="text-centered"><a href='./call-for-participants.html' class='button button--accent-color'>Request an Invitation</a></div>
+              <!-- <p><strong>Would you like to lend your skills to tackle a public health emergency?</strong> Deliberate with diverse innovators and professionals to refine good ideas into actionable projects? Join a conversation with government partners interested in implementing new approaches to combatting Zika and other mosquito-borne diseases.</p>
+              <div class="text-centered"><a href='./call-for-participants.html' class='button button--accent-color'>Request an Invitation</a></div> -->
+              <p><strong>¿Te gustaría compartir tus habilidades para afrontar emergencias de salud pública?</strong> ¿Tratar temas con distintos innovadores y profesionales para perfeccionar ideas buenas y convertirlas en proyectos aplicables? Participa en una conversación con gobiernos interesados en poner en práctica nuevos enfoques para combatir el zika y otras enfermedades trasmitidas por mosquitos.</p>
+              <div class="text-centered"><a href='./call-for-participants.html' class='button button--accent-color'>SOLICITA UNA INVITACIÓN</a></div>
             </div>
           </div>
         </section>
         <section class="page-section">
           <div class="row align-center">
             <div class="medium-10 large-9 column more-info">
-              <p>For more background about <strong>Smarter Crowdsourcing: Zika</strong>, read our Playbook, a step-by-step guide for the development of the project. It provides answers to frequently asked questions about participation in this initiative.</p>
-              <div class="text-centered"><a href='https://docs.google.com/document/d/1AZNHKnjVlXpqRU5vkvz3PTKz0bS5oII8i_hu04QmoEw/edit#heading=h.qgmunizwlw4' target="_blank" class='button button--accent-color'>View the Playbook</a></div>
+              <!-- <p>For more background about <strong>Smarter Crowdsourcing: Zika</strong>, read our Playbook, a step-by-step guide for the development of the project. It provides answers to frequently asked questions about participation in this initiative.</p>
+              <div class="text-centered"><a href='https://docs.google.com/document/d/1AZNHKnjVlXpqRU5vkvz3PTKz0bS5oII8i_hu04QmoEw/edit#heading=h.qgmunizwlw4' target="_blank" class='button button--accent-color'>View the Playbook</a></div> -->
+              <p>Para obtener más información de fondo sobre el <strong>Crowdsourcing Inteligente: zika</strong>, lea nuestro manual, una guía detallada para el desarrollo del proyecto.  Aporta respuestas a las preguntas formuladas con frecuencia sobre la participación en esta iniciativa.</p>
+              <div class="text-centered"><a href='https://docs.google.com/document/d/1AZNHKnjVlXpqRU5vkvz3PTKz0bS5oII8i_hu04QmoEw/edit#heading=h.qgmunizwlw4' target="_blank" class='button button--accent-color'>VER EL MANUAL</a></div>
             </div>
           </div>
         </section>

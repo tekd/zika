@@ -7,52 +7,63 @@
 <section class="top-section top-section--theme-color top-section--background-panel-theme-color" style="background-image: url(./images/topics/{{topic.image}})">
     <div class="row expanded align-center">
       <div class="medium-10 large-6 column top-section__content">
-        <h3>Conference Information</h3>     
+        <!-- <h3>Conference Information</h3>     --> 
+        <h3>INFORMACIÓN DE LA CONFERENCIA</h3>
         <h1>{{topic.title}}</h1>
         <h3>{{topic.short_description}}</h3>  
       </div>
     </div>
   <div class="row expanded align-center">
     <div class="large-4 column medium-5"> 
-      <span class="conference-date__label">Date</span>
+      <!-- <span class="conference-date__label">Date</span> -->
+      <span class="conference-date__label">FECHA</span>
       <h4 class="conference-date">{{topic.conference.date}}</h4>
     </div>
     <div class="large-4 column medium-5"> 
-      <span class="conference-time__label">Time</span>
+      <!-- <span class="conference-time__label">Time</span> -->
+      <span class="conference-time__label">HORA</span>
       <h4 class="conference-time">{{topic.conference.time}}</h4>
     </div>
   </div>
   <div class="main-buttons">
-    <a href="./call-for-participants.html" class="button button--accent-color">Participate</a>
+    <!-- <a href="./call-for-participants.html" class="button button--accent-color">Participate</a> -->
+    <a href="./call-for-participants.html" class="button button--accent-color">PARTICIPA</a>
   </div>
 </section>
 <section class="page-section">
 {% if topic.problem_description_summary %}
   <div class="row align-center">
     <div class="column large-9 medium-10">
-      <h5>Problem Description</h5>
+      <!-- <h5>Problem Description</h5> -->
+      <h5>DESCRIPCIÓN DEL PROBLEMA</h5>
       <p>{{topic.problem_description_summary}}</p>
-      <a href="{{ topic.problem_description_link }}" target="_blank" class="button button--accent-color">Read the Problem Description</a>
+      <!-- <a href="{{ topic.problem_description_link }}" target="_blank" class="button button--accent-color">Read the Problem Description</a> -->
+      <a href="{{ topic.problem_description_link }}" target="_blank" class="button button--accent-color">LEER LA DESCRIPCIÓN DEL PROBLEMA</a>
     </div>
   </div>
 {% endif %}
   <div class="row align-center">
     <div class="column large-9 medium-10">
-      <h5>Request an Invitation</h5>
-        <p>Would you like to lend your skills to tackle a public health emergency? Deliberate with diverse innovators and professionals to refine good ideas into actionable projects? Join a conversation with government partners interested in implementing new approaches to combatting Zika and other mosquito-borne diseases.</p>
-        <a href="./call-for-participants.html" class="button button--accent-color">Request an Invitation</a>
+      <!-- <h5>Request an Invitation</h5> -->
+      <h5>SOLICITA UNA INVITACIÓN</h5>
+        <!-- <p>Would you like to lend your skills to tackle a public health emergency? Deliberate with diverse innovators and professionals to refine good ideas into actionable projects? Join a conversation with government partners interested in implementing new approaches to combatting Zika and other mosquito-borne diseases.</p> -->
+        <p>¿Te gustaría compartir tus habilidades para afrontar emergencias de salud pública? ¿Tratar temas con distintos innovadores y profesionales para perfeccionar ideas buenas y convertirlas en proyectos aplicables? Participa en una conversación con socios gubernamentales interesados en poner en práctica nuevos enfoques para combatir el zika y otras enfermedades trasmitidas por mosquitos.</p>
+        <!-- <a href="./call-for-participants.html" class="button button--accent-color">Request an Invitation</a> -->
+        <a href="./call-for-participants.html" class="button button--accent-color">SOLICITA UNA INVITACIÓN</a>
     </div>
   </div>
 </section>
 
 <section class="divider divider--theme-color">
-  <h1>Participants</h1>
+  <!-- <h1>Participants</h1> -->
+  <h1>PARTICIPANTES</h1>
 </section>
 <section class="page-section">
   {% if topic.conference.supporting_participants %}
   <div class="row align-center">
     <div class="column large-9 medium-10 participants">
-    <h4>Supporters</h4>
+    <!-- <h4>Supporters</h4> -->
+    <h4>COLABORADORES</h4>
         <ul id="participants_list">
         {% for person in topic.conference.supporting_participants %}
           <li><strong>{{person.name}} {% if person.twitter_url%}<a href="{{person.twitter_url}}" target='_blank'><span class='fa fa-twitter' aria-hidden='true'></span></a> {% endif %}</strong>{{person.title}} <br>{{person.affiliation}}</li>
@@ -64,7 +75,8 @@
   {% if topic.conference.partner_participants %}
   <div class="row align-center">
     <div class="column large-9 medium-10 participants">
-    <h4>Government Partners</h4>
+  <!--   <h4>Government Partners</h4> -->
+    <h4>SOCIOS GUBERNAMENTALES</h4>
       {% for p in topic.conference.partner_participants %}
       <h5>{{p.name}}</h5>
         <ul id="participants_list">

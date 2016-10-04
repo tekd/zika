@@ -9,24 +9,28 @@
     </div>
   </div>
   <div class="main-buttons">
-    {% if is_active and conference %}<a href="{{title | slug}}-conference.html" class="button button--accent-color">Conference</a>{% endif %}
-    <a href="./call-for-participants.html" class="button button--accent-color">Participate</a>
+    {% if is_active and conference %}<!-- <a href="{{title | slug}}-conference.html" class="button button--accent-color">Conference</a> --><a href="{{title | slug}}-conference.html" class="button button--accent-color">CONFERENCIA</a>{% endif %}
+    <!-- <a href="./call-for-participants.html" class="button button--accent-color">Participate</a> -->
+    <a href="./call-for-participants.html" class="button button--accent-color">Participar</a>
   </div>
 </section>
 
 <section class="page-section">
   <div class="row align-center">
     <div class="column large-9 medium-10">
-      <h5>Focus</h5>
+      <!-- <h5>Focus</h5> -->
+      <h5>FOCO</h5>
       <p class="page-section__highlight">{{focus}}</p>
     </div>
   </div>
   {% if problem_description_link %}
   <div class="row align-center">
     <div class="column large-9 medium-10">
-      <h5>Problem Description</h5>
+      <!-- <h5>Problem Description</h5> -->
+      <h5>DESCRIPCIÓN DEL PROBLEMA</h5>
       <p class="page-section__highlight">{{topic_description_summary}}</p>
-      <a href="{{ problem_description_link }}" target="_blank" class="button button--accent-color">Read the Problem Description</a>
+      <!-- <a href="{{ problem_description_link }}" target="_blank" class="button button--accent-color">Read the Problem Description</a> -->
+      <a href="{{ problem_description_link }}" target="_blank" class="button button--accent-color">LEER LA DESCRIPCIÓN DEL PROBLEMA</a>
     </div>
   </div>
   {% endif %}
