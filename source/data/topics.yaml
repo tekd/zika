@@ -1,21 +1,21 @@
 ---
 # Topics
 
-- title: Assessing Public Awareness
+- title: EVALUAR LA CONCIENCIA PÚBLICA
   id: 00
   is_active: true
   image: assessing-public-awareness.jpg
   short_description: >
-    What are the most effective ways to capture the public’s understanding of mosquito borne diseases? How to use these findings to inform the design of campaigns to improve public awareness?
-  focus: Public health campaigns to prevent infection can be improved with more evidence-based practices that afford greater insight into the current state of public understanding of mosquito borne diseases and their consequences. The goal of this session is to identify innovative and effective methods for knowing what people do and do not know.
-  topic_description_summary: The problems have been fleshed out into a briefing designed to describe the root causes of the problem, current approaches in different countries, and lessons learned from other domains.
-  problem_description_summary: >
-      Each online session is focused on a specific problem, that has been fleshed out into a briefing to describe the root causes of the problem, current approaches in different countries, and lessons learned from other domains.
+    ¿Cuáles son los medios más efectivos para suscitar la comprensión pública de las enfermedades transmitidas por mosquitos? ¿Cómo usar estos hallazgos para apoyar el diseño de campañas orientadas a mejorar la concientización pública?
+  focus: Las campañas de salud pública para prevenir la infección pueden ser perfeccionadas con más prácticas basadas en evidencia que contribuyan a una mejor comprensión pública de las enfermedades transmitidas por mosquitos (ETM) y sus consecuencias. El objetivo de esta sesión es identificar métodos innovadores y efectivos para conocer lo que la gente sabe y lo que no sabe.
+  topic_description_summary: Los problemas fueron expuestos en un informe resumido con el objetivo de describir la causa del problema, los enfoques actuales en los diferentes países y las lecciones aprendidas de otros campos.
+  problem_description_summary: Cada una de las sesiones en línea se centra en un problema específico, que fue desarrollado en un informe resumido que describe las causas del problema, los enfoques actuales en los distintos países y las lecciones aprendidas de otros campos.
   problem_description_link: https://docs.google.com/document/d/1JsbhW2nXFRCxqC_jxv-VFjyBHtqM7QwmG25Hu1v8E1Y/edit
   conference:
     is_active: false
-    date: August 31, 2016
-    time: 10am - 12pm EST
+    is_active_info: 
+    date: 31 DE AGOSTO DE 2016
+    time: 10-12 HRS EST
     supporting_participants: 
       - name: David Broniatowski
         title: Assistant Professor, School of Engineering and Applied Science
@@ -245,39 +245,28 @@
             title: Project Manager and Research Fellow
             affiliation: 
             twitter_url:
-          
-    resources:
-      # - name: Example Conference Resource
-      #   url: www.example.com
-      # - name: Example Conference Resource
-      #   url: www.example.com
+    resources: 
   post_conference:
     is_active: false
-    takeaways: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non erat in lectus eleifend aliquet eget malesuada sem. Suspendisse viverra sem ac quam volutpat, id elementum felis blandit. Morbi posuere erat ut sollicitudin consectetur.
-    action_items: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non erat in lectus eleifend aliquet eget malesuada sem. Suspendisse viverra sem ac quam volutpat, id elementum felis blandit. Morbi posuere erat ut sollicitudin consectetur.
+    takeaways:
+    action_items:
     resources:
-      # - name: Example Post Conference Resource
-      #   url: www.example.com
-      # - name: Example Post Conference Resource
-      #   url: www.example.com
 
-- title: Communication and Behavior Change
+- title: COMUNICACIÓN Y CAMBIO DE CONDUCTAS
   id: 01
   is_active: true
   image: communication-and-behavior-change.jpg
   short_description: >
-    What are the most effective ways for getting the public to change behavior to prevent mosquito breeding and mosquito bites and get proper access to healthcare?
-  focus: There are new opportunities, including innovative approaches and new communications media, to improve how governments communicate with the public so as to create greater incentives for that behavior change needed to mitigate the risk of Zika and mosquito borne illnesses. The goal of this session is to identify innovative approaches to communication that overcomes built-in inertia, preconceived beliefs and misinformation and  induces sustained behavior change.
-  topic_description_summary: The problems have been fleshed out into a briefing designed to describe the root causes of the problem, current approaches in different countries, and lessons learned from other domains.
+    ¿Cuáles son las maneras más efectivas de hacer que el público cambie de conductas para prevenir la reproducción del mosquito y sus picaduras y lograr un acceso adecuado a la atención de salud?
+  focus: Hay nuevas oportunidades, incluidos enfoques innovadores y nuevos medios de comunicación, para mejorar el modo en que los gobiernos se comunican con el público a fin de crear mayores incentivos orientados a ese cambio de conductas necesario para mitigar el riesgo del zika y las enfermedades transmitidas por mosquitos. El objetivo de esta sesión es identificar enfoques innovadores de comunicación que superen la inercia intrínseca, las creencias preconcebidas y la desinformación e induzcan un cambio de conductas sostenido.
+  topic_description_summary: Los problemas fueron expuestos en un informe resumido con el objetivo de describir la causa del problema, los enfoques actuales en los diferentes países y las lecciones aprendidas de otros campos.
   problem_description_summary: >
-    Each online session is focused on a specific problem, that has been fleshed out into a briefing to describe the root causes of the problem, current approaches in different countries, and lessons learned from other domains.
+    Cada una de las sesiones en línea se centra en un problema específico, que fue desarrollado en un informe resumido que describe las causas del problema, los enfoques actuales en los distintos países y las lecciones aprendidas de otros campos.
   problem_description_link: https://docs.google.com/document/d/1ko2hAnGHc5DjihNFfXjDbXPLA3x--shod0auwj6ZGTI/edit
   conference:
     is_active: false
-    date: September 7, 2016
-    time: 10am - 12pm EST
+    date: 7 DE SEPTIEMBRE DE 2016
+    time: 10 - 12 HRS
     supporting_participants: 
       - name: Dr. Juliet Bedford
         title: Director
@@ -493,12 +482,12 @@
       # - name: Example Post Conference Resource
       #   url: www.example.com
 
-- title: Relevant Learning 
+- title: APRENDIZAJE PERTINENTE 
   id: 02
   is_active: false
   image: 
-  short_description: >
-    What can be done to accelerate relevant learning among affected public policymakers, especially those outside of a ministry of health (e.g. environment, sanitation, urban planning, etc), and at various levels of government so they can develop a geographically specific and culturally contextualized understanding of a public health issue quickly enough to determine what related policies and services they must create? 
+  short_description: > 
+    ¿Qué se puede hacer para acelerar el aprendizaje pertinente entre los funcionarios públicos afectados, especialmente de quienes están fuera de un ministerio de salud (p. ej., medio ambiente, saneamiento, planificación urbana, etc.), y en varios niveles de gobierno, con vistas a que puedan desarrollar una comprensión geográficamente específica y culturalmente contextualizada de un problema de salud pública lo bastante rápido como para determinar qué políticas y servicios relacionados deben crear?
   focus: 
   problem_description_summary: 
   problem_description_link: 
@@ -517,12 +506,12 @@
     action_items:
     resources:
 
-- title: Governance and Coordination
+- title: GOBERNANZA Y COORDINACIÓN
   id: 03
   is_active: false
   image: 
   short_description: >
-    What are the best strategies for ensuring collaboration and avoiding duplication of effort between the many agencies involved in responding to a complex public health crisis? Who should be in charge? 
+    ¿Cuáles son las mejores estrategias para asegurar la colaboración y evitar la duplicación de esfuerzos entre las agencias involucradas en responder a una crisis de salud pública compleja? ¿Quién debería estar a cargo?
   focus: 
   problem_description_summary: 
   problem_description_link: 
@@ -546,15 +535,15 @@
   is_active: true
   image: predictive-analytics.jpg
   short_description: >
-    What are the innovative options to analyze available data from new technologies to predict and therefore prevent outbreaks?
+    ¿Cuáles son las opciones innovadoras para usar datos de nuevas tecnologías para predecir y por lo tanto, prevenir brotes? 
   focus: 
   problem_description_summary: 
   problem_description_link: 
   conference:
     is_active: true
     is_active_info: false
-    date: October 26, 2016
-    time: 10am - 12pm EST
+    date: 26 DE OCTUBRE DE 2016
+    time: 10-12 HRS EST
     participants:
       - name: 
         title: 
@@ -565,6 +554,573 @@
     takeaways:
     action_items:
     resources:
+
+
+
+# - title: Assessing Public Awareness
+#   id: 00
+#   is_active: true
+#   image: assessing-public-awareness.jpg
+#   short_description: >
+#     What are the most effective ways to capture the public’s understanding of mosquito borne diseases? How to use these findings to inform the design of campaigns to improve public awareness?
+#   focus: Public health campaigns to prevent infection can be improved with more evidence-based practices that afford greater insight into the current state of public understanding of mosquito borne diseases and their consequences. The goal of this session is to identify innovative and effective methods for knowing what people do and do not know.
+#   topic_description_summary: The problems have been fleshed out into a briefing designed to describe the root causes of the problem, current approaches in different countries, and lessons learned from other domains.
+#   problem_description_summary: >
+#       Each online session is focused on a specific problem, that has been fleshed out into a briefing to describe the root causes of the problem, current approaches in different countries, and lessons learned from other domains.
+#   problem_description_link: https://docs.google.com/document/d/1JsbhW2nXFRCxqC_jxv-VFjyBHtqM7QwmG25Hu1v8E1Y/edit
+#   conference:
+#     is_active: false
+#     date: August 31, 2016
+#     time: 10am - 12pm EST
+#     supporting_participants: 
+#       - name: David Broniatowski
+#         title: Assistant Professor, School of Engineering and Applied Science
+#         affiliation: The George Washington University, US 
+#         twitter_url:
+#       - name: Huiling Ding
+#         title: Associate Professor
+#         affiliation: North California State University, USA 
+#         twitter_url:
+#       - name: John P. Elder
+#         title: Distinguished Professor, Division of Health Promotion and Behavioral Science, Graduate School of Public Health
+#         affiliation: San Diego State University
+#         twitter_url:
+#       - name: Dr. Gaya Gamhewage
+#         title: Medical Officer, Infectious Hazards Management, Health Emergency Programme
+#         affiliation: World Health Organization, Switzerland
+#         twitter_url:
+#       - name: Manuel Garcia-Herranz
+#         title: Lead Research Scientist
+#         affiliation: UNICEF Office of Innovation
+#         twitter_url:
+#       - name: Molly Jackman
+#         title: Public Policy Research Manager,
+#         affiliation: Facebook
+#         twitter_url:
+#       - name: José Ignacio Mata
+#         title: Expert in Communication for Behavioral Change, Salud Mesoamerica 2015
+#         affiliation: Honduras
+#         twitter_url:
+#       - name: Esteban Moro
+#         title: Visiting Professor, MIT Media Lab, USA; Assistant Professor, Department of Mathematics, Carlos III University of Madrid, Spain
+#         affiliation: 
+#         twitter_url:
+#       - name: Mario Mosquera-Vasquez
+#         title:  Chief, Communication for Development
+#         affiliation:  UNICEF-India
+#         twitter_url:
+#       - name: Dr. Adriana Naim
+#         title: Health Programs Coordinator
+#         affiliation: RTI International, Guatemala
+#         twitter_url:
+#       - name: Monserrat Naranjo
+#         title: Directora de Proyectos, Curarse en Salud
+#         affiliation: Mexico
+#         twitter_url:
+#       - name: Wendy Nilsen
+#         title: Program Director, Smart and Connected Health
+#         affiliation: National Science Foundation, USA
+#         twitter_url:
+#       - name: Brendan Nyhan
+#         title: Professor, Department of Government
+#         affiliation: Dartmouth College, USA
+#         twitter_url:
+#       - name: Rafael Obregon
+#         title:  Chief, Communication for Development
+#         affiliation: UNICEF, USA
+#         twitter_url:
+#       - name: Nancy Pendarvis Harris
+#         title: Vice President
+#         affiliation: JSI, USA
+#         twitter_url:
+#       - name: Mathias Pollock
+#         title: Social and Behavior Change Technical Advisor
+#         affiliation: Population Services International
+#         twitter_url:
+#       - name: Lee Rainie
+#         title: Director of Internet, Science and Technology Research
+#         affiliation: Pew Research Center, USA
+#         twitter_url:
+#       - name: Alex Rutherford
+#         title: Data Scientist
+#         affiliation: UNICEF Innovation Unit, USA
+#         twitter_url:
+#       - name: Esmily Yusmary Ruiz Varón
+#         title: Consultant, Transmissible Diseases
+#         affiliation: Ministry of Health and Social Protection, Colombia
+#         twitter_url:
+#       - name: Dr. Magdalena Serpa
+#         title: Senior Program Officer, Maternal, Newborn, Child Health & Nutrition
+#         affiliation: PATH  
+#         twitter_url:
+#       - name: Fabro Steibe
+#         title: Executive Director
+#         affiliation: Institute for Technology and Society, Brazil
+#         twitter_url:
+#       - name: Joshua Tucker
+#         title: Co-Director, Social Media and Political Participation Lab (Smapp)
+#         affiliation: NYU, USA
+#         twitter_url:
+#       - name: Dr. Lynn Weekes
+#         title: CEO
+#         affiliation: NPS Medicinewise, Australia
+#       - name: Allison Wolff
+#         title: Facebook
+#         affiliation: USA
+#         twitter_url:
+#     partner_participants:
+#       - name: Panama
+#         people:
+#           - name: Dr. María Eugenia Barnett de Antinori
+#             title: Global Health Security Project Coordinator
+#             affiliation: The Gorgas Memorial Institute for Health Studies
+#             twitter_url:
+#           - name: Dr. Israel Cedeño
+#             title: International Epidemiological Surveillance Coordinator
+#             affiliation: Ministry of Health
+#             twitter_url:
+#           - name: Dr. Lizbeth Cerezo
+#             title: National Coordinator of Epidemiological Surveillance of Arbovirosis and Malaria
+#             affiliation: Ministry of Health
+#             twitter_url:
+#           - name: Gliz Checa
+#             title: Promotion Department
+#             affiliation: Ministry of Health
+#             twitter_url:
+#           - name: Joel González
+#             title: Communication Department
+#             affiliation: Ministry of Health
+#             twitter_url:
+#           - name: Dr. Juan Pascale
+#             title: Deputy Director
+#             affiliation: The Gorgas Memorial Institute for Health Studies
+#             twitter_url:
+#           - name: Evidelia Saavedra
+#             title: Promotion Department
+#             affiliation: Ministry of Health
+#             twitter_url:
+#       - name: Argentina
+#         people:
+#           - name: Gaston De Rochebouët
+#             title: Public Innovation National Direction
+#             affiliation: Ministry of Modernization
+#             twitter_url:
+#           - name: Tomás Dominguez Vidal
+#             title: Public Innovation National Direction
+#             affiliation: Ministry of Modernization
+#             twitter_url:
+#           - name: Dr. Raul Forlenza
+#             title: Department of Epidemiology
+#             affiliation: Ministry of Health
+#             twitter_url:
+#           - name: Andrea Jaitt
+#             title: Communication Services
+#             affiliation: Ministry of Health
+#             twitter_url:
+#           - name: Florencia Guedes
+#             title: Communication Services
+#             affiliation: Ministry of Health
+#             twitter_url:
+#           - name: Dr. Eugenio Mirkin
+#             title: Department of Epidemiology
+#             affiliation: Ministry of Health
+#             twitter_url:
+#           - name: Dr. Jorge San Juan
+#             title: Director of Epidemiology
+#             affiliation: Ministry of Health
+#             twitter_url:
+#           - name: Dr. Teresa Varela
+#             title: Department of Epidemiology
+#             affiliation: Ministry of Health
+#             twitter_url:
+#       - name: Colombia
+#         people:
+#           - name: Ricardo Amortegui González
+#             title: Coordinator, Communications Group
+#             affiliation: Ministry of Health and Social Protection
+#             twitter_url:
+#           - name: Jairo Hernández Márquez
+#             title: Coordinator, Healthy Territories Group, Subdepartment of Environmental Health
+#             affiliation: Ministry of Health and Social Protection
+#             twitter_url:
+#           - name: Ana María Lara Salinas
+#             title:  Advisor, Cooperation and International Relations
+#             affiliation: Ministry of Health and Social Protection
+#             twitter_url:
+#           - name: Dr. María Mercedes Muñoz
+#             title: Coordinator of the Public Health Surveillance Group, Demography and Epidemiology Department
+#             affiliation: Ministry of Health and Social Protection
+#             twitter_url:
+#           - name: Julio Padilla
+#             title: Specialist, Subdepartment of Communicable Diseases, Department of Promotion and Prevention
+#             affiliation: Ministry of Health and Social Protection
+#             twitter_url:
+#           - name: Mónica Lucía Ramírez
+#             title: Subdepartment of Environmental Health
+#             affiliation: Ministry of Health and Social Protection
+#             twitter_url:
+#       - name: City of Rio de Janeiro
+#         people:
+#           - name: Dr. Betina Durovni
+#             title: Sub-Secretary of Primary Health
+#             affiliation: Prevention and Surveillance 
+#             twitter_url:
+#           - name: Cristina Boaretto
+#             title: Health Promotion Superintendent
+#             affiliation: Secretary of Health
+#             twitter_url:
+#           - name: Valeria Saraceni
+#             title: Health Situation Analysis Coordination
+#             affiliation: Secretary of Health
+#             twitter_url:
+#       - name: Inter-American Development Bank 
+#         people:
+#           - name: Rafael Anta
+#             title: Lead Specialist
+#             affiliation: Competitiveness and Innovation Division
+#             twitter_url:
+#           - name: Ralf Moreno
+#             title: Project Manager
+#             affiliation: Social Protection and Health Division
+#             twitter_url:
+#           - name: Diana Pinto
+#             title: Health Lead Specialist, USA
+#             affiliation: Social Protection and Health Division
+#             twitter_url:
+#       - name: The Governance Lab, NYU
+#         people:
+#           - name: Dr. Rafael Ayoub
+#             title: Health Research Advisor
+#             affiliation: 
+#             twitter_url:
+#           - name: Professor Beth Simone Noveck
+#             title: Director
+#             affiliation: 
+#             twitter_url:
+#           - name: María Hermosilla
+#             title: Project Manager and Research Fellow
+#             affiliation: 
+#             twitter_url:
+          
+#     resources:
+#       # - name: Example Conference Resource
+#       #   url: www.example.com
+#       # - name: Example Conference Resource
+#       #   url: www.example.com
+#   post_conference:
+#     is_active: false
+#     takeaways: >
+#       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non erat in lectus eleifend aliquet eget malesuada sem. Suspendisse viverra sem ac quam volutpat, id elementum felis blandit. Morbi posuere erat ut sollicitudin consectetur.
+#     action_items: >
+#       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non erat in lectus eleifend aliquet eget malesuada sem. Suspendisse viverra sem ac quam volutpat, id elementum felis blandit. Morbi posuere erat ut sollicitudin consectetur.
+#     resources:
+#       # - name: Example Post Conference Resource
+#       #   url: www.example.com
+#       # - name: Example Post Conference Resource
+#       #   url: www.example.com
+
+# - title: Communication and Behavior Change
+#   id: 01
+#   is_active: true
+#   image: communication-and-behavior-change.jpg
+#   short_description: >
+#     What are the most effective ways for getting the public to change behavior to prevent mosquito breeding and mosquito bites and get proper access to healthcare?
+#   focus: There are new opportunities, including innovative approaches and new communications media, to improve how governments communicate with the public so as to create greater incentives for that behavior change needed to mitigate the risk of Zika and mosquito borne illnesses. The goal of this session is to identify innovative approaches to communication that overcomes built-in inertia, preconceived beliefs and misinformation and  induces sustained behavior change.
+#   topic_description_summary: The problems have been fleshed out into a briefing designed to describe the root causes of the problem, current approaches in different countries, and lessons learned from other domains.
+#   problem_description_summary: >
+#     Each online session is focused on a specific problem, that has been fleshed out into a briefing to describe the root causes of the problem, current approaches in different countries, and lessons learned from other domains.
+#   problem_description_link: https://docs.google.com/document/d/1ko2hAnGHc5DjihNFfXjDbXPLA3x--shod0auwj6ZGTI/edit
+#   conference:
+#     is_active: false
+#     date: September 7, 2016
+#     time: 10am - 12pm EST
+#     supporting_participants: 
+#       - name: Dr. Juliet Bedford
+#         title: Director
+#         affiliation: Anthrologica, United Kingdom
+#         twitter_url: 
+#       - name: Aphaluck Bhatiasevi
+#         title: Technical Officer, Risk Communication
+#         affiliation: World Health Organization, Switzerland
+#         twitter_url: 
+#       - name: Professor Brian Elbel
+#         title: Associate Professor of Population Health and Health Policy
+#         affiliation: NYU School of Medicine & NYU Wagner Graduate School of Public Service, USA
+#         twitter_url: 
+#       - name: John P. Elder
+#         title: Distinguished Professor, Division of Health Promotion and Behavioral Science, Graduate School of Public Health
+#         affiliation: San Diego State University, USA
+#         twitter_url: 
+#       - name: Baruch Fischhoff
+#         title: Howard Heinz University Professor, Department of Engineering and Public Policy, Institute for Politics and Strategy
+#         affiliation: Carnegie Mellon University, USA
+#         twitter_url: 
+#       - name: Romaine Lacombe
+#         title: CEO and Co Founder
+#         affiliation: Plume Labs
+#         twitter_url: 
+#       - name: Miguel Luengo Ortiz
+#         title: Founder, Malaria Spot; Chief Data Scientist, UN Global Pulse
+#         affiliation: Spain
+#         twitter_url: 
+#       - name: Christopher Mast
+#         title: Executive Director & Area Lead for Infectious Disease
+#         affiliation: Merck
+#         twitter_url: 
+#       - name: Jaykumar Menon
+#         title: Professor of Practice
+#         affiliation: McGill University Institute for the Study of International Development, Canada
+#         twitter_url: 
+#       - name: María Lucía Mesa Rubio
+#         title: Advisor, Vice Minister
+#         affiliation: Ministry of Health and Social Protection
+#         twitter_url: 
+#       - name: Dr. Adriana Naim
+#         title: Health Programs Coordinator
+#         affiliation: RTI International, Guatemala
+#         twitter_url: 
+#       - name: Monserrat Narváez
+#         title: Project Director
+#         affiliation: Curarse en Salud, Mexico
+#         twitter_url: 
+#       - name: Rafael Obregon
+#         title: Chief, Communication for Development
+#         affiliation: UNICEF, USA
+#         twitter_url: 
+#       - name: Carlos Scartascini
+#         title: Research Economist
+#         affiliation: Inter-American Development Bank, USA
+#         twitter_url: 
+#       - name: Alexandra Siegel
+#         title: Social Media and Political Participation Lab (Smapp)
+#         affiliation: NYU, USA
+#         twitter_url: 
+#       - name: Monica Wills Silva
+#         title: Advisor
+#         affiliation: Behavioral Insights Team, United Kingdom
+#         twitter_url: 
+#     partner_participants:
+#       - name: Panama
+#         people:
+#           - name: Gliz Checa
+#             title: Promotion Department
+#             affiliation: Ministry of Health
+#             twitter_url:
+#           - name: Evidelia Saavedra
+#             title: Promotion Department
+#             affiliation: Ministry of Health
+#             twitter_url:
+#           - name: Joel González
+#             title: Communication Department
+#             affiliation: Ministry of Health
+#             twitter_url:
+#           - name: Dr. Lizbeth Cerezo
+#             title: National Coordinator of Epidemiological Surveillance of Arbovirosis and Malaria
+#             affiliation: Ministry of Health
+#             twitter_url:
+#           - name: Julio Ruiloba
+#             title: Communications
+#             affiliation: Presidency
+#             twitter_url:
+#           - name: Dr. Israel Cedeño
+#             title: International Epidemiological Surveillance Coordinator
+#             affiliation: Ministry of Health
+#             twitter_url:
+#           - name: Dr. Juan Pascale
+#             title: Deputy Director
+#             affiliation: The Gorgas Memorial Institute for Health Studies
+#             twitter_url:
+#           - name: Dr. María Eugenia Barnett de Antinori
+#             title: Global Health Security Project Coordinator
+#             affiliation: The Gorgas Memorial Institute for Health Studies
+#             twitter_url:
+#       - name: Argentina
+#         people:
+#           - name: Dr. Jorge San Juan
+#             title: Head of Department of Epidemiology
+#             affiliation: Ministry of Health
+#             twitter_url:
+#           - name: Dr. Raul Forlenza
+#             title: Department of Epidemiology
+#             affiliation: Ministry of Health
+#             twitter_url:
+#           - name: María Victoria Gazia
+#             title: Department of Epidemiology
+#             affiliation: Ministry of Health
+#             twitter_url:
+#           - name: Dr. Eugenio Mirkin
+#             title: Department of Epidemiology
+#             affiliation: Ministry of Health
+#             twitter_url:
+#           - name: Florencia Guedes
+#             title: Communication Services
+#             affiliation: Ministry of Health
+#             twitter_url:
+#           - name: Andrea Jaitt
+#             title: Communication Services
+#             affiliation: Ministry of Health
+#             twitter_url:
+#           - name: Tomás Dominguez Vidal
+#             title: Public Innovation National Direction
+#             affiliation: Ministry of Modernization
+#             twitter_url:
+#       - name: Colombia
+#         people:
+#           - name: Ricardo Amortegui González
+#             title: Coordinator, Communications Group
+#             affiliation: Ministry of Health and Social Protection
+#             twitter_url:
+#           - name: Jairo Hernández Márquez
+#             title: Coordinator, Healthy Territories Group, Subdepartment of Environmental Health
+#             affiliation: Ministry of Health and Social Protection
+#             twitter_url:
+#           - name: Esmily Ruiz Varón
+#             title: Subdepartment of Communicable Diseases, Department of Promotion and Prevention
+#             affiliation: Ministry of Health and Social Protection
+#             twitter_url:
+#           - name: Dr. María Mercedes Muñoz
+#             title: Coordinator of the Public Health Surveillance Group, Demography and Epidemiology Department
+#             affiliation: Ministry of Health and Social Protection
+#             twitter_url:
+#           - name: Julio Padilla
+#             title: Specialist, Subdepartment of Communicable Diseases, Department of Promotion and Prevention
+#             affiliation: Ministry of Health and Social Protection
+#             twitter_url:
+#           - name: Mónica Lucía Ramírez
+#             title: Subdepartment of Environmental Health
+#             affiliation: Ministry of Health and Social Protection
+#             twitter_url:
+#           - name: Ana María Lara Salinas
+#             title:  Advisor, Cooperation and International Relations
+#             affiliation: Ministry of Health and Social Protection
+#             twitter_url:
+#       - name: City of Rio de Janeiro
+#         people:
+#           - name: Dr. Betina Durovni
+#             title: Sub-Secretary of Primary Health
+#             affiliation: Prevention and Surveillance 
+#             twitter_url:
+#           - name: Cristina Boaretto
+#             title: Health Promotion Superintendent
+#             affiliation: Secretary of Health
+#             twitter_url:
+#           - name: Valeria Saraceni
+#             title: Health Situation Analysis Coordination
+#             affiliation: Secretary of Health
+#             twitter_url:
+#       - name: Inter-American Development Bank 
+#         people:
+#           - name: Rafael Anta
+#             title: Lead Specialist
+#             affiliation: Competitiveness and Innovation Division
+#             twitter_url:
+#           - name: Ralf Moreno
+#             title: Project Manager
+#             affiliation: Social Protection and Health Division
+#             twitter_url:
+#           - name: Diana Pinto
+#             title: Health Lead Specialist, USA
+#             affiliation: Social Protection and Health Division
+#             twitter_url:
+#       - name: The Governance Lab, NYU
+#         people:
+#           - name: Dr. Rafael Ayoub
+#             title: Health Research Advisor
+#             affiliation: 
+#             twitter_url:
+#           - name: Professor Beth Simone Noveck
+#             title: Director
+#             affiliation: 
+#             twitter_url:
+#           - name: María Hermosilla
+#             title: Project Manager and Research Fellow
+#             affiliation: 
+#             twitter_url:
+#     resources: 
+#   post_conference:
+#     is_active: false
+#     takeaways: >
+#       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non erat in lectus eleifend aliquet eget malesuada sem. Suspendisse viverra sem ac quam volutpat, id elementum felis blandit. Morbi posuere erat ut sollicitudin consectetur.
+#     action_items: >
+#       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non erat in lectus eleifend aliquet eget malesuada sem. Suspendisse viverra sem ac quam volutpat, id elementum felis blandit. Morbi posuere erat ut sollicitudin consectetur.
+#     resources:
+#       # - name: Example Post Conference Resource
+#       #   url: www.example.com
+#       # - name: Example Post Conference Resource
+#       #   url: www.example.com
+
+# - title: Relevant Learning 
+#   id: 02
+#   is_active: false
+#   image: 
+#   short_description: >
+#     What can be done to accelerate relevant learning among affected public policymakers, especially those outside of a ministry of health (e.g. environment, sanitation, urban planning, etc), and at various levels of government so they can develop a geographically specific and culturally contextualized understanding of a public health issue quickly enough to determine what related policies and services they must create? 
+#   focus: 
+#   problem_description_summary: 
+#   problem_description_link: 
+#   conference:
+#     is_active: false
+#     date: 
+#     time: 
+#     participants:
+#       - name: 
+#         title: 
+#         twitter_url: 
+#     resources: 
+#   post_conference:
+#     is_active: false
+#     takeaways:
+#     action_items:
+#     resources:
+
+# - title: Governance and Coordination
+#   id: 03
+#   is_active: false
+#   image: 
+#   short_description: >
+#     What are the best strategies for ensuring collaboration and avoiding duplication of effort between the many agencies involved in responding to a complex public health crisis? Who should be in charge? 
+#   focus: 
+#   problem_description_summary: 
+#   problem_description_link: 
+#   conference:
+#     is_active: false
+#     date: 
+#     time: 
+#     participants:
+#       - name: 
+#         title: 
+#         twitter_url: 
+#     resources: 
+#   post_conference:
+#     is_active: false
+#     takeaways:
+#     action_items:
+#     resources:
+
+# - title: Predictive Analytics
+#   id: 04
+#   is_active: true
+#   image: predictive-analytics.jpg
+#   short_description: >
+#     What are the innovative options to analyze available data from new technologies to predict and therefore prevent outbreaks?
+#   focus: 
+#   problem_description_summary: 
+#   problem_description_link: 
+#   conference:
+#     is_active: true
+#     is_active_info: false
+#     date: October 26, 2016
+#     time: 10am - 12pm EST
+#     participants:
+#       - name: 
+#         title: 
+#         twitter_url: 
+#     resources: 
+#   post_conference:
+#     is_active: false
+#     takeaways:
+#     action_items:
+#     resources:
 
 - title: Trash and Standing Water
   id: 05
