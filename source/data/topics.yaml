@@ -14,7 +14,7 @@
   conference:
     is_active: false
     is_active_info: 
-    date: 31 DE AGOSTO DE 2016
+    date: August 31, 2016 #31 DE AGOSTO DE 2016
     time: 10-12 HRS EST
     supporting_participants: 
       - name: David Broniatowski
@@ -265,7 +265,7 @@
   problem_description_link: https://docs.google.com/document/d/1ko2hAnGHc5DjihNFfXjDbXPLA3x--shod0auwj6ZGTI/edit
   conference:
     is_active: false
-    date: 7 DE SEPTIEMBRE DE 2016
+    date: September 7, 2016 #7 DE SEPTIEMBRE DE 2016
     time: 10 - 12 HRS
     supporting_participants: 
       - name: Dr. Juliet Bedford
@@ -542,7 +542,7 @@
   conference:
     is_active: true
     is_active_info: false
-    date: 26 DE OCTUBRE DE 2016
+    date: October 26, 2016 #26 DE OCTUBRE DE 2016
     time: 10-12 HRS EST
     participants:
       - name: 
@@ -567,7 +567,7 @@
   problem_description_link: https://docs.google.com/document/d/1FGhvl935iBNKW9UA5Tt3iw9n3YakIFf_hat-5x7tIe8/edit
   conference:
     is_active: false
-    date: 21 DE SEPTIEMBRE DE 2016
+    date: September 21, 2016 #21 DE SEPTIEMBRE DE 2016
     time: 10-12 HRS EST
     supporting_participants: 
       - name: Dr. Graham Alabaster
@@ -799,7 +799,7 @@
   conference:
     is_active: false
     is_active_info: true
-    date: 28 DE SEPTIEMBRE DE 2016
+    date: September 28, 2016 #28 DE SEPTIEMBRE DE 2016
     time: 10 - 12 HRS EST
     supporting_participants: 
       - name: Sebastián Acevedo
@@ -1113,7 +1113,7 @@
   conference:
     is_active: true
     is_active_info: false
-    date: 19 DE OCTUBRE DE 2016
+    date: October 19, 2016 #19 DE OCTUBRE DE 2016
     time: 10 - 12 HRS EST 
     participants:
       - name: 
