@@ -95,7 +95,8 @@
   {% if topic.conference.resources %}
   <div class="row align-center">
     <div class="columns large-8 medium-10">
-      <h5>Conference Resources</h5>
+      <!-- <h5>Conference Resources</h5> -->
+      <h5>Documentos de la Conferencia</h5>
       {% for resource in topic.conference.resources %}
         <p><a href="{{resource.url}}"> {{resource.name}} </a></p>
       {% endfor %}      
@@ -108,13 +109,15 @@
   <section class="page-section">
     <div class="row align-center">
       <div class="columns large-8 medium-10">
-        <h5>Takeaways</h5>
+        <!-- <h5>Takeaways</h5> -->
+        <h5>Conclusiones</h5>
         <p>{{ topic.post_conference.takeaways }}</p>
       </div>
     </div>
     <div class="row align-center">
       <div class="columns large-8 medium-10">
-        <h5>Action Items</h5>
+        <!-- <h5>Action Items</h5> -->
+        <h5>Compromisos</h5>
         <p>{{ topic.post_conference.action_items }}</p>
       </div>
     </div>

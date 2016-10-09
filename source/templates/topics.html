@@ -4,8 +4,10 @@
 <section class="top-section top-section--main-color">
   <div class="row expanded align-center">
     <div class="medium-10 large-8 column top-section__content">
-      <h1>Topics</h1>
-      <h3>We have divided a major public health issue into several smaller problems that are the greatest priority of governments and are amenable to innovative and actionable solutions.</h3>  
+      <!-- <h1>Topics</h1>
+      <h3>We have divided a major public health issue into several smaller problems that are the greatest priority of governments and are amenable to innovative and actionable solutions.</h3>  --> 
+      <h1>Temas</h1>
+      <h3>HEMOS DIVIDIDO UN TEMA IMPORTANTE DE SALUD EN VARIOS PROBLEMAS MENORES QUE CONSTITUYEN LA MÁXIMA PRIORIDAD DE LOS GOBIERNOS Y SE PRESTAN A SOLUCIONES INNOVADORAS Y REALIZABLES.</h3>
     </div>
   </div>
 </section>
@@ -17,9 +19,11 @@
       <div class="large-6 small-12 column topic" style="background-image: url(./images/topics/resized/{{topic.image}})">
         <h1>{{topic.title}}</h1>
         <p>{{topic.short_description}}</p>
-        <p><a href="{{topic.title | slug }}.html" class="button button--theme-color">More Information</a></p>
+       <!--  <p><a href="{{topic.title | slug }}.html" class="button button--theme-color">More Information</a></p> -->
+        <p><a href="{{topic.title | slug }}.html" class="button button--theme-color">MÁS INFORMACIÓN</a></p>
         <div class="topic__date">
-          <h6>Conference on</h6>
+          <!-- <h6>Conference on</h6> -->
+          <h6>ESTA CONFERENCIA SE REALIZÓ EL</h6>
           <span class="topic__month">{{ topic.conference.date | dateFilter("month") | truncate(3, true, "")}}</span>
           <em class="topic__day">{{ topic.conference.date | dateFilter("day")}}</em>
         </div>
@@ -31,9 +35,11 @@
       <div class="large-6 small-12 column topic" style="background-image: url(./images/topics/resized/{{topic.image}})">
         <h1>{{topic.title}}</h1>
         <p>{{topic.short_description}}</p>
-        <p><a href="{{topic.title | slug }}.html" class="button button--theme-color">More Information</a></p>
+       <!--  <p><a href="{{topic.title | slug }}.html" class="button button--theme-color">More Information</a></p> -->
+        <p><a href="{{topic.title | slug }}.html" class="button button--theme-color">MÁS INFORMACIÓN</a></p>
         <div class="topic__date topic__date-past">
-          <h6>This conference took place on</h6>
+          <!-- <h6>This conference took place on</h6> -->
+          <h6>ESTA CONFERENCIA SE REALIZÓ EL</h6>
           <span class="topic__month">{{ topic.conference.date | dateFilter("month") | truncate(3, true, "")}}</span>
           <em class="topic__day">{{ topic.conference.date | dateFilter("day")}}</em>
         </div>
@@ -43,7 +49,8 @@
   </div>
 </section>
 <div class="divider divider--main-color">
-    <h1>Topics under Consideration</h1>
+    <!-- <h1>Topics under Consideration</h1> -->
+    <h1>TEMAS BAJO CONSIDERACIÓN</h1>
 </div>
 <section>
   {% for topic in topics %}

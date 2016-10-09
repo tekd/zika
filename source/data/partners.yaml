@@ -1,85 +1,164 @@
 ---
-# Partner_names
+Partner_names
 - partner_name: Argentina
   people:
     - name: Rudi Borrmann
-      title: Undersecretary of Public Innovation & Open Government
-      affiliation: Ministry of Modernization
+      title: Subsecretario de Innovación Pública y Gobierno Abierto 
+      affiliation: Ministerio de Modernización
     - name: Aranzazu Echezarreta
-      title: National Director of Public Innovation
-      affiliation: Ministry of Modernization
+      title: Directora Nacional de Innovación Pública
+      affiliation: Ministerio de Modernización
     - name: María Inés Baque
-      title: Secretary of Innovation and Public Management
-      affiliation: Minister of Modernization
+      title: Secretaria de Gestión e Innovación Pública
+      affiliation: Ministerio de Modernización
 
-- partner_name: Brazil
+- partner_name: Brasil
   people:
     - name: Dr. Betina Durovni
-      title: Sub-Secretary of Primary Health, Prevention and Surveillance
-      affiliation: City of Rio de Janeiro
+      title: Subsecretaria de Salud Primaria, Prevención y Vigilancia
+      affiliation: Ciudad de Río de Janeiro
     - name: Cristina Lemos
-      title: Health Surveillance Superintendent
-      affiliation: City of Rio de Janeiro
+      title: Superintendenta de Vigilancia Sanitaria
+      affiliation: Ciudad de Río de Janeiro
     - name: Daniel Soranz
-      title: Municipal Secretary of Health
-      affiliation: City of Rio de Janeiro
+      title: Secretario Municial de Salud 
+      affiliation: Ciudad de Río de Janeiro
 
 - partner_name: Colombia
   people:
-    - name: Dr. María Mercedes Muñoz 
-      title: Coordinator of the Public Health Surveillance Group, Demography and Epidemiology Department
-      affiliation: Ministry of Health and Social Protection
+    - name: Dra. María Mercedes Muñoz
+      title: Coordinadora Grupo de Vigilancia en Salud Pública, Dirección de Epidemiología y Demografía
+      affiliation: Ministerio de Salud y Protección Social
     - name: Fernando Ruiz
-      title: Vice Minister of Health
-      affiliation: Ministry of Health and Social Protection
-    - name: María Isabel Schotborgh
-      title: Specialist
-      affiliation: Ministry of Health and Social Protection
+      title: Vice Ministro de Salud
+      affiliation: Ministerio de Salud y Protección Social
+    - name: Ana María Lara
+      title: Asesora Cooperación y Relaciones Internacionales
+      affiliation: Ministerio de Salud y Protección Social
 
-- partner_name: Panama
+- partner_name: Panamá
   people:
-    - name: Dr. María Eugenia Barnett de Antinori 
-      title: Global Health Security Project Coordinator
-      affiliation: The Gorgas Memorial Institute for Health Studies
+    - name: Dra. María Eugenia Barnett de Antinori
+      title: Coordinadora Proyecto de Seguridad Global de Salud
+      affiliation: Instituto Conmemorativo Gorgas de Estudios de la Salud
     - name: Dr. Israel Cedeño
-      title: International Epidemiological Surveillance Coordinator
-      affiliation: Ministry of Health
-    - name: Dr. Lizbeth Cerezo 
-      title: National Coordinator of Epidemiological Surveillance of Arbovirosis and Malaria
-      affiliation: Ministry of Health
+      title: Coordinador Nacional de Vigilancia Epidemiológica Internacional
+      affiliation: Ministerio de Salud
+    - name: Dra. Lizbeth Cerezo
+      title: Coordinadora Nacional de la Vigilancia de enfermedades transmitidas por vectores
+      affiliation: Ministerio de Salud
     - name: Dr. Juan Miguel Pascale
-      title: Deputy Director 
-      affiliation: The Gorgas Memorial Institute for Health Studies
+      title: Sub Director General
+      affiliation: Instituto Conmemorativo Gorgas de Estudios de la Salud
     - name: Eric Ulloa
       title: 
-      affiliation: Vice-Minister of Health
+      affiliation: Vice Ministro de Salud
 
-- partner_name: Inter-American Development Bank
+- partner_name: Banco Interamericano de Desarrollo
   people:
     - name: Rafael Anta
       title: Operations Advisor, Office of the Executive Vice President
-      affiliation: Inter-American Development Bank
+      affiliation: Banco Interamericano de Desarrollo
     - name: Ralf Moreno
       title: Project Manager, Social Protection and Health Division
-      affiliation: Inter-American Development Bank
+      affiliation: Banco Interamericano de Desarrollo
     - name: Diana Pinto
       title: Health Lead Specialist, USA, Social Protection and Health Division
-      affiliation: Inter-American Development Bank
+      affiliation: Banco Interamericano de Desarrollo
 
 - partner_name: The GovLab
   people:
-    - name: Professor Beth Simone Noveck
-      title: Director/NYU
+    - name: Profesora Beth Simone Noveck
+      title: Directora
       affiliation: The GovLab
     - name: María Hermosilla
-      title: Project Manager
+      title: Gerente del Proyecto
       affiliation: The GovLab
     - name: Dr. Rafael Ayoub
-      title: Health Research Advisor
+      title: Asesor de Investigación en Salud
       affiliation: The GovLab
-    - name: Eleonore Pauwels
-      title: Health Research Advisor
-      affiliation: The GovLab
+
+# Partner_names
+# - partner_name: Argentina
+#   people:
+#     - name: Rudi Borrmann
+#       title: Undersecretary of Public Innovation & Open Government
+#       affiliation: Ministry of Modernization
+#     - name: Aranzazu Echezarreta
+#       title: National Director of Public Innovation
+#       affiliation: Ministry of Modernization
+#     - name: María Inés Baque
+#       title: Secretary of Innovation and Public Management
+#       affiliation: Minister of Modernization
+
+# - partner_name: Brazil
+#   people:
+#     - name: Dr. Betina Durovni
+#       title: Sub-Secretary of Primary Health, Prevention and Surveillance
+#       affiliation: City of Rio de Janeiro
+#     - name: Cristina Lemos
+#       title: Health Surveillance Superintendent
+#       affiliation: City of Rio de Janeiro
+#     - name: Daniel Soranz
+#       title: Municipal Secretary of Health
+#       affiliation: City of Rio de Janeiro
+
+# - partner_name: Colombia
+#   people:
+#     - name: Dr. María Mercedes Muñoz 
+#       title: Coordinator of the Public Health Surveillance Group, Demography and Epidemiology Department
+#       affiliation: Ministry of Health and Social Protection
+#     - name: Fernando Ruiz
+#       title: Vice Minister of Health
+#       affiliation: Ministry of Health and Social Protection
+#     - name: María Isabel Schotborgh
+#       title: Specialist
+#       affiliation: Ministry of Health and Social Protection
+
+# - partner_name: Panama
+#   people:
+#     - name: Dr. María Eugenia Barnett de Antinori 
+#       title: Global Health Security Project Coordinator
+#       affiliation: The Gorgas Memorial Institute for Health Studies
+#     - name: Dr. Israel Cedeño
+#       title: International Epidemiological Surveillance Coordinator
+#       affiliation: Ministry of Health
+#     - name: Dr. Lizbeth Cerezo 
+#       title: National Coordinator of Epidemiological Surveillance of Arbovirosis and Malaria
+#       affiliation: Ministry of Health
+#     - name: Dr. Juan Miguel Pascale
+#       title: Deputy Director 
+#       affiliation: The Gorgas Memorial Institute for Health Studies
+#     - name: Eric Ulloa
+#       title: 
+#       affiliation: Vice-Minister of Health
+
+# - partner_name: Inter-American Development Bank
+#   people:
+#     - name: Rafael Anta
+#       title: Operations Advisor, Office of the Executive Vice President
+#       affiliation: Inter-American Development Bank
+#     - name: Ralf Moreno
+#       title: Project Manager, Social Protection and Health Division
+#       affiliation: Inter-American Development Bank
+#     - name: Diana Pinto
+#       title: Health Lead Specialist, USA, Social Protection and Health Division
+#       affiliation: Inter-American Development Bank
+
+# - partner_name: The GovLab
+#   people:
+#     - name: Professor Beth Simone Noveck
+#       title: Director/NYU
+#       affiliation: The GovLab
+#     - name: María Hermosilla
+#       title: Project Manager
+#       affiliation: The GovLab
+#     - name: Dr. Rafael Ayoub
+#       title: Health Research Advisor
+#       affiliation: The GovLab
+#     - name: Eleonore Pauwels
+#       title: Health Research Advisor
+#       affiliation: The GovLab
 
   # - partner_name: 
   #   people:
