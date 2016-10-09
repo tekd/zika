@@ -1,17 +1,35 @@
-- title: Assessing Public Awareness Conference
+# - title: Assessing Public Awareness Conference
+#   topic_id: 00
+
+# - title: Communication and Behavior Change Conference
+#   topic_id: 01
+
+# - title: Trash and Standing Water Conference
+#   topic_id: 05
+
+# - title: "Information Collection/Data Governance Conference"
+#   topic_id: 07
+
+# - title: Long Term Care Conference
+#   topic_id: 12
+
+# - title: Predictive Analytics Conference
+#   topic_id: 04
+
+- title: EVALUAR LA CONCIENCIA PÚBLICA Conference
   topic_id: 00
 
-- title: Communication and Behavior Change Conference
+- title: COMUNICACIÓN Y CAMBIO DE CONDUCTAS Conference
   topic_id: 01
 
-- title: Trash and Standing Water Conference
+- title: LA BASURA Y EL AGUA ESTANCADA Conference
   topic_id: 05
 
-- title: "Information Collection/Data Governance Conference"
+- title: RECOLECCIÓN DE INFORMACIÓN / GOBERNANZA DE DATOS Conference
   topic_id: 07
 
-- title: Long Term Care Conference
+- title: CUIDADOS DE LARGO PLAZO Conference
   topic_id: 12
 
-- title: Predictive Analytics Conference
+- title: ANÁLISIS PREDICTIVO Conference
   topic_id: 04
