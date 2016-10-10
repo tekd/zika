@@ -1060,7 +1060,8 @@
   short_description: >
     ¿Cuáles son los enfoques creativos, ecológicos y eficaces para prevenir las picaduras de mosquito en horas concretas (p. ej., al anochecer) y en lugares específicos del cuerpo (p. ej., los tobillos)?
   focus: 
-  problem_description_summary: 
+  topic_description_summary: 
+  problem_description_summary: Cada una de las sesiones en línea se centra en un problema específico, que fue desarrollado en un informe resumido que describe las causas del problema, los enfoques actuales en los distintos países y las lecciones aprendidas de otros campos.
   problem_description_link: 
   conference:
     is_active: false
@@ -1108,7 +1109,8 @@
   short_description: >
     ¿Cómo damos apoyo a las familias con integrantes en riesgo o que ya sufren efectos crónicos del zika, como la microcefalia?
   focus: 
-  problem_description_summary: 
+  topic_description_summary: 
+  problem_description_summary: Cada una de las sesiones en línea se centra en un problema específico, que fue desarrollado en un informe resumido que describe las causas del problema, los enfoques actuales en los distintos países y las lecciones aprendidas de otros campos.
   problem_description_link: 
   conference:
     is_active: true
