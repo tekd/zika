@@ -26,7 +26,7 @@
         {% endif %}
         <div class="topic__date">
           <!-- <h6>Conference on</h6> -->
-          <h6>ESTA CONFERENCIA SE REALIZÓ EL</h6>
+          <h6>CONFERENCIA EL</h6>
           <span class="topic__month">{{ topic.conference.date | dateFilter("month") | truncate(3, true, "")}}</span>
           <em class="topic__day">{{ topic.conference.date | dateFilter("day")}}</em>
         </div>
@@ -42,7 +42,7 @@
         <p><a href="{{topic.title | slug }}.html" class="button button--theme-color">MÁS INFORMACIÓN</a></p>
         <div class="topic__date topic__date-past">
           <!-- <h6>This conference took place on</h6> -->
-          <h6>CONFERENCIA EL</h6>
+          <h6>ESTA CONFERENCIA SE REALIZÓ EL</h6>
           <span class="topic__month">{{ topic.conference.date | dateFilter("month") | truncate(3, true, "")}}</span>
           <em class="topic__day">{{ topic.conference.date | dateFilter("day")}}</em>
         </div>

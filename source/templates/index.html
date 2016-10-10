@@ -16,6 +16,8 @@
                 <!-- <h2>Imagine if the epidemiologist, the computer scientist, the urban planner and those with diverse know how could talk to one another to design actionable solutions to the root causes of mosquito borne illness.</h2>
                 <h2>Imagine if those creative individuals could speak directly to the institutions with the power and responsibility for delivering new policies and services.</h2>
                 <h2>Imagine if the smartest and most innovative people could come together to fight Zika quickly and easily.</h2> -->
+                <h2>Imagina si esos individuos creativos pudieran hablar directamente con las instituciones que tienen el poder y la responsabilidad de implementar nuevas políticas y servicios.</h2>
+                <h2>Imagina si las personas más inteligentes e innovadoras pudieran reunirse para combatir el zika de manera rápida y fácil.</h2>
                 <h2>Imagina si el epidemiólogo, el especialista en computación, el planificador urbano y aquellas personas con diversidad de conocimientos pudieran hablar entre sí para idear soluciones aplicables a las causas que originan las enfermedades trasmitidas por mosquitos.</h2>
               </section>
             </div>
@@ -44,7 +46,7 @@
                 {% endif %}
                 <div class="topic__date">
                   <!-- <h6>Conference on</h6> -->
-                  <h6>ESTA CONFERENCIA SE REALIZÓ EL</h6>
+                  <h6>CONFERENCIA EL</h6>
                   <span class="topic__month">{{ topic.conference.date | dateFilter("month") | truncate(3, true, "")}}</span>
                   <em class="topic__day">{{ topic.conference.date | dateFilter("day")}}</em>
                 </div>
@@ -59,7 +61,7 @@
                 <p><a href="{{topic.title | slug }}.html" class="button button--theme-color">MÁS INFORMACIÓN</a></p>
                 <div class="topic__date topic__date-past">
                   <!-- <h6>Conference took place on</h6> -->
-                  <h6>CONFERENCIA EL</h6>
+                  <h6>ESTA CONFERENCIA SE REALIZÓ EL</h6>
                   <span class="topic__month">{{ topic.conference.date | dateFilter("month") | truncate(3, true, "")}}</span>
                   <em class="topic__day">{{ topic.conference.date | dateFilter("day")}}</em>
                 </div>
