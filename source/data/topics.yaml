@@ -1107,14 +1107,14 @@
   is_active: true
   image: long-term-care.jpg
   short_description: >
-    ¿Cómo damos apoyo a las familias con integrantes en riesgo o que ya sufren efectos crónicos del zika, como la microcefalia?
-  focus: 
-  topic_description_summary: 
+    ¿Cómo proporcionan los formuladores de política un apoyo accesible y continuado a las familias cuyos miembros están en riesgo de sufrir, o ya sufren, los efectos crónicos del zika tales como la microcefalia?
+  focus: El brote de zika ha generado una explosión de condiciones crónicas que demandan nuevas inversiones en monitoreo, diagnóstico y tratamiento.
+  topic_description_summary: Las condiciones crónicas causadas por las enfermedades transmitidas por mosquitos, particularmente para los bebés expuestos al zika mientras están en el vientre materno, con diferentes niveles de malformación —serios problemas de articulaciones, convulsiones, deficiencia visual, dificultad para alimentarse y, en el peor de los casos, microcefalia—, son potencialmente abrumadoras. Estos bebés necesitarán un seguimiento constante con neurólogos, oftalmólogos, otorrinolaringólogos y terapeutas físicos entre muchos otros especialistas. El síndrome de Guillain-Barré, otro resultado potencial de la infección, también puede causar largos periodos de recuperación.
   problem_description_summary: Cada una de las sesiones en línea se centra en un problema específico, que fue desarrollado en un informe resumido que describe las causas del problema, los enfoques actuales en los distintos países y las lecciones aprendidas de otros campos.
-  problem_description_link: 
+  problem_description_link: https://docs.google.com/document/d/1L-COQDnskgiT0EMx_BIWGOlpbvAUU0rJ1WIcMaMo1Mk
   conference:
     is_active: true
-    is_active_info: false
+    is_active_info: true
     date: October 19, 2016 #19 DE OCTUBRE DE 2016
     time: 10 - 12 HRS EST 
     participants:
