@@ -87,6 +87,7 @@ $theme-color: #04ccb7;
   background-color: $accent-color;
   color: white;
   font-weight: 600;
+  margin-top: 10px;
 
   &:hover {
     background-color: darken($accent-color, 8);
