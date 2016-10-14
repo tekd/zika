@@ -12,11 +12,13 @@
   problem_description_summary: Cada una de las sesiones en línea se centra en un problema específico, que fue desarrollado en un informe resumido que describe las causas del problema, los enfoques actuales en los distintos países y las lecciones aprendidas de otros campos.
   problem_description_link: https://docs.google.com/document/d/1JsbhW2nXFRCxqC_jxv-VFjyBHtqM7QwmG25Hu1v8E1Y/edit
   problem_description_link_spanish: https://docs.google.com/document/d/1CF4dH-jP_MQ9wEh2o8PCbD3qWhLKmTEY7p8yxNHMiEQ/edit
+  english_document_link: https://docs.google.com/document/d/1_2EiE67ml3oxrFGJOIir1SCHXRtKnS7pdBEgBDsXNos/edit
   conference:
     is_active: false
     is_active_info: 
     date: August 31, 2016 #31 DE AGOSTO DE 2016
     time: 10-12 HRS EST
+    english_document_link: https://docs.google.com/document/d/1fB5_YmcMVVzQ825kguFdSjHlHqinq2eiAMwYBM7Krl4/edit
     supporting_participants: 
       - name: David Broniatowski
         title: Assistant Professor, School of Engineering and Applied Science
@@ -268,10 +270,12 @@
     Cada una de las sesiones en línea se centra en un problema específico, que fue desarrollado en un informe resumido que describe las causas del problema, los enfoques actuales en los distintos países y las lecciones aprendidas de otros campos.
   problem_description_link: https://docs.google.com/document/d/1ko2hAnGHc5DjihNFfXjDbXPLA3x--shod0auwj6ZGTI/edit
   problem_description_link_spanish: https://docs.google.com/document/d/13i0xoV4AK0smdKtqNJovBDaV6xevbKtovsN_iznO0Oo/edit
+  english_document_link: https://docs.google.com/document/d/1b5FNWLKYhL4-5HURZGydXHSPi7dRj9lxh-1xV9mblxM/edit
   conference:
     is_active: false
     date: September 7, 2016 #7 DE SEPTIEMBRE DE 2016
     time: 10 - 12 HRS
+    english_document_link: https://docs.google.com/document/d/1xiTHRcgLYWI3iMpridy68mmgHhkuDR1tz9CPXXZWQXc/edit
     supporting_participants: 
       - name: Dr. Juliet Bedford
         title: Director
@@ -497,6 +501,7 @@
   problem_description_summary: 
   problem_description_link: 
   problem_description_link_spanish:
+  english_document_link:
   conference:
     is_active: false
     date: 
@@ -522,6 +527,7 @@
   problem_description_summary: 
   problem_description_link:
   problem_description_link_spanish: 
+  english_document_link:
   conference:
     is_active: false
     date: 
@@ -547,6 +553,7 @@
   problem_description_summary: 
   problem_description_link:
   problem_description_link_spanish: 
+  english_document_link:
   conference:
     is_active: true
     is_active_info: false
@@ -574,6 +581,7 @@
   problem_description_summary: Cada una de las sesiones en línea se centra en un problema específico, que fue desarrollado en un informe resumido que describe las causas del problema, los enfoques actuales en los distintos países y las lecciones aprendidas de otros campos.
   problem_description_link: https://docs.google.com/document/d/1FGhvl935iBNKW9UA5Tt3iw9n3YakIFf_hat-5x7tIe8/edit
   problem_description_link_spanish: https://docs.google.com/document/d/1VSFj6BGAJrXWMYTosR2dthvjw3vSbx5lCfrgKNVQdD0/edit
+  english_document_link: 
   conference:
     is_active: false
     date: September 21, 2016 #21 DE SEPTIEMBRE DE 2016
