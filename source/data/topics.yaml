@@ -506,6 +506,7 @@
     is_active: false
     date: 
     time: 
+    english_document_link:
     participants:
       - name: 
         title: 
@@ -532,6 +533,7 @@
     is_active: false
     date: 
     time: 
+    english_document_link:
     participants:
       - name: 
         title: 
@@ -553,12 +555,13 @@
   problem_description_summary: 
   problem_description_link:
   problem_description_link_spanish: 
-  english_document_link:
+  english_document_link: https://docs.google.com/document/d/1ADXgKjGbXmkqdceO_89O6EhaIMw78oUYpKwy6dPKEyA/edit
   conference:
     is_active: true
     is_active_info: false
     date: October 26, 2016 #26 DE OCTUBRE DE 2016
     time: 10-12 HRS EST
+    english_document_link: https://docs.google.com/document/d/1_bAtqm4WWPnhfCX72hl3VOBiheG2bwZsLXna8BSDYQM/edit
     participants:
       - name: 
         title: 
@@ -581,11 +584,12 @@
   problem_description_summary: Cada una de las sesiones en línea se centra en un problema específico, que fue desarrollado en un informe resumido que describe las causas del problema, los enfoques actuales en los distintos países y las lecciones aprendidas de otros campos.
   problem_description_link: https://docs.google.com/document/d/1FGhvl935iBNKW9UA5Tt3iw9n3YakIFf_hat-5x7tIe8/edit
   problem_description_link_spanish: https://docs.google.com/document/d/1VSFj6BGAJrXWMYTosR2dthvjw3vSbx5lCfrgKNVQdD0/edit
-  english_document_link: 
+  english_document_link: https://drive.google.com/open?id=13p5uQpyVMp-FWDjHaT8Yay_T3U5ORCWpuEQVGXgopGo
   conference:
     is_active: false
     date: September 21, 2016 #21 DE SEPTIEMBRE DE 2016
     time: 10-12 HRS EST
+    english_document_link: https://drive.google.com/open?id=159K55X69REu4wp7S6VkdmtSwMKkaTIVkIpZohVoITEo
     supporting_participants: 
       - name: Dr. Graham Alabaster
         title: Senior Technical expert
@@ -789,10 +793,12 @@
   problem_description_summary: 
   problem_description_link: 
   problem_description_link_spanish:
+  english_document_link:
   conference:
     is_active: false
     date: 
     time: 
+    english_document_link:
     participants:
       - name: 
         title: 
@@ -815,11 +821,13 @@
   problem_description_summary: Cada una de las sesiones en línea se centra en un problema específico, que fue desarrollado en un informe resumido que describe las causas del problema, los enfoques actuales en los distintos países y las lecciones aprendidas de otros campos.
   problem_description_link: https://docs.google.com/document/d/1LZlg7w_JW3JbDqoyRBE2OzjqGIw3Fq5dgd-1OchQ-iQ/edit
   problem_description_link_spanish: https://docs.google.com/document/d/1_IkNVJNASTCw_fgRyNw4EtRToBdZXwngtl97Qdip9Hs/edit
+  english_document_link: https://docs.google.com/document/d/1xsokZgB4pmK5w5Qt6NlrGMZAkMHJuqjzh2RT54ZefcE/edit
   conference:
     is_active: false
     is_active_info: true
     date: September 28, 2016 #28 DE SEPTIEMBRE DE 2016
     time: 10 - 12 HRS EST
+    english_document_link: https://docs.google.com/document/d/1D-iv54_w8rAwk-z2x-ViPom7WzdRYshkRGhzkBUDsbk/edit
     supporting_participants: 
       - name: Sebastián Acevedo
         title: Consultant on Open Government, Public Innovation and Data Analytics
@@ -1035,10 +1043,12 @@
   problem_description_summary: 
   problem_description_link: 
   problem_description_link_spanish:
+  english_document_link:
   conference:
     is_active: false
     date: 
     time: 
+    english_document_link:
     participants:
       - name: 
         title: 
@@ -1059,10 +1069,12 @@
   problem_description_summary: 
   problem_description_link: 
   problem_description_link_spanish:
+  english_document_link:
   conference:
     is_active: false
     date: 
     time: 
+    english_document_link:
     participants:
       - name: 
         title: 
@@ -1085,10 +1097,12 @@
   problem_description_summary: Cada una de las sesiones en línea se centra en un problema específico, que fue desarrollado en un informe resumido que describe las causas del problema, los enfoques actuales en los distintos países y las lecciones aprendidas de otros campos.
   problem_description_link: 
   problem_description_link_spanish:
+  english_document_link:
   conference:
     is_active: false
     date: 
     time: 
+    english_document_link:
     participants:
       - name: 
         title: 
@@ -1110,10 +1124,12 @@
   problem_description_summary: 
   problem_description_link: 
   problem_description_link_spanish:
+  english_document_link:
   conference:
     is_active: false
     date: 
     time: 
+    english_document_link:
     participants:
       - name: 
         title: 
@@ -1136,11 +1152,13 @@
   problem_description_summary: Cada una de las sesiones en línea se centra en un problema específico, que fue desarrollado en un informe resumido que describe las causas del problema, los enfoques actuales en los distintos países y las lecciones aprendidas de otros campos.
   problem_description_link: https://docs.google.com/document/d/1L-COQDnskgiT0EMx_BIWGOlpbvAUU0rJ1WIcMaMo1Mk
   problem_description_link_spanish: https://docs.google.com/document/d/1ineGTTXL1LdvFkTENCVFvMMRg0GF6quLA-IlG4LH2yo/edit
+  english_document_link: https://docs.google.com/document/d/1-FOzl1PIpL4aeAvknr3zTVyqwRtX2AjlZjCIhiSDTZw/edit
   conference:
     is_active: true
     is_active_info: true
     date: October 19, 2016 #19 DE OCTUBRE DE 2016
     time: 10 - 12 HRS EST 
+    english_document_link: https://docs.google.com/document/d/1qzEkNmYLQJtsNQULB3VXnCMd0jFJ4DbfrHoLOv2czd0/edit
     participants:
       - name: 
         title: 
