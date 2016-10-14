@@ -35,6 +35,16 @@
     </div>
   </div>
   {% endif %}
+  {% if resources %}
+  <div class="row align-center">
+    <div class="column large-9 medium-10">
+      <h5>RECURSOS</h5>
+      {% for resource in resources %}
+      <a class="resource-link" href="{{resource.url}}" target="_blank">{{resource.name}}</a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
 </section>
 
 
