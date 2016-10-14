@@ -12,6 +12,9 @@
     {% if is_active and conference %}<!-- <a href="{{title | slug}}-conference.html" class="button button--accent-color">Conference</a> --><a href="{{title | slug}}-conference.html" class="button button--accent-color">CONFERENCIA</a>{% endif %}
     <!-- <a href="./call-for-participants.html" class="button button--accent-color">Participate</a> -->
     <a href="./call-for-participants.html" class="button button--accent-color">Participa</a>
+    {% if english_document_link %}
+    <a href="{{english_document_link}}" class="button button--accent-color">In English</a>
+    {% endif %}
   </div>
 </section>
 
