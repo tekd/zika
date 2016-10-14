@@ -233,4 +233,14 @@ $theme-color: #04ccb7;
 
 .resource-link {
   font-size: 1.4rem;
+  font-style: italic;
+  font-weight: 500;
+  color: $main-color;
 }
+
+.resource-link:hover {
+  color: darken($main-color, 4);
+  text-decoration: none;
+  cursor: pointer;
+}
+
