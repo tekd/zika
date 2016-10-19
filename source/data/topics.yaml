@@ -551,14 +551,15 @@
   image: predictive-analytics.jpg
   short_description: >
     ¿Cuáles son las opciones innovadoras para usar datos de nuevas tecnologías para predecir y por lo tanto, prevenir brotes? 
-  focus: 
-  problem_description_summary: 
-  problem_description_link:
-  problem_description_link_spanish: 
+  focus: Los brotes son generalmente impredecibles y por lo tanto difíciles de prevenir.
+  topic_description_summary: Los problemas fueron expuestos en un informe resumido con el objetivo de describir la causa del problema, los enfoques actuales en los diferentes países y las lecciones aprendidas de otros campos.
+  problem_description_summary: Cada una de las sesiones en línea se centra en un problema específico, que fue desarrollado en un informe resumido que describe las causas del problema, los enfoques actuales en los distintos países y las lecciones aprendidas de otros campos.
+  problem_description_link: https://drive.google.com/open?id=1PFicAaYHnECL8SdhpH39wmzyZ9IM-Ill_pctGPM03jM
+  problem_description_link_spanish: https://docs.google.com/document/d/1luZZwwAm6V4LX_eOLxImfy0Dn1BY_eJScP2lvlwcqwM/edit?usp=sharing
   english_document_link: https://docs.google.com/document/d/1ADXgKjGbXmkqdceO_89O6EhaIMw78oUYpKwy6dPKEyA/edit
   conference:
     is_active: true
-    is_active_info: false
+    is_active_info: true
     date: October 26, 2016 #26 DE OCTUBRE DE 2016
     time: 10-12 HRS EST
     english_document_link: https://docs.google.com/document/d/1_bAtqm4WWPnhfCX72hl3VOBiheG2bwZsLXna8BSDYQM/edit
