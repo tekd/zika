@@ -1247,82 +1247,114 @@
           #   title: Deputy Director of International Affairs
           #   affiliation: Ministry of Health
           #   twitter_url:
-          # - name: Dr. Israel Cedeño
-          #   title: International Epidemiological Surveillance Coordinator
-          #   affiliation: Ministry of Health
-          #   twitter_url:
-          # - name: Dra. María Eugenia Barnett de Antinori
-          #   title: Global Health Security Project Coordinator
-          #   affiliation: The Gorgas Memorial Institute for Health Studies
-          #   twitter_url:
+          - name: Dr. Israel Cedeño
+            title: International Epidemiological Surveillance Coordinator
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Dr. Marcela Reyes
+            title: 
+            affiliation: Department of Epidemiology, Ministry of Health
+            twitter_url:
       - name: Argentina
         people:
           - name: Aranzazu Echezarreta
             title: National Director of Public Innovation
             affiliation: Ministry of Modernization
             twitter_url:
-          # - name: Dr. Raul Forlenza
-          #   title: Department of Epidemiology
-          #   affiliation: Ministry of Health
-          #   twitter_url:
-          # - name: María Victoria Gazia
-          #   title: Department of Epidemiology
-          #   affiliation: Ministry of Health
-          #   twitter_url:
-          # - name: Dr. Eugenio Mirkin
-          #   title: Department of Epidemiology
-          #   affiliation: Ministry of Health
-          #   twitter_url:
-          # - name: Gaston De Rochebouet
-          #   title: Public Innovation Department
-          #   affiliation: Ministry of Modernization
-          #   twitter_url:
-          # - name: Tomas Dominguez Vidal
-          #   title: Public Innovation Department
-          #   affiliation: Ministry of Modernization
-          #   twitter_url:         
+          - name: Dr. Raul Forlenza
+            title: Department of Epidemiology
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Dr. Alicia Emilia Mañana
+            title: 
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Dr. Teresa Varela
+            title: 
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Dr. Cristian Hertlein
+            title:
+            affiliation: Ministry of Health
+            twitter_url:
+          - name: Gaston De Rochebouet
+            title: Public Innovation Department
+            affiliation: Ministry of Modernization
+            twitter_url:
+          - name: Tomas Dominguez Vidal
+            title: Public Innovation Department
+            affiliation: Ministry of Modernization
+            twitter_url:   
+          - name: Martin Elias Costa
+            title: Open Data
+            affiliation: Ministry of Modernization
+            twitter_url: 
+          - name: Agustin Benassi
+            title: Open Data
+            affiliation: Ministry of Modernization
+            twitter_url: 
       - name: Colombia
         people:
           - name: Dr. María Mercedes Muñoz
             title: Coordinator of the Public Health Surveillance Group, Demography and Epidemiology Department
             affiliation: Ministry of Health and Social Protection
             twitter_url:
-          # - name: Ana María Lara Salinas
-          #   title: Advisor, Cooperation and International Relations 
-          #   affiliation: Ministry of Health and Social Protection
-          #   twitter_url: 
-          # - name: Andrea Paredes
-          #   title: Demography and Epidemiology Department
-          #   affiliation: Ministry of Health and Social Protection
-          #   twitter_url:
-          # - name: Claudia Cuellar
-          #   title: Demography and Epidemiology Department
-          #   affiliation: Ministry of Health and Social Protection
-          #   twitter_url:
-          # - name: Martha Ospina
-          #   title: Director
-          #   affiliation: National Institute of Health
-          #   twitter_url:
+          - name: Ana María Lara Salinas
+            title: Advisor, Cooperation and International Relations 
+            affiliation: Ministry of Health and Social Protection
+            twitter_url: 
+          - name: Andrea Avella
+            title: Demography and Epidemiology Department
+            affiliation: Ministry of Health and Social Protection
+            twitter_url:
+          - name: Claudia Cuellar
+            title: Demography and Epidemiology Department
+            affiliation: Ministry of Health and Social Protection
+            twitter_url:
+          - name: Oscar Eduardo Pacheco
+            title: Director of Surveillance
+            affiliation: National Institute of Health
+            twitter_url:
       - name: Ciudad de Río Janeiro
         people:
           - name: Dr. Betina Durovni
-            title: Sub-Secretary of Primary Health
-            affiliation: Prevention and Surveillance 
+            title: Primary Care and Health Surveillance Undersecretary
+            affiliation: Secretary of Health
             twitter_url:
-          # - name: Cristina Boaretto 
-          #   title: Health Promotion Superintendent
-          #   affiliation: Secretary of Health
-          #   twitter_url:
-          # - name: Elen Barreto
-          #   title: Health Promotion Department
-          #   affiliation: Secretary of Health
-          #   twitter_url:
-          # - name: Valeria Saraceni
-          #   title: Health Situation Analysis Coordination
-          #   affiliation: Secretary of Health
-          #   twitter_url:
+          - name: Valeria Saraceni
+            title: Health Situation Analysis Coordination
+            affiliation: Secretary of Health
+            twitter_url:
+          - name: Cristina Lemos
+            title: Health Surveillance Superintendent
+            affiliation: Secretary of Health
+            twitter_url:
+          - name: Cristina Boaretto 
+            title: Health Promotion Superintendent
+            affiliation: Secretary of Health
+            twitter_url:
+          - name: Elenice
+            title: 
+            affiliation: Women's Health Program
+            twitter_url: Secretary of Health
+          - name: Jamile
+            title: Child and Adolescent's Health Program
+            affiliation: Secretary of Health
+            twitter_url:
+          - name: Maria Aparecida Duarte Vidon Blanc
+            title: Rehabilition Coordination
+            affiliation: Secretary of Health
+            twitter_url:
+          - name: Beatriz Loureiro Werneck
+            title: Rehabilition Coordination
+            affiliation: Secretary of Health
+            twitter_url:
       - name: Banco Interamericano de Desarrollo 
         people:
+          - name: Rafael Anta
+            title: Lead Specialist
+            affiliation: Competitiveness and Innovation Division
+            twitter_url:
           - name: Ralf Moreno
             title: Project Manager
             affiliation: Social Protection and Health Division
@@ -1343,6 +1375,14 @@
             twitter_url:
           - name: María Hermosilla
             title: Project Manager and Research Fellow
+            affiliation: 
+            twitter_url:
+          - name: Dinora Cantu
+            title: Academy Coordinator
+            affiliation: 
+            twitter_url:
+          - name: Anirudh Dinesh
+            title: Research Assistant
             affiliation: 
             twitter_url:
     resources: 
