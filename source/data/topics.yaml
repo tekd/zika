@@ -1337,7 +1337,7 @@
   problem_description_link_spanish: https://docs.google.com/document/d/1ineGTTXL1LdvFkTENCVFvMMRg0GF6quLA-IlG4LH2yo/edit
   english_document_link: https://docs.google.com/document/d/1-FOzl1PIpL4aeAvknr3zTVyqwRtX2AjlZjCIhiSDTZw/edit
   conference:
-    is_active: true
+    is_active: false
     is_active_info: true
     date: October 19, 2016 #19 DE OCTUBRE DE 2016
     time: 10 - 12 HRS EST 
@@ -1550,7 +1550,7 @@
             twitter_url:
     resources: 
   post_conference:
-    is_active: false
+    is_active: true
     takeaways:
     action_items:
     resources:
