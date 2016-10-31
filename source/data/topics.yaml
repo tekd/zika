@@ -1327,25 +1327,13 @@
         title: Senior Policy Research Associate
         affiliation: The Center for Health and Gender Equity, USA
         twitter_url:
-      - name: Ivan Gonzalez, M.D.
-        title: Assistant Professor, Division of Pediatric Immunology and Infectious Diseases
-        affiliation: University of Miami, USA
-        twitter_url:
       - name: Dirceu B. Greco, MD, PhD
         title: Professor
         affiliation: Infectious Diseases and Bioethics School of Medicine Federal University of Minas Gerais - Belo Horizonte, Brazil
         twitter_url:
-      - name: Sinara Gumieri
-        title: Researcher and Legal Advisor, Anis - Institute of Bioethics
-        affiliation: Human Rights and Gender, Brazil
-        twitter_url:
       - name: Emma Iriarte
         title: Executive Secretary, Salud Mesoamérica 2015 Initiative
         affiliation: Health Lead Specialist, Inter-American Development Bank, Panama
-        twitter_url:
-      - name: Dévora Kestel, MSc., MPH
-        title: Unit Chief, Mental Health and Substance Use
-        affiliation: Pan American Health Organization (PAHO/WHO)
         twitter_url:
       - name: Karin Nielsen, MD, MPH
         title: Professor of Clinical Pediatrics, Division of Infectious Diseases, David Geffen UCLA School of Medicine
@@ -1358,10 +1346,6 @@
       - name: George Saade MD
         title: Professor, Obstetrics & Gynecology, and Cell Biology, Chief of Obstetrics and Maternal Fetal Medicine, Director, Perinatal Research Division, Department of Obstetrics and Gynecology
         affiliation: University of Texas - Galveston, USA
-        twitter_url:
-      - name: Dr. José Ernesto Samra
-        title: Head, Pediatric Department, University Teaching Hospital
-        affiliation: National Autonomous University of Honduras, Honduras
         twitter_url:
       - name: Chiara Servili, MD, MPH, PhD
         title: Focal Point – Child and Adolescent Mental Health Evidence, Research and Action on Mental and Brain Disorders, Department of Mental Health and Substance Abuse
@@ -1390,72 +1374,32 @@
           #   title: Deputy Director of International Affairs
           #   affiliation: Ministry of Health
           #   twitter_url:
-          - name: Dr. Israel Cedeño
-            title: International Epidemiological Surveillance Coordinator
-            affiliation: Ministry of Health
-            twitter_url:
-          - name: Dr. Marcela Reyes
-            title: 
-            affiliation: Department of Epidemiology, Ministry of Health
-            twitter_url:
       - name: Argentina
         people:
-          - name: Aranzazu Echezarreta
-            title: National Director of Public Innovation
-            affiliation: Ministry of Modernization
-            twitter_url:
-          - name: Dr. Raul Forlenza
-            title: Department of Epidemiology
-            affiliation: Ministry of Health
-            twitter_url:
-          - name: Dr. Alicia Emilia Mañana
-            title: Ministry of Health
-            affiliation: 
-            twitter_url:
-          - name: Dr. Teresa Varela
-            title: Ministry of Health
-            affiliation: 
-            twitter_url:
-          - name: Dr. Cristian Hertlein
-            title: Ministry of Health
-            affiliation: 
-            twitter_url:
-          - name: Gaston De Rochebouet
-            title: Public Innovation Department
-            affiliation: Ministry of Modernization
-            twitter_url:
           - name: Tomas Dominguez Vidal
             title: Public Innovation Department
             affiliation: Ministry of Modernization
             twitter_url:   
-          - name: Martin Elias Costa
-            title: Open Data
-            affiliation: Ministry of Modernization
+          - name: Dra Alicia Mañana
+            title: Ministry of Health
+            affiliation: 
             twitter_url: 
-          - name: Agustin Benassi
-            title: Open Data
-            affiliation: Ministry of Modernization
+          - name: Dra Mariel Caparaelli
+            title: Ministry of Health
+            affiliation: 
             twitter_url: 
       - name: Colombia
         people:
-          - name: Dr. María Mercedes Muñoz
-            title: Coordinator of the Public Health Surveillance Group, Demography and Epidemiology Department
-            affiliation: Ministry of Health and Social Protection
-            twitter_url:
           - name: Ana María Lara Salinas
             title: Advisor, Cooperation and International Relations 
             affiliation: Ministry of Health and Social Protection
             twitter_url: 
-          - name: Andrea Avella
-            title: Demography and Epidemiology Department
-            affiliation: Ministry of Health and Social Protection
+          - name: Liliana Cuevas
+            title: Specialist, Congenital Defects Surveillance
+            affiliation: National Institute of Health
             twitter_url:
-          - name: Claudia Cuellar
-            title: Demography and Epidemiology Department
-            affiliation: Ministry of Health and Social Protection
-            twitter_url:
-          - name: Oscar Eduardo Pacheco
-            title: Director of Surveillance
+          - name: Marcela Mercado
+            title: Department of Research in Public Health
             affiliation: National Institute of Health
             twitter_url:
       - name: Ciudad de Río Janeiro
@@ -1476,20 +1420,20 @@
             title: Health Promotion Superintendent
             affiliation: Secretary of Health
             twitter_url:
-          - name: Elenice
+          - name: Elenice Almeida
             title: Women's Health Program
             affiliation: Secretary of Health
             twitter_url: 
-          - name: Jamile
+          - name: Jamile Costa
             title: Child and Adolescent's Health Program
             affiliation: Secretary of Health
             twitter_url:
           - name: Maria Aparecida Duarte Vidon Blanc
-            title: Rehabilition Coordination
+            title: Rehabilitation Coordination
             affiliation: Secretary of Health
             twitter_url:
           - name: Beatriz Loureiro Werneck
-            title: Rehabilition Coordination
+            title: Rehabilitation Coordination
             affiliation: Secretary of Health
             twitter_url:
       - name: Banco Interamericano de Desarrollo 
