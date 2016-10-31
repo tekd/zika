@@ -558,7 +558,7 @@
   problem_description_link_spanish: https://docs.google.com/document/d/1luZZwwAm6V4LX_eOLxImfy0Dn1BY_eJScP2lvlwcqwM/edit?usp=sharing
   english_document_link: https://docs.google.com/document/d/1ADXgKjGbXmkqdceO_89O6EhaIMw78oUYpKwy6dPKEyA/edit
   conference:
-    is_active: true
+    is_active: false
     is_active_info: true
     date: October 26, 2016 #26 DE OCTUBRE DE 2016
     time: 10-12 HRS EST
@@ -731,7 +731,7 @@
             twitter_url:   
     resources: 
   post_conference:
-    is_active: false
+    is_active: true
     takeaways:
     action_items:
     resources:
