@@ -805,7 +805,11 @@
       - name: Carlos V. Urmeneta
         title: Country Director
         affiliation: iDE - International Development Enterprises, Honduras
-        twitter_url:    
+        twitter_url: 
+      - name: Alfredo Rihm
+        title: Water and Sanitation Specialist
+        affiliation: Inter-American Development Bank, USA
+        twitter_url:   
     partner_participants:
       - name: Panamá
         people:
