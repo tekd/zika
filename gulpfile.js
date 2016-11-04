@@ -272,9 +272,9 @@ gulp.task('sass', function () {
     .pipe(browserSync.reload({ stream: true }));
 });
 
-gulp.task('vendor', function () {
-  return gulp.src('source/vendor/**/*')
-    .pipe(gulp.dest('public/vendor'));
+gulp.task('scripts', function () {
+  return gulp.src('source/scripts/**/*')
+    .pipe(gulp.dest('public/scripts'));
 });
 
 gulp.task('image', ['imageResize'], function () {
@@ -322,7 +322,7 @@ gulp.task('push-gh-pages', function () {
 gulp.task('deploy', function (callback) {
   runSequence(
     'clean',
-    ['sass', 'js', 'image', 'cname', 'nunjucksGenerated', 'nunjucksData', 'vendor'],
+    ['sass', 'js', 'image', 'cname', 'nunjucksGenerated', 'nunjucksData', 'scripts'],
     'push-gh-master',
     'push-gh-pages',
     callback
@@ -337,14 +337,14 @@ gulp.task('watch', function () {
   gulp.watch('source/static/**/*.js', ['js']);
   gulp.watch('source/sass/**/*.scss', ['sass']);
   gulp.watch('source/templates/**/*.html', ['html-watch']);
-  gulp.watch('source/static/vendor/**/*.js', ['vendor']);
+  gulp.watch('source/static/scripts/**/*.js', ['scripts']);
   gulp.watch('source/static/vendorimages/**/*', ['images']);
 });
 
 gulp.task('default', function (callback) {
   runSequence(
     'clean',
-    ['sass', 'js', 'image', 'cname', 'nunjucksGenerated', 'nunjucksData', 'vendor'],
+    ['sass', 'js', 'image', 'cname', 'nunjucksGenerated', 'nunjucksData', 'scripts'],
     ['browserSync', 'watch'],
     callback
   );
