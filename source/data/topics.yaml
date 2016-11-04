@@ -284,7 +284,11 @@
       - name: Aphaluck Bhatiasevi
         title: Technical Officer, Risk Communication
         affiliation: World Health Organization, Switzerland
-        twitter_url: 
+        twitter_url:
+      - name: David Broniatowski
+        title: Assistant Professor
+        affiliation: School of Engineering and Applied Science, The George Washington University
+        twitter_url:  
       - name: Professor Brian Elbel
         title: Associate Professor of Population Health and Health Policy
         affiliation: NYU School of Medicine & NYU Wagner Graduate School of Public Service, USA
@@ -297,6 +301,10 @@
         title: Howard Heinz University Professor, Department of Engineering and Public Policy, Institute for Politics and Strategy
         affiliation: Carnegie Mellon University, USA
         twitter_url: 
+      - name: Gabrielle Hunter
+        title: Program Officer Center of Communication Programs
+        affiliation: Johns Hopkins University, USA
+        twitter_url:
       - name: Romaine Lacombe
         title: CEO and Co Founder
         affiliation: Plume Labs
@@ -333,13 +341,9 @@
         title: Research Economist
         affiliation: Banco Interamericano de Desarrollo, USA
         twitter_url: 
-      - name: Alexandra Siegel
-        title: Social Media and Political Participation Lab (Smapp)
-        affiliation: NYU, USA
-        twitter_url: 
-      - name: Monica Wills Silva
-        title: Advisor
-        affiliation: Behavioral Insights Team, United Kingdom
+      - name: Dr. Magdalena Serpa
+        title: Senior Program Officer, Maternal, Newborn
+        affiliation: Child Health & Nutrition, PATH
         twitter_url: 
     partner_participants:
       - name: Panamá
