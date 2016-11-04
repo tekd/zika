@@ -1048,10 +1048,6 @@
         title: Project Director
         affiliation: Curarse en Salud, Mexico
         twitter_url:
-      - name: Juan Pane
-        title: Chief Innovation Officer
-        affiliation: Centro de Desarrollo Sostenible, Paraguay
-        twitter_url:
       - name: Diana Rojas Alvarez MD, PhDc 
         title: Center for Inference and Dynamics Infectious Diseases, Department of Epidemiology, University of Florida, USA. 
         affiliation:
@@ -1075,41 +1071,18 @@
             title: National Coordinator of Epidemiological Surveillance of Arbovirosis and Malaria
             affiliation: Ministry of Health
             twitter_url:
-          - name: Dr. Juan Miguel Pascale
-            title: Deputy Director
-            affiliation: The Gorgas Memorial Institute for Health Studies
-            twitter_url:
-          - name: Edgardo Villalobos
-            title: Deputy Director of Environmental Health
-            affiliation: Ministry of Health
-            twitter_url:
-          - name: Cecilio Tejeira
-            title: Deputy Director of International Affairs
-            affiliation: Ministry of Health
-            twitter_url:
           - name: Dr. Israel Cedeño
             title: International Epidemiological Surveillance Coordinator
             affiliation: Ministry of Health
             twitter_url:
-          - name: Dra. María Eugenia Barnett de Antinori
-            title: Global Health Security Project Coordinator
-            affiliation: The Gorgas Memorial Institute for Health Studies
+          - name: Dra. Marcela Reyes
+            title: Department of Epidemiology
+            affiliation: Ministry of Health
             twitter_url:
+
       - name: Argentina
         people:
-          - name: Aranzazu Echezarreta
-            title: National Director of Public Innovation
-            affiliation: Ministry of Modernization
-            twitter_url:
           - name: Dr. Raul Forlenza
-            title: Department of Epidemiology
-            affiliation: Ministry of Health
-            twitter_url:
-          - name: María Victoria Gazia
-            title: Department of Epidemiology
-            affiliation: Ministry of Health
-            twitter_url:
-          - name: Dr. Eugenio Mirkin
             title: Department of Epidemiology
             affiliation: Ministry of Health
             twitter_url:
@@ -1120,7 +1093,27 @@
           - name: Tomas Dominguez Vidal
             title: Public Innovation Department
             affiliation: Ministry of Modernization
-            twitter_url:         
+            twitter_url:  
+          - name: Dr Alicia Emilia Mañana
+            title: Ministry of Health
+            affiliation:
+            twitter_url:
+          - name: Dr Teresa Varela
+            title: Ministry of Health
+            affiliation:
+            twitter_url:
+          - name: Dr Cristian Hertlein
+            title: Ministry of Health
+            affiliation:
+            twitter_url:
+          - name: Martin Elias Costa
+            title: Open Data
+            affiliation: Ministry of Modernization
+            twitter_url:  
+          - name: Agustin Benassi
+            title: Open Data
+            affiliation: Ministry of Modernization
+            twitter_url:        
       - name: Colombia
         people:
           - name: Dr. María Mercedes Muñoz
@@ -1139,16 +1132,12 @@
             title: Demography and Epidemiology Department
             affiliation: Ministry of Health and Social Protection
             twitter_url:
-          - name: Martha Ospina
-            title: Director
+          - name: Oscar Eduardo Pacheco
+            title: Director of Surveillance
             affiliation: National Institute of Health
             twitter_url:
       - name: Ciudad de Río Janeiro
         people:
-          - name: Dr. Betina Durovni
-            title: Sub-Secretary of Primary Health
-            affiliation: Prevention and Surveillance 
-            twitter_url:
           - name: Cristina Boaretto 
             title: Health Promotion Superintendent
             affiliation: Secretary of Health
@@ -1159,6 +1148,14 @@
             twitter_url:
           - name: Valeria Saraceni
             title: Health Situation Analysis Coordination
+            affiliation: Secretary of Health
+            twitter_url:
+          - name: Denise Jardim
+            title: Health Promotion Department
+            affiliation: Secretary of Health
+            twitter_url:
+          - name: Cristina Lemos
+            title: Health Surveillance Superintendent
             affiliation: Secretary of Health
             twitter_url:
       - name: Banco Interamericano de Desarrollo 
