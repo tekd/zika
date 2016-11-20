@@ -10,6 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.13.0",
+    "contentful": "^3.7.1",
     "del": "^2.2.1",
     "event-stream": "^3.3.4",
     "fs": "0.0.2",

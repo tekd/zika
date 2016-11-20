@@ -16,11 +16,12 @@ var del             = require('del'),
     ghPages         = require('gulp-gh-pages'),
     imagemin        = require('gulp-imagemin'),
     imageResize     = require('gulp-image-resize'),
-    cache           = require('gulp-cache')
-    changed         = require('gulp-changed')
+    cache           = require('gulp-cache'),
+    changed         = require('gulp-changed'),
     sourcemaps      = require('gulp-sourcemaps'),
     browserSync     = require('browser-sync'),
     runSequence     = require('run-sequence').use(gulp),
+    contentful      = require('contentful'),
     nunjucksRender  = require('gulp-nunjucks-render');
 
 // Clean Dist
@@ -311,6 +312,117 @@ gulp.task('nunjucks', function () {
     .pipe(gulp.dest('public'))
     .pipe(browserSync.reload({ stream: true }));
 });
+
+
+// CONTENTFUL 
+
+function Topic(title) {
+  this.title = title,
+  this.children = []
+}
+
+function Expert(name,affiliationType,region){
+  this.name = name,
+  this.affiliationType = [],
+  this.region = region
+}
+
+function Affiliation(name,size=0) {
+  this.name = name,
+  this.size = size
+}
+
+gulp.task('contentfulDataParticipants', function() {
+   var client = contentful.createClient({
+    space: 'hjsd2qx6wg06',
+    accessToken: 'cbe5bb12f36d1cfbf5ef32373b9454bd57aa09f25d9f9a276aad065d06fd397f',
+  });
+   // get topics with nested participants. the 'includes' param is to resolve the nested attributes
+  client.getEntries({'content_type':'topic',include: 10})
+  .then(function (entries) {
+    var dataset =[];
+    entries.items.forEach(function (entry, index) {
+      var topic;
+      if(entry.fields.title) {
+        topic = new Topic(entry.fields.title);
+        var experts = entry.fields.experts;
+         if (experts) {
+          experts.forEach(function(exp,index) {
+            expert = new Expert(exp.fields.name);
+            var region = exp.fields.region;
+              if (region) {
+                 expert.region = region.fields.name;
+              }
+              var affiliationTypes = exp.fields.affiliationType;
+              if (affiliationTypes) {
+                  affiliationTypes.forEach(function(affiliation, index) {
+                   expert.affiliationType.push(affiliation.fields.name);
+                 });
+              }
+            topic.children.push(expert);
+          });
+         }
+      dataset.push(topic);
+      }
+    });
+    fs.writeFileSync('./source/data/contentfuldataparticipants.json', JSON.stringify(dataset)); 
+  });
+});
+
+
+function contains(arr, obj) {
+    for (var i = 0; i < arr.length; i++) {
+        if (arr[i] === obj) {
+            return true;
+        }
+    }
+    return false;
+}
+
+function getIndex(arr, obj) {
+  var match = arr.filter(function (element) { 
+    return element.name === obj.name;
+  });
+  return arr.indexOf(match[0]);
+}
+
+gulp.task('contentfulDataFlare', function() {
+   var client = contentful.createClient({
+    space: 'hjsd2qx6wg06',
+    accessToken: 'cbe5bb12f36d1cfbf5ef32373b9454bd57aa09f25d9f9a276aad065d06fd397f',
+  });
+   // get topics with nested participants. the 'includes' param is to resolve the nested attributes
+  client.getEntries({'content_type':'topic',include: 10})
+  .then(function (entries) {
+    var dataset =[];
+    entries.items.forEach(function (entry, index) {
+      var topic;
+      if(entry.fields.title) {
+        topic = new Topic(entry.fields.title);
+        var experts = entry.fields.experts;
+        if (experts) {
+          experts.forEach(function(expert,index) {
+            if (expert.fields.affiliationType) {
+              expert.fields.affiliationType.forEach(function(affiliation,index) {
+                var idx = getIndex(topic.children, affiliation.fields);
+                if (idx == -1) {
+                  topic.children.push({name:affiliation.fields.name,size: 1});
+
+                } else {
+                  topic.children[idx].size++
+                }
+              });
+            }
+          });
+        }
+      dataset.push(topic);
+      }
+    });
+    fs.writeFileSync('./source/data/contentfuldataflare.json', JSON.stringify(dataset)); 
+  });
+});
+
+
 
 gulp.task('push-gh-master', shell.task(['git push origin master']));
 
