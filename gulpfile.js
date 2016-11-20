@@ -317,7 +317,7 @@ gulp.task('nunjucks', function () {
 // CONTENTFUL 
 
 function Topic(title) {
-  this.title = title,
+  this.name = title,
   this.children = []
 }
 
@@ -406,19 +406,22 @@ gulp.task('contentfulDataFlare', function() {
               expert.fields.affiliationType.forEach(function(affiliation,index) {
                 var idx = getIndex(topic.children, affiliation.fields);
                 if (idx == -1) {
-                  topic.children.push({name:affiliation.fields.name,size: 1});
+                  topic.children.push({name:affiliation.fields.name,size: 100});
 
                 } else {
-                  topic.children[idx].size++
+                  topic.children[idx].size+=100
                 }
               });
             }
           });
         }
+
       dataset.push(topic);
       }
     });
-    fs.writeFileSync('./source/data/contentfuldataflare.json', JSON.stringify(dataset)); 
+    var flare = {name:"flare", children:[]}
+    flare.children = dataset
+    fs.writeFileSync('./source/data/contentfuldataflare.json', JSON.stringify(flare)); 
   });
 });
 
